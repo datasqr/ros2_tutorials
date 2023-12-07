@@ -1,0 +1,25 @@
+[2.357s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[2.904s] running egg_info
+[2.907s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[2.908s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[2.909s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[2.910s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[2.912s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[2.913s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.914s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.915s] running build
+[2.916s] running build_py
+[2.917s] running install
+[2.918s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.921s]   warnings.warn(
+[2.921s] running install_lib
+[2.921s] running install_data
+[2.921s] running install_egg_info
+[2.921s] removing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.18.0-py3.10.egg-info' (and everything under it)
+[2.921s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.18.0-py3.10.egg-info
+[2.921s] running install_scripts
+[2.967s] Installing publisher_local_function script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.970s] Installing publisher_member_function script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.970s] Installing publisher_old_school script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.970s] writing list of installed files to '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[3.016s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

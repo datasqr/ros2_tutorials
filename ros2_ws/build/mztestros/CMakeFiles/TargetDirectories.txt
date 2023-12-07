@@ -1,0 +1,10 @@
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/uninstall.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/mztestros_uninstall.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/my_node.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/test.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/edit_cache.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/rebuild_cache.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/list_install_components.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/install.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/install/local.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/mztestros/CMakeFiles/install/strip.dir

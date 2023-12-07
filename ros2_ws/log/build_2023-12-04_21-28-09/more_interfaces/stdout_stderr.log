@@ -1,0 +1,88 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces
+[  2%] Built target more_interfaces__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_more_interfaces
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[  5%] Built target more_interfaces__cpp
+[ 18%] Built target more_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 26%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 34%] Built target more_interfaces__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[ 42%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 50%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target more_interfaces__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[ 65%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 68%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[ 73%] Built target publish_address_book
+[ 73%] Built target more_interfaces
+[ 76%] Built target more_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[ 81%] Built target more_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 86%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 92%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_more_interfaces_egg
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces/src/subscribe_address_book.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krivate[m[K’ does not name a type
+   18 |   [01;31m[Krivate[m[K:
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces/src/subscribe_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookSubscriber::AddressBookSubscriber()[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces/src/subscribe_address_book.cpp:16:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KAddressBookSubscriber[m[K’
+   16 |       "address_book", 10, std::bind(&AddressBookSubscriber::[01;31m[Ktopic_callback[m[K, this, _1));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces/src/subscribe_address_book.cpp:16:83:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   16 |       "address_book", 10, std::bind(&AddressBookSubscriber::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                                   [01;31m[K^~[m[K
+      |                                                                                   [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces/src/subscribe_address_book.cpp:4[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:76: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:655: CMakeFiles/subscribe_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/uninstall.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/polygon_base_uninstall.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/area_node.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/test.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/edit_cache.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/rebuild_cache.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/list_install_components.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/install.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/install/local.dir
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_base/CMakeFiles/install/strip.dir

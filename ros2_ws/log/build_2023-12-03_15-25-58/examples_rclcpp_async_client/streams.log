@@ -1,0 +1,67 @@
+[0.227s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client
+[0.351s] -- The C compiler identification is GNU 11.4.0
+[0.462s] -- The CXX compiler identification is GNU 11.4.0
+[0.477s] -- Detecting C compiler ABI info
+[0.607s] -- Detecting C compiler ABI info - done
+[0.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.625s] -- Detecting C compile features
+[0.626s] -- Detecting C compile features - done
+[0.632s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.799s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.800s] -- Detecting CXX compile features
+[0.801s] -- Detecting CXX compile features - done
+[0.804s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.125s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.293s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[1.359s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.382s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.035s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[2.262s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.266s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.510s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.594s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.027s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.236s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.238s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.238s] -- Configured cppcheck include dirs: 
+[3.239s] -- Configured cppcheck exclude dirs and/or files: 
+[3.240s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.240s] -- Configured cpplint exclude dirs and/or files: 
+[3.241s] -- Added test 'lint_cmake' to check CMake code style
+[3.243s] -- Added test 'uncrustify' to check C / C++ code style
+[3.243s] -- Configured uncrustify additional arguments: 
+[3.244s] -- Added test 'xmllint' to check XML markup files
+[3.249s] -- Configuring done
+[3.274s] -- Generating done
+[3.278s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client
+[3.305s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client
+[3.306s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[3.491s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[29.457s] [100%] [32m[1mLinking CXX executable client_main[0m
+[30.441s] [100%] Built target client_main
+[30.486s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[30.883s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client
+[30.899s] -- Install configuration: ""
+[30.900s] -- Execute custom install script
+[30.903s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[30.921s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[30.938s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[30.956s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[30.975s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[31.017s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[31.035s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[31.052s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[31.086s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[31.118s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[31.193s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[31.265s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[31.300s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[31.381s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[31.431s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[31.489s] -- Symlinking: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[31.577s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclcpp_async_client

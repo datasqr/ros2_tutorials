@@ -1,0 +1,3 @@
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl
+/home/mz/projects/ros/tutorials/basics/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl

@@ -1,0 +1,22 @@
+[0.706s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/services/minimal_service': AMENT_PREFIX_PATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.163s] [1m============================= test session starts ==============================[0m
+[1.163s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.172s] cachedir: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache
+[1.172s] rootdir: /home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[1.172s] plugins: ament-xmllint-0.14.2, ament-copyright-0.14.2, ament-lint-0.14.2, ament-flake8-0.14.2, launch-testing-2.0.2, launch-testing-ros-0.24.0, ament-pep257-0.14.2, colcon-core-0.15.1, cov-3.0.0
+[1.309s] [1mcollecting ... [0m[1m
+[1.310s] collected 3 items                                                              [0m
+[1.310s] 
+[1.748s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.929s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.976s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.977s] 
+[1.977s] [33m=============================== warnings summary ===============================[0m
+[1.977s] services/minimal_service/test/test_flake8.py::test_flake8
+[1.977s] services/minimal_service/test/test_flake8.py::test_flake8
+[1.977s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.977s] 
+[1.977s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.978s] - generated xml file: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml -
+[1.978s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.81s[0m[33m =========================[0m
+[2.609s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': AMENT_PREFIX_PATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

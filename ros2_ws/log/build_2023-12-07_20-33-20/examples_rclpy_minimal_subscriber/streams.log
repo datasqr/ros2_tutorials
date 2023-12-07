@@ -1,0 +1,25 @@
+[2.045s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[2.361s] running egg_info
+[2.362s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.363s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.363s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.363s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.363s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.367s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.368s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.369s] running build
+[2.369s] running build_py
+[2.369s] running install
+[2.370s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.370s]   warnings.warn(
+[2.370s] running install_lib
+[2.373s] running install_data
+[2.374s] running install_egg_info
+[2.377s] removing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.18.0-py3.10.egg-info' (and everything under it)
+[2.377s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.18.0-py3.10.egg-info
+[2.379s] running install_scripts
+[2.411s] Installing subscriber_lambda script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.411s] Installing subscriber_member_function script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.411s] Installing subscriber_old_school script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.412s] writing list of installed files to '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[2.912s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

@@ -1,0 +1,248 @@
+[0.113s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.401s] -- Detecting CXX compiler ABI info
+[0.503s] -- Detecting CXX compiler ABI info - done
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.511s] -- Detecting CXX compile features
+[0.512s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.814s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.984s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.181s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[1.192s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.697s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.297s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.303s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[2.341s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.341s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.341s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.341s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.377s] -- Found PythonExtra: .so  
+[2.445s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[2.807s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.816s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.043s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.106s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.373s] -- Configured cppcheck include dirs: 
+[3.373s] -- Configured cppcheck exclude dirs and/or files: 
+[3.375s] -- Added test 'lint_cmake' to check CMake code style
+[3.377s] -- Added test 'uncrustify' to check C / C++ code style
+[3.377s] -- Configured uncrustify additional arguments: 
+[3.378s] -- Added test 'xmllint' to check XML markup files
+[3.386s] -- Configuring done
+[3.432s] -- Generating done
+[3.436s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces
+[3.448s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces
+[3.451s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces -- -j4 -l4
+[3.515s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.526s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[3.812s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[3.831s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.844s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.937s] running egg_info
+[3.938s] creating more_interfaces.egg-info
+[3.939s] writing more_interfaces.egg-info/PKG-INFO
+[3.939s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[3.940s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[3.940s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.944s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.945s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[3.997s] [  8%] Built target ament_cmake_python_build_more_interfaces_egg
+[4.174s] [  8%] Built target more_interfaces__cpp
+[4.258s] [ 11%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o[0m
+[4.261s] [ 13%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[4.262s] [ 16%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[4.334s] [ 19%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[4.389s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[4.411s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.411s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.412s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.415s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.986s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[4.998s] [ 36%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[5.020s] [ 38%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[5.050s] [ 41%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[5.073s] [ 44%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.101s] [ 47%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[5.131s] [ 47%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[5.151s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.179s] [ 50%] Built target more_interfaces__rosidl_typesupport_c
+[5.197s] [ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.701s] [ 55%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.740s] [ 58%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[5.746s] [ 61%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[5.760s] [ 63%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[5.836s] [ 63%] Built target more_interfaces__rosidl_typesupport_cpp
+[5.881s] [ 66%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[5.885s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[6.427s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.524s] [ 69%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[6.724s] [ 72%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.835s] [ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.866s] [ 72%] Built target more_interfaces
+[6.897s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.338s] [ 75%] Built target more_interfaces__py
+[7.374s] [ 77%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[7.510s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[7.622s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[7.687s] [ 83%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.689s] [ 86%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.698s] [ 88%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.928s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.937s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.938s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.011s] [ 97%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.026s] [ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.036s] [ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[11.971s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[12.235s] [100%] Built target publish_address_book
+[12.252s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces -- -j4 -l4
+[12.371s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces
+[12.381s] -- Install configuration: ""
+[12.381s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[12.382s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json
+[12.382s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.382s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.382s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[12.382s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[12.383s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.384s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[12.384s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[12.384s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[12.385s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[12.385s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.385s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.386s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.386s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.386s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[12.386s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.387s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.387s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.387s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.387s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.387s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.387s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[12.387s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[12.388s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[12.388s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.388s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[12.389s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[12.389s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.390s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.390s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[12.390s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.390s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[12.390s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[12.390s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[12.391s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.391s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.391s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.391s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[12.391s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[12.391s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.391s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.392s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.392s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[12.392s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[12.392s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[12.393s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[12.393s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[12.393s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.393s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.394s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[12.394s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.394s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.395s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.396s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces
+[12.396s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.396s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.396s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.396s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.397s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[12.397s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.397s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg
+[12.397s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book_s.c
+[12.397s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book.py
+[12.398s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py
+[12.398s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py
+[12.398s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[12.444s] Listing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces'...
+[12.444s] Compiling '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py'...
+[12.444s] Listing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg'...
+[12.444s] Compiling '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py'...
+[12.444s] Compiling '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_address_book.py'...
+[12.450s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.450s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.451s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.451s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.452s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.452s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.453s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[12.453s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[12.453s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[12.454s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[12.454s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[12.456s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[12.456s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[12.456s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[12.456s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[12.457s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[12.457s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[12.457s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[12.457s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[12.458s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[12.458s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[12.458s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[12.458s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[12.459s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[12.459s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[12.459s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.459s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.460s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.460s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.460s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.461s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[12.461s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.461s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[12.462s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.462s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.462s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.462s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.462s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[12.463s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.463s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[12.463s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.463s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.464s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.464s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.464s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.464s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.465s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.465s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.465s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[12.465s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[12.466s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[12.469s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/more_interfaces

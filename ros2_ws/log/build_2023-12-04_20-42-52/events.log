@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000272] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000412] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000449] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000495] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000530] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000582] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000664] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000791] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000838] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000887] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000930] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000959] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001009] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001076] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001122] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001182] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001270] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001399] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001439] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001487] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001531] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001576] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001661] (-) JobUnselected: {'identifier': 'mztestros'}
+[0.001787] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001837] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001876] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.080618] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.081487] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.082286] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/tutorial_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1379'), ('SYSTEMD_EXEC_PID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4238'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:28428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/1542,unix/mz:/tmp/.ICE-unix/1542'), ('INVOCATION_ID', '593cc0caf1644be8b0533acf9649e5dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PG5ZE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_srvcli:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/mztestros:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_timer:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_cbg_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3e458ae8-42f8-474a-9a74-d533382f8cbf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_executors:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_srvcli:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/mztestros:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_timer:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_cbg_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.098791] (-) TimerEvent: {}
+[0.116323] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.198928] (-) TimerEvent: {}
+[0.299264] (-) TimerEvent: {}
+[0.324969] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.360290] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.370237] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.385145] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399378] (-) TimerEvent: {}
+[0.403798] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499524] (-) TimerEvent: {}
+[0.599861] (-) TimerEvent: {}
+[0.600692] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.603903] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699960] (-) TimerEvent: {}
+[0.775308] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800082] (-) TimerEvent: {}
+[0.900441] (-) TimerEvent: {}
+[1.000797] (-) TimerEvent: {}
+[1.025454] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.100958] (-) TimerEvent: {}
+[1.201454] (-) TimerEvent: {}
+[1.301783] (-) TimerEvent: {}
+[1.311219] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.401912] (-) TimerEvent: {}
+[1.403477] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.404140] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.404291] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.404694] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.406317] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.406447] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.406935] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.408152] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.430646] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.433074] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub\n'}
+[1.467381] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.467658] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.495344] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.498206] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.502011] (-) TimerEvent: {}
+[1.602318] (-) TimerEvent: {}
+[1.702624] (-) TimerEvent: {}
+[1.802932] (-) TimerEvent: {}
+[1.903248] (-) TimerEvent: {}
+[2.003578] (-) TimerEvent: {}
+[2.103949] (-) TimerEvent: {}
+[2.204325] (-) TimerEvent: {}
+[2.304672] (-) TimerEvent: {}
+[2.405038] (-) TimerEvent: {}
+[2.505392] (-) TimerEvent: {}
+[2.605744] (-) TimerEvent: {}
+[2.706109] (-) TimerEvent: {}
+[2.806460] (-) TimerEvent: {}
+[2.906789] (-) TimerEvent: {}
+[3.007156] (-) TimerEvent: {}
+[3.107515] (-) TimerEvent: {}
+[3.207870] (-) TimerEvent: {}
+[3.308346] (-) TimerEvent: {}
+[3.408716] (-) TimerEvent: {}
+[3.509094] (-) TimerEvent: {}
+[3.609565] (-) TimerEvent: {}
+[3.709923] (-) TimerEvent: {}
+[3.810289] (-) TimerEvent: {}
+[3.910651] (-) TimerEvent: {}
+[4.010986] (-) TimerEvent: {}
+[4.111337] (-) TimerEvent: {}
+[4.211711] (-) TimerEvent: {}
+[4.312082] (-) TimerEvent: {}
+[4.412449] (-) TimerEvent: {}
+[4.512834] (-) TimerEvent: {}
+[4.613208] (-) TimerEvent: {}
+[4.713570] (-) TimerEvent: {}
+[4.813939] (-) TimerEvent: {}
+[4.914377] (-) TimerEvent: {}
+[5.014953] (-) TimerEvent: {}
+[5.115367] (-) TimerEvent: {}
+[5.215723] (-) TimerEvent: {}
+[5.316079] (-) TimerEvent: {}
+[5.416444] (-) TimerEvent: {}
+[5.516817] (-) TimerEvent: {}
+[5.617192] (-) TimerEvent: {}
+[5.717567] (-) TimerEvent: {}
+[5.817933] (-) TimerEvent: {}
+[5.918303] (-) TimerEvent: {}
+[6.018672] (-) TimerEvent: {}
+[6.120255] (-) TimerEvent: {}
+[6.220639] (-) TimerEvent: {}
+[6.321391] (-) TimerEvent: {}
+[6.421836] (-) TimerEvent: {}
+[6.522197] (-) TimerEvent: {}
+[6.622582] (-) TimerEvent: {}
+[6.722959] (-) TimerEvent: {}
+[6.823359] (-) TimerEvent: {}
+[6.923723] (-) TimerEvent: {}
+[7.024084] (-) TimerEvent: {}
+[7.124442] (-) TimerEvent: {}
+[7.224793] (-) TimerEvent: {}
+[7.325153] (-) TimerEvent: {}
+[7.425492] (-) TimerEvent: {}
+[7.525966] (-) TimerEvent: {}
+[7.626324] (-) TimerEvent: {}
+[7.726872] (-) TimerEvent: {}
+[7.827458] (-) TimerEvent: {}
+[7.927787] (-) TimerEvent: {}
+[7.947569] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.027908] (-) TimerEvent: {}
+[8.128323] (-) TimerEvent: {}
+[8.228695] (-) TimerEvent: {}
+[8.255840] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[8.328802] (-) TimerEvent: {}
+[8.429194] (-) TimerEvent: {}
+[8.529518] (-) TimerEvent: {}
+[8.629867] (-) TimerEvent: {}
+[8.730224] (-) TimerEvent: {}
+[8.830547] (-) TimerEvent: {}
+[8.930893] (-) TimerEvent: {}
+[9.031306] (-) TimerEvent: {}
+[9.131656] (-) TimerEvent: {}
+[9.232010] (-) TimerEvent: {}
+[9.332341] (-) TimerEvent: {}
+[9.432693] (-) TimerEvent: {}
+[9.533060] (-) TimerEvent: {}
+[9.633400] (-) TimerEvent: {}
+[9.733743] (-) TimerEvent: {}
+[9.834094] (-) TimerEvent: {}
+[9.934449] (-) TimerEvent: {}
+[10.034797] (-) TimerEvent: {}
+[10.135142] (-) TimerEvent: {}
+[10.235484] (-) TimerEvent: {}
+[10.335825] (-) TimerEvent: {}
+[10.436588] (-) TimerEvent: {}
+[10.536953] (-) TimerEvent: {}
+[10.637286] (-) TimerEvent: {}
+[10.737618] (-) TimerEvent: {}
+[10.837991] (-) TimerEvent: {}
+[10.938317] (-) TimerEvent: {}
+[10.968718] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[11.038454] (-) TimerEvent: {}
+[11.138838] (-) TimerEvent: {}
+[11.239184] (-) TimerEvent: {}
+[11.339517] (-) TimerEvent: {}
+[11.439843] (-) TimerEvent: {}
+[11.459219] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[11.476163] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.520829] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[11.532886] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/tutorial_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1379'), ('SYSTEMD_EXEC_PID', '1599'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4238'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:28428'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/1542,unix/mz:/tmp/.ICE-unix/1542'), ('INVOCATION_ID', '593cc0caf1644be8b0533acf9649e5dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PG5ZE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_srvcli:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/mztestros:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_timer:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_cbg_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3e458ae8-42f8-474a-9a74-d533382f8cbf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_executors:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_srvcli:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/mztestros:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_wait_set:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_timer:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_composition:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_cbg_executor:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclcpp_async_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[11.539970] (-) TimerEvent: {}
+[11.543276] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.543708] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[11.546254] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[11.546630] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[11.554762] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[11.555076] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[11.555271] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[11.555510] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[11.555704] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[11.555899] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[11.556085] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[11.556255] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[11.556463] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[11.556625] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[11.556776] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[11.556914] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[11.557047] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[11.557172] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[11.557318] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[11.557481] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[11.559445] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[11.640067] (-) TimerEvent: {}
+[11.740389] (-) TimerEvent: {}
+[11.746880] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[11.747638] (-) EventReactorShutdown: {}

@@ -1,0 +1,48 @@
+[2.579s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.137s] running develop
+[3.137s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.138s]   warnings.warn(
+[3.140s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.140s]   warnings.warn(
+[3.515s] Removing /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[3.581s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.584s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[4.159s] running egg_info
+[4.161s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[4.161s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[4.161s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[4.161s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[4.162s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[4.165s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.167s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.167s] running build
+[4.168s] running build_py
+[4.169s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[4.170s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[4.170s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.170s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.170s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.170s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.170s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.171s] running install
+[4.171s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.171s]   warnings.warn(
+[4.171s] running install_lib
+[4.173s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.173s] copying /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.173s] copying /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.173s] copying /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.174s] copying /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[4.175s] byte-compiling /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[4.176s] byte-compiling /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.177s] byte-compiling /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[4.177s] byte-compiling /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[4.178s] running install_data
+[4.179s] running install_egg_info
+[4.184s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.18.0-py3.10.egg-info
+[4.186s] running install_scripts
+[4.240s] Installing publisher_local_function script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.243s] Installing publisher_member_function script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.243s] Installing publisher_old_school script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.243s] writing list of installed files to '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[4.311s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

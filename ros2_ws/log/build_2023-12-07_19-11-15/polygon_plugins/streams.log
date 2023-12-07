@@ -1,0 +1,36 @@
+[0.081s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/polygon_plugins
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.436s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.717s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.888s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.922s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.923s]   By not providing "Findpolygon_base.cmake" in CMAKE_MODULE_PATH this project
+[0.923s]   has asked CMake to find a package configuration file provided by
+[0.923s]   "polygon_base", but CMake did not find one.
+[0.923s] 
+[0.923s]   Could not find a package configuration file provided by "polygon_base" with
+[0.923s]   any of the following names:
+[0.923s] 
+[0.923s]     polygon_baseConfig.cmake
+[0.924s]     polygon_base-config.cmake
+[0.924s] 
+[0.924s]   Add the installation prefix of "polygon_base" to CMAKE_PREFIX_PATH or set
+[0.924s]   "polygon_base_DIR" to a directory containing one of the above files.  If
+[0.924s]   "polygon_base" provides a separate development package or SDK, be sure it
+[0.924s]   has been installed.
+[0.924s] 
+[0.924s] [0m
+[0.924s] -- Configuring incomplete, errors occurred!
+[0.925s] See also "/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_plugins/CMakeFiles/CMakeOutput.log".
+[0.931s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/polygon_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/polygon_plugins

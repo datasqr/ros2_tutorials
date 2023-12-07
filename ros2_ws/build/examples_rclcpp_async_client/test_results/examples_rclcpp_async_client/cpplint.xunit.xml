@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_async_client.cpplint"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.103"
+>
+  <testcase
+    name="/home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp"
+    classname="examples_rclcpp_async_client.cpplint"/>
+  <system-out>Checked files:
+* /home/mz/projects/ros/tutorials/basics/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp</system-out>
+</testsuite>

@@ -1,0 +1,28 @@
+[2.159s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data
+[2.699s] running develop
+[2.700s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.700s]   warnings.warn(
+[2.702s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.702s]   warnings.warn(
+[3.094s] running egg_info
+[3.094s] creating examples_rclpy_guard_conditions.egg-info
+[3.094s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.095s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.095s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.095s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.095s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.096s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.099s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.102s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.103s] running build_ext
+[3.103s] Creating /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[3.105s] Installing trigger_guard_condition script to /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[3.105s] 
+[3.105s] Installed /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions
+[3.105s] running install_data
+[3.105s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[3.106s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[3.106s] creating /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[3.106s] copying resource/examples_rclpy_guard_conditions -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[3.106s] copying package.xml -> /home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[3.154s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data
