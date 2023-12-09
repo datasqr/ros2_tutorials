@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In lambda function:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:44:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 7 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   44 |         this->get_logger(), [01;35m[K"cb3: Received an update to parameter \"%s\" of type: %s: \"%s\""[m[K,
+      |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:44:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |         this->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: \"[01;36m[K%s[m[K\"",
+      |                                                                                         [01;36m[K~^[m[K
+      |                                                                                          [01;36m[K|[m[K
+      |                                                                                          [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[100%] Built target parameter_event_handler
+-- Install configuration: ""
+-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler
+-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/lib/cpp_parameter_event_handler/parameter_event_handler" to ""
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/package_run_dependencies/cpp_parameter_event_handler
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/parent_prefix_path/cpp_parameter_event_handler
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.sh
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/environment/path.dsv
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.bash
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.sh
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.zsh
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/local_setup.dsv
+-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.dsv
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/ament_index/resource_index/packages/cpp_parameter_event_handler
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig.cmake
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/cmake/cpp_parameter_event_handlerConfig-version.cmake
+-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_parameter_event_handler/share/cpp_parameter_event_handler/package.xml

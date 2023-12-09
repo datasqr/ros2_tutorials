@@ -1,0 +1,41 @@
+[0.085s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[3.153s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.153s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[3.153s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.153s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.153s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.153s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.154s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.154s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.154s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.154s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.154s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.154s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[3.154s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In lambda function:
+[3.154s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:44:29:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 7 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.155s]    44 |         this->get_logger(), [01;35m[K"cb3: Received an update to parameter \"%s\" of type: %s: \"%s\""[m[K,
+[3.155s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.155s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:44:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.155s]    44 |         this->get_logger(), "cb3: Received an update to parameter \"%s\" of type: %s: \"[01;36m[K%s[m[K\"",
+[3.155s]       |                                                                                         [01;36m[K~^[m[K
+[3.155s]       |                                                                                          [01;36m[K|[m[K
+[3.155s]       |                                                                                          [01;36m[Kchar*[m[K
+[3.155s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[3.156s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:49:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto remote_node_name[m[K’
+[3.156s]    49 |     auto [01;31m[Kremote_node_name[m[K = std::string("minimal_param_node");
+[3.156s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.156s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:36:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::basic_string<char> remote_node_name[m[K’
+[3.156s]    36 |     auto [01;36m[Kremote_node_name[m[K = std::string("parameter_blackboard");
+[3.156s]       |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.156s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:50:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto remote_param_name[m[K’
+[3.156s]    50 |     auto [01;31m[Kremote_param_name[m[K = std::string("my_parameter");
+[3.157s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.157s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:37:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::basic_string<char> remote_param_name[m[K’
+[3.157s]    37 |     auto [01;36m[Kremote_param_name[m[K = std::string("a_double_param");
+[3.157s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.651s] gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[5.651s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[5.651s] gmake: *** [Makefile:146: all] Error 2
+[5.655s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_parameter_event_handler -- -j4 -l4
