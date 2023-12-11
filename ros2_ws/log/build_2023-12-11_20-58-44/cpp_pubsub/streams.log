@@ -1,0 +1,71 @@
+[0.559s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub
+[0.848s] -- The C compiler identification is GNU 11.4.0
+[1.013s] -- The CXX compiler identification is GNU 11.4.0
+[1.028s] -- Detecting C compiler ABI info
+[1.200s] -- Detecting C compiler ABI info - done
+[1.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.221s] -- Detecting C compile features
+[1.222s] -- Detecting C compile features - done
+[1.232s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.506s] -- Detecting CXX compile features
+[1.508s] -- Detecting CXX compile features - done
+[1.516s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.904s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.120s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[2.219s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.245s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.727s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.736s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.970s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.021s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.102s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.477s] -- Found tutorial_interfaces: 0.0.0 (/home/mz/projects/ros/tutorials/basics/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[3.975s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.161s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.161s] -- Configured cppcheck include dirs: 
+[4.161s] -- Configured cppcheck exclude dirs and/or files: 
+[4.164s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.165s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.167s] -- Added test 'lint_cmake' to check CMake code style
+[4.171s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.175s] -- Added test 'uncrustify' to check C / C++ code style
+[4.175s] -- Configured uncrustify additional arguments: 
+[4.178s] -- Added test 'xmllint' to check XML markup files
+[4.183s] -- Configuring done
+[4.217s] -- Generating done
+[4.221s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub
+[4.240s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub
+[4.241s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[4.369s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.382s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[24.044s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[24.969s] [ 75%] Built target talker
+[29.527s] [100%] [32m[1mLinking CXX executable listener[0m
+[30.690s] [100%] Built target listener
+[30.747s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[30.861s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub
+[30.879s] -- Install configuration: ""
+[30.879s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[30.883s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[30.884s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[30.894s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[30.895s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[30.896s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[30.897s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[30.897s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[30.898s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[30.898s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[30.899s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[30.899s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[30.899s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[30.900s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[30.900s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[30.900s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[30.901s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[30.901s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[30.902s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[30.914s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/cpp_pubsub
