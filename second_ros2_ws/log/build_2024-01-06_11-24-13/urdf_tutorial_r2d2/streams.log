@@ -1,0 +1,17 @@
+[0.935s] Invoking command in '/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data
+[1.247s] running develop
+[1.444s] running egg_info
+[1.444s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[1.444s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[1.445s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[1.445s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[1.445s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[1.447s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.448s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.449s] running build_ext
+[1.449s] Creating /home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[1.451s] Installing state_publisher script to /home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[1.451s] 
+[1.451s] Installed /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2
+[1.451s] running install_data
+[1.487s] Invoked command in '/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data

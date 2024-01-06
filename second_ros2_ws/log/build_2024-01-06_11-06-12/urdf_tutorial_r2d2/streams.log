@@ -1,0 +1,21 @@
+[0.925s] Invoking command in '/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data
+[1.219s] running develop
+[1.220s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.220s]   warnings.warn(
+[1.221s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.222s]   warnings.warn(
+[1.411s] running egg_info
+[1.412s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[1.412s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[1.412s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[1.412s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[1.413s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[1.415s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.416s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[1.418s] running build_ext
+[1.418s] Creating /home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[1.420s] Installing state_publisher script to /home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[1.420s] 
+[1.420s] Installed /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2
+[1.420s] running install_data
+[1.457s] Invoked command in '/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/mz/projects/ros/tutorials/basics/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mz/projects/ros/tutorials/basics/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data

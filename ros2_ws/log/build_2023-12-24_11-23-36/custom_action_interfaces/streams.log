@@ -1,0 +1,161 @@
+[0.339s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[0.460s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[0.476s] [  2%] Built target ament_cmake_python_copy_custom_action_interfaces
+[0.494s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_generator_c[0m
+[0.553s] [ 17%] Built target custom_action_interfaces__rosidl_generator_c
+[0.572s] [ 20%] Built target custom_action_interfaces__cpp
+[0.592s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.597s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_c[0m
+[0.633s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_c[0m
+[0.664s] [ 29%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[0.666s] [ 38%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[0.713s] [ 47%] Built target custom_action_interfaces__rosidl_typesupport_c
+[0.739s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.773s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_cpp[0m
+[0.807s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.838s] [ 55%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.838s] [ 64%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[0.870s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[0.911s] [ 73%] Built target custom_action_interfaces
+[0.997s] [ 76%] Built target custom_action_interfaces__py
+[1.052s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_generator_py[0m
+[1.095s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[1.166s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_c__pyext[0m
+[1.166s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.166s] [35m[1mConsolidate compiler generated dependencies of target custom_action_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.240s] [ 88%] Built target custom_action_interfaces__rosidl_typesupport_c__pyext
+[1.256s] [ 94%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.278s] [100%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.302s] running egg_info
+[1.302s] writing custom_action_interfaces.egg-info/PKG-INFO
+[1.302s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[1.302s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[1.311s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[1.321s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[1.405s] [100%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[1.509s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces -- -j4 -l4
+[1.804s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces
+[1.819s] -- Install configuration: ""
+[1.820s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces
+[1.820s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json
+[1.821s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.821s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[1.821s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.822s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.822s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h
+[1.822s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.825s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h
+[1.825s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c
+[1.825s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c
+[1.826s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.826s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.827s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[1.828s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.828s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.828s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.828s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[1.828s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[1.828s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so
+[1.829s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so
+[1.829s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.829s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.829s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp
+[1.829s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.830s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.831s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.831s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps
+[1.831s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[1.831s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.831s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[1.834s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[1.834s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[1.834s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp
+[1.834s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[1.835s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.840s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so
+[1.841s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh
+[1.841s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv
+[1.841s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info
+[1.841s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.841s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.841s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.842s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/libcustom_action_interfaces__rosidl_generator_py.so
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.842s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/__init__.py
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/_fibonacci.py
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/__init__.py
+[1.843s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action/_fibonacci_s.c
+[1.917s] Listing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces'...
+[1.917s] Listing '/home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/action'...
+[1.926s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.927s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.927s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/python3.10/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.928s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so
+[1.928s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl
+[1.928s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action
+[1.929s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces
+[1.929s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces
+[1.929s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh
+[1.929s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv
+[1.930s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh
+[1.930s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv
+[1.930s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash
+[1.930s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh
+[1.930s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh
+[1.931s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv
+[1.931s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv
+[1.931s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces
+[1.931s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake
+[1.931s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.932s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.932s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.933s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake
+[1.933s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.933s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake
+[1.933s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.933s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.935s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.947s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake
+[1.947s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake
+[1.947s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.xml
+[1.948s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/launch_testing_examples:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_service:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_publisher:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_server:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_minimal_action_client:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_guard_conditions:/home/mz/projects/ros/tutorials/basics/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/custom_action_interfaces

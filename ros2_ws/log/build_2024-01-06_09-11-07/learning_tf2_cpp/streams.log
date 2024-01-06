@@ -1,0 +1,34 @@
+[0.323s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[0.463s] [ 20%] Built target turtle_tf2_broadcaster
+[0.479s] [ 50%] Built target fixed_frame_tf2_broadcaster
+[0.491s] [ 60%] Built target static_turtle_tf2_broadcaster
+[0.502s] [ 80%] Built target turtle_tf2_listener
+[0.533s] [100%] Built target dynamic_frame_tf2_broadcaster
+[0.773s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp -- -j4 -l4
+[1.066s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp
+[1.183s] -- Install configuration: ""
+[1.184s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[1.184s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[1.184s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[1.184s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo_launch.py
+[1.185s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_fixed_frame_demo_launch.py
+[1.185s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo_launch.py
+[1.185s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[1.186s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[1.186s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[1.186s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[1.186s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[1.187s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[1.188s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[1.188s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[1.188s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[1.188s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[1.189s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[1.189s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[1.189s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[1.189s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[1.189s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[1.190s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[1.190s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[1.191s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[1.200s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_ws/build/learning_tf2_cpp
