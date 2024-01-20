@@ -14,6 +14,13 @@ ROS2 Tutorials: https://docs.ros.org/en/iron/Tutorials.html
 
 source /opt/ros/iron/setup.bash
 
+build workspace:
+* mkdir -p workspace_name
+* cd workspace_name
+* colcon build --symlink-install
+
+build packegesP:
+
 cd ~/ros2_ws/src
 
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>
@@ -32,3 +39,21 @@ ros2 run my_package my_node
 When running tutorial https://docs.ros.org/en/iron/Tutorials/Intermediate/URDF/Using-URDF-with-Robot-State-Publisher.html in python rember to dwongrade setuptools to 58.2.0
 
 pip3 install setuptools==58.2.0
+
+
+## Gazebo tutorial
+
+https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html
+
+Install Gazebo Harmonic - Recommended (as inidcated on the wbesite)
+* https://gazebosim.org/docs/harmonic/install_ubuntu
+
+Instead running 'ign gazebo' run
+```
+gz sim -v 4 -r visualize_lidar.sdf
+```
+
+## Webots tutorial
+
+https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
+
