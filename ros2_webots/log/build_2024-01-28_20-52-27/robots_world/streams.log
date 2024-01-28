@@ -1,0 +1,12 @@
+[0.095s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target robots_world[0m
+[0.184s] [ 50%] Built target obstacle_avoider
+[0.201s] [ 75%] [32mBuilding CXX object CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o[0m
+[3.818s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver::MyRobotDriver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[3.818s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:18:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass my_robot_driver::MyRobotDriver[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+[3.818s]    18 |   std::string cmd_vel_topic = this->[01;31m[Kget_parameter[m[K("cmd_vel_topic").as_string();
+[3.819s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.867s] gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
+[6.868s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
+[6.868s] gmake: *** [Makefile:146: all] Error 2
+[6.871s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4

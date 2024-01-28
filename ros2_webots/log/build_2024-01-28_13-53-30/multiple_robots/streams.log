@@ -1,0 +1,82 @@
+[0.141s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots
+[0.373s] -- The C compiler identification is GNU 11.4.0
+[0.510s] -- The CXX compiler identification is GNU 11.4.0
+[0.521s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.635s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.641s] -- Detecting CXX compiler ABI info
+[0.743s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.757s] -- Detecting CXX compile features
+[0.758s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.005s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.121s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.178s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.193s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.459s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.462s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.591s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.623s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.895s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.939s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.992s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[2.025s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[2.222s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.224s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.224s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.553s] -- Configuring done
+[3.641s] -- Generating done
+[3.645s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots
+[3.658s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots
+[3.661s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[3.723s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[3.724s] [ 50%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver.cpp.o[0m
+[13.252s] [ 75%] [32m[1mLinking CXX executable obstacle_avoider[0m
+[13.808s] [100%] [32m[1mLinking CXX shared library libmultiple_robots.so[0m
+[13.813s] [100%] Built target obstacle_avoider
+[14.475s] [100%] Built target multiple_robots
+[14.490s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[14.531s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots
+[14.541s] -- Install configuration: ""
+[14.541s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/my_robot_driver.xml
+[14.542s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/lib/multiple_robots/obstacle_avoider
+[14.549s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/lib/multiple_robots/obstacle_avoider" to ""
+[14.549s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/include
+[14.549s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/include/multiple_robots
+[14.550s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp
+[14.550s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/include/multiple_robots/MyRobotDriver.hpp
+[14.550s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/lib/libmultiple_robots.so
+[14.560s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/lib/libmultiple_robots.so" to ""
+[14.560s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//launch
+[14.560s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//launch/robot_launch.py
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//resource
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//resource/my_robot.urdf
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//worlds
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots//worlds/my_world.wbt
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/library_path.sh
+[14.561s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/library_path.dsv
+[14.562s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/ament_index/resource_index/package_run_dependencies/multiple_robots
+[14.562s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/ament_index/resource_index/parent_prefix_path/multiple_robots
+[14.562s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/ament_prefix_path.sh
+[14.563s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/ament_prefix_path.dsv
+[14.563s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/path.sh
+[14.563s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/environment/path.dsv
+[14.563s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/local_setup.bash
+[14.564s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/local_setup.sh
+[14.564s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/local_setup.zsh
+[14.564s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/local_setup.dsv
+[14.564s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/package.dsv
+[14.565s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/ament_index/resource_index/packages/multiple_robots
+[14.565s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/multiple_robots
+[14.565s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.565s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/cmake/ament_cmake_export_libraries-extras.cmake
+[14.566s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/cmake/multiple_robotsConfig.cmake
+[14.566s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/cmake/multiple_robotsConfig-version.cmake
+[14.566s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/share/multiple_robots/package.xml
+[14.569s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots

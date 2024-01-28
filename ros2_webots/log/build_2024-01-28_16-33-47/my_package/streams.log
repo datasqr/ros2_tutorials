@@ -1,0 +1,4 @@
+[0.125s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package -- -j4 -l4
+[0.229s] [ 75%] Built target my_package
+[0.230s] [100%] Built target obstacle_avoider
+[0.249s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package -- -j4 -l4

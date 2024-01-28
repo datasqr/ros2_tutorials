@@ -1,0 +1,100 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmultiple_robots/MyRobotDriver1.hpp: No such file or directory
+    1 | #include [01;31m[K"multiple_robots/MyRobotDriver1.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/multiple_robots.dir/build.make:76: CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/multiple_robots.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+    5 | [01;31m[KObstacleAvoider1[m[K::ObstacleAvoider() : Node("obstacle_avoider1") {
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      | [32m[KObstacleAvoider[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+   19 | void [01;31m[KObstacleAvoider1[m[K::leftSensorCallback(
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+   21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K At global scope:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+   24 | void [01;31m[KObstacleAvoider1[m[K::rightSensorCallback(
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+    5 | [01;31m[KObstacleAvoider2[m[K::ObstacleAvoider() : Node("obstacle_avoider2") {
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      | [32m[KObstacleAvoider[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+   19 | void [01;31m[KObstacleAvoider2[m[K::leftSensorCallback(
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+   26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+   21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K At global scope:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+   24 | void [01;31m[KObstacleAvoider2[m[K::rightSensorCallback(
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+   32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+      |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+   26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krmw_publisher_t[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+   42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider1[m[K>();
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KObstacleAvoider[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+   32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+      |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+      |   [01;31m[K^~~~~~~~~~[m[K
+      |   [32m[Krmw_publisher_t[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+   42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider2[m[K>();
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[KObstacleAvoider[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

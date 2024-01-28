@@ -1,0 +1,39 @@
+[ 50%] Built target obstacle_avoider
+[ 75%] [32mBuilding CXX object CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o[0m
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In constructor ‘[01m[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:15:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kmy_robot_driver::MyRobotDriver[m[K’ does not have any field named ‘[01m[KWebotsNode[m[K’
+   15 | : [01;31m[KWebotsNode[m[K(node_name, options) {
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:16:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass my_robot_driver::MyRobotDriver[m[K’ has no member named ‘[01m[Kdeclare_parameter[m[K’
+   16 |     this->[01;31m[Kdeclare_parameter[m[K("cmd_vel_topic", "/cmd_vel_tmp");
+      |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver::MyRobotDriver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:25:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass my_robot_driver::MyRobotDriver[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
+   25 |   std::string cmd_vel_topic = this->[01;31m[Kget_parameter[m[K("cmd_vel_topic").as_string();
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:58[m[K,
+                 from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/iron/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/iron/include/webots_ros2_driver/WebotsNode.hpp:26[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:6[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1[m[K:
+/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = my_robot_driver::MyRobotDriver; B = webots_ros2_driver::PluginInterface][m[K’:
+[01m[K/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmy_robot_driver::MyRobotDriver::MyRobotDriver()[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:14:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const string&, const rclcpp::NodeOptions&)[m[K’
+   14 | [01;36m[KMyRobotDriver[m[K::MyRobotDriver(const std::string & node_name, const rclcpp::NodeOptions & options)
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:14:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const my_robot_driver::MyRobotDriver&)[m[K’
+   12 | class [01;36m[KMyRobotDriver[m[K : public webots_ros2_driver::PluginInterface {
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(my_robot_driver::MyRobotDriver&&)[m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

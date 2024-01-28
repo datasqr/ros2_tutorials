@@ -11,6 +11,7 @@ Viewpoint {
   position 1.700313773507203 1.0549607538959629 1.4846240848267684
   follow "my_robot"
 }
+
 TexturedBackground {
 }
 TexturedBackgroundLight {

@@ -1,0 +1,28 @@
+[0.264s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[0.299s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.512s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[0.548s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.799s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.176s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.214s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.268s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.288s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[1.461s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.462s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.498s] [31mCMake Error at CMakeLists.txt:63 (add_library):
+[2.499s]   add_library cannot create target "multiple_robots" because another target
+[2.499s]   with the same name already exists.  The existing target is a shared library
+[2.499s]   created in source directory
+[2.499s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots".
+[2.499s]   See documentation for policy CMP0002 for more details.
+[2.499s] 
+[2.499s] [0m
+[2.906s] -- Configuring incomplete, errors occurred!
+[2.907s] See also "/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots/CMakeFiles/CMakeOutput.log".
+[2.920s] gmake: *** [Makefile:376: cmake_check_build_system] Error 1
+[2.923s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4

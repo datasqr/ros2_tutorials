@@ -1,0 +1,13 @@
+[0.092s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package -- -j4 -l4
+[0.168s] [ 50%] Built target obstacle_avoider
+[0.170s] [100%] Built target my_package
+[0.191s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package -- -j4 -l4
+[0.252s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package
+[0.263s] -- Install configuration: ""
+[0.263s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.263s]   file INSTALL cannot find
+[0.264s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/my_package/my_robot_driver.xml":
+[0.264s]   No such file or directory.
+[0.264s] 
+[0.264s] [0m
+[0.266s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/my_package

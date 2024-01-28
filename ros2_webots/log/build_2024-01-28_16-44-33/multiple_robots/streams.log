@@ -1,0 +1,210 @@
+[0.278s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[0.319s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.565s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[0.605s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.879s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.880s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.046s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.294s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.328s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.379s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.400s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[1.570s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.572s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.952s] -- Configuring done
+[3.023s] -- Generating done
+[3.027s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots
+[3.069s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[3.073s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[3.093s] [ 28%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o[0m
+[3.093s] [ 28%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver2.cpp.o[0m
+[3.112s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmultiple_robots/MyRobotDriver1.hpp: No such file or directory
+[3.112s]     1 | #include [01;31m[K"multiple_robots/MyRobotDriver1.hpp"[m[K
+[3.112s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.113s] compilation terminated.
+[3.114s] gmake[2]: *** [CMakeFiles/multiple_robots.dir/build.make:76: CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o] Error 1
+[3.114s] gmake[2]: *** Waiting for unfinished jobs....
+[3.117s] [ 42%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[3.128s] [ 57%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[7.839s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.840s]     5 | [01;31m[KObstacleAvoider2[m[K::ObstacleAvoider() : Node("obstacle_avoider2") {
+[7.840s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.840s]       | [32m[KObstacleAvoider[m[K
+[7.840s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+[7.840s]    19 | void [01;31m[KObstacleAvoider2[m[K::leftSensorCallback(
+[7.843s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.856s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.856s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.856s]    21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+[7.857s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.857s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K At global scope:
+[7.857s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+[7.857s]    24 | void [01;31m[KObstacleAvoider2[m[K::rightSensorCallback(
+[7.857s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.870s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.871s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+[7.871s]    26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+[7.871s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.890s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.890s]    32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+[7.890s]       |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.899s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[7.899s]    37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+[7.899s]       |   [01;31m[K^~~~~~~~~~[m[K
+[7.899s]       |   [32m[Krmw_publisher_t[m[K
+[7.909s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.909s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.909s]    42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider2[m[K>();
+[7.910s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.910s]       |                                   [32m[KObstacleAvoider[m[K
+[7.910s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.910s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+[7.910s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.910s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.910s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+[7.911s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:1[m[K:
+[7.911s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.911s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.911s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.911s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.912s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.913s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+[7.913s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.913s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.913s]     5 | [01;31m[KObstacleAvoider1[m[K::ObstacleAvoider() : Node("obstacle_avoider1") {
+[7.913s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.914s]       | [32m[KObstacleAvoider[m[K
+[7.914s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+[7.914s]    19 | void [01;31m[KObstacleAvoider1[m[K::leftSensorCallback(
+[7.914s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.929s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.929s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.929s]    21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+[7.929s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.929s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K At global scope:
+[7.930s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+[7.930s]    24 | void [01;31m[KObstacleAvoider1[m[K::rightSensorCallback(
+[7.930s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.945s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.945s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+[7.945s]    26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+[7.946s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.973s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.973s]    32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+[7.973s]       |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.982s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[7.982s]    37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+[7.982s]       |   [01;31m[K^~~~~~~~~~[m[K
+[7.983s]       |   [32m[Krmw_publisher_t[m[K
+[7.994s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.994s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.994s]    42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider1[m[K>();
+[7.994s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.995s]       |                                   [32m[KObstacleAvoider[m[K
+[7.995s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.995s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+[7.995s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.996s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.996s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+[7.996s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:1[m[K:
+[7.997s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.997s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.997s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.997s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.998s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.998s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+[7.998s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.263s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:13:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver2[m[K’ has not been declared
+[9.263s]    13 | void [01;31m[KMyRobotDriver2[m[K::init(
+[9.263s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.273s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[9.273s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_motor[m[K’ was not declared in this scope
+[9.274s]    17 |   [01;31m[Kright_motor[m[K = wb_robot_get_device("right wheel motor");
+[9.274s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[9.283s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_motor[m[K’ was not declared in this scope
+[9.283s]    18 |   [01;31m[Kleft_motor[m[K = wb_robot_get_device("left wheel motor");
+[9.284s]       |   [01;31m[K^~~~~~~~~~[m[K
+[9.300s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[9.300s]    26 |   [01;31m[Kcmd_vel_subscription_[m[K = node->create_subscription<geometry_msgs::msg::Twist>(
+[9.300s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.301s]       |   [32m[Krmw_subscription_t[m[K
+[9.301s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:28:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid my_robot_driver::MyRobotDriver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+[9.301s]    28 |       std::bind(&MyRobotDriver::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+[9.301s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.302s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:1[m[K:
+[9.302s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/MyRobotDriver.hpp:19:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[9.302s]    19 |   void [01;36m[KcmdVelCallback[m[K(const geometry_msgs::msg::Twist::SharedPtr msg);
+[9.303s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[9.307s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:28:49:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[9.307s]    28 |       std::bind(&MyRobotDriver::cmdVelCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[9.307s]       |                                                 [01;31m[K^~~~[m[K
+[9.307s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K At global scope:
+[9.308s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:31:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver2[m[K’ has not been declared
+[9.308s]    31 | void [01;31m[KMyRobotDriver2[m[K::cmdVelCallback(
+[9.308s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.323s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.323s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_msg[m[K’ was not declared in this scope
+[9.324s]    33 |   [01;31m[Kcmd_vel_msg[m[K.linear = msg->linear;
+[9.324s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[9.324s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K At global scope:
+[9.324s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:37:6:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver2[m[K’ has not been declared
+[9.324s]    37 | void [01;31m[KMyRobotDriver2[m[K::step() {
+[9.324s]       |      [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.335s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver::step()[m[K’:
+[9.335s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:38:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_msg[m[K’ was not declared in this scope
+[9.336s]    38 |   auto forward_speed = [01;31m[Kcmd_vel_msg[m[K.linear.x;
+[9.336s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[9.346s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:48:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_motor[m[K’ was not declared in this scope
+[9.346s]    48 |   wb_motor_set_velocity([01;31m[Kleft_motor[m[K, command_motor_left);
+[9.347s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[9.359s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:49:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_motor[m[K’ was not declared in this scope
+[9.360s]    49 |   wb_motor_set_velocity([01;31m[Kright_motor[m[K, command_motor_right);
+[9.360s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[9.367s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.368s]                  from [01m[K/opt/ros/iron/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[9.368s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[9.368s]                  from [01m[K/opt/ros/iron/include/webots_ros2_driver/WebotsNode.hpp:26[m[K,
+[9.369s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/MyRobotDriver.hpp:6[m[K,
+[9.369s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:1[m[K:
+[9.372s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K At global scope:
+[9.372s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:54:41:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver2[m[K’ in namespace ‘[01m[Kmy_robot_driver[m[K’ does not name a type; did you mean ‘[01m[KMyRobotDriver[m[K’?
+[9.373s]    54 | PLUGINLIB_EXPORT_CLASS(my_robot_driver::[01;31m[KMyRobotDriver2[m[K,
+[9.373s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[9.390s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[9.390s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[9.390s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver2,
+[9.390s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.390s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:54:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [32], const char [36])[m[K’
+[9.390s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver2,
+[9.390s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.391s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[9.391s]                  from [01m[K/opt/ros/iron/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[9.391s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[9.391s]                  from [01m[K/opt/ros/iron/include/webots_ros2_driver/WebotsNode.hpp:26[m[K,
+[9.391s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/MyRobotDriver.hpp:6[m[K,
+[9.391s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:1[m[K:
+[9.391s] [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[9.392s]   241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[9.392s]       | [01;36m[K^~~~~~~~~~~~~~[m[K
+[9.392s] [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.395s] In file included from [01m[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[9.396s]                  from [01m[K/opt/ros/iron/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[9.396s]                  from [01m[K/opt/ros/iron/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[9.396s]                  from [01m[K/opt/ros/iron/include/webots_ros2_driver/WebotsNode.hpp:26[m[K,
+[9.396s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/MyRobotDriver.hpp:6[m[K,
+[9.404s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:1[m[K:
+[9.404s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver2.cpp:54:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.404s]    54 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(my_robot_driver::MyRobotDriver2,
+[9.404s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.437s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[9.438s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[9.438s] gmake[1]: *** Waiting for unfinished jobs....
+[9.455s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[9.455s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[11.052s] gmake[2]: *** [CMakeFiles/multiple_robots.dir/build.make:90: CMakeFiles/multiple_robots.dir/src/MyRobotDriver2.cpp.o] Error 1
+[11.053s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/multiple_robots.dir/all] Error 2
+[11.053s] gmake: *** [Makefile:146: all] Error 2
+[11.056s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4

@@ -24,6 +24,14 @@ def generate_launch_description():
         respawn=True
     )
 
+    # my_robot_driver2 = WebotsController(
+    #     robot_name='my_robot2',
+    #     parameters=[
+    #         {'robot_description': robot_description_path},
+    #     ],
+    #     respawn=True
+    # )
+
     obstacle_avoider = Node(
         package='my_package',
         executable='obstacle_avoider',

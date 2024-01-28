@@ -1,0 +1,123 @@
+[0.197s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[0.241s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.453s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[0.488s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.500s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.739s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.741s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.895s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.107s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.146s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.199s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.220s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[1.401s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.403s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.761s] -- Configuring done
+[2.830s] -- Generating done
+[2.833s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots
+[2.889s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[2.892s] [ 33%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o[0m
+[2.894s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[2.906s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver1.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmultiple_robots/MyRobotDriver1.hpp: No such file or directory
+[2.906s]     1 | #include [01;31m[K"multiple_robots/MyRobotDriver1.hpp"[m[K
+[2.906s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.907s] compilation terminated.
+[2.908s] gmake[2]: *** [CMakeFiles/multiple_robots.dir/build.make:76: CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o] Error 1
+[2.908s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/multiple_robots.dir/all] Error 2
+[2.908s] gmake[1]: *** Waiting for unfinished jobs....
+[7.129s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.129s]     5 | [01;31m[KObstacleAvoider1[m[K::ObstacleAvoider() : Node("obstacle_avoider1") {
+[7.129s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.129s]       | [32m[KObstacleAvoider[m[K
+[7.130s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+[7.130s]    19 | void [01;31m[KObstacleAvoider1[m[K::leftSensorCallback(
+[7.130s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.141s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.141s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.142s]    21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+[7.142s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.142s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K At global scope:
+[7.142s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ has not been declared
+[7.142s]    24 | void [01;31m[KObstacleAvoider1[m[K::rightSensorCallback(
+[7.142s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.150s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ does not name a type; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.150s]     5 | [01;31m[KObstacleAvoider2[m[K::ObstacleAvoider() : Node("obstacle_avoider2") {
+[7.150s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.150s]       | [32m[KObstacleAvoider[m[K
+[7.152s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:19:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+[7.152s]    19 | void [01;31m[KObstacleAvoider2[m[K::leftSensorCallback(
+[7.152s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.153s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.153s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+[7.153s]    26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+[7.153s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.167s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.167s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.167s]    21 |   [01;31m[Kleft_sensor_value[m[K = msg->range;
+[7.167s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.167s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K At global scope:
+[7.167s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:24:6:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ has not been declared
+[7.168s]    24 | void [01;31m[KObstacleAvoider2[m[K::rightSensorCallback(
+[7.168s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.175s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.175s]    32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+[7.175s]       |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.178s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kvoid rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.178s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_sensor_value[m[K’ was not declared in this scope
+[7.178s]    26 |   [01;31m[Kright_sensor_value[m[K = msg->range;
+[7.179s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.182s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[7.182s]    37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+[7.182s]       |   [01;31m[K^~~~~~~~~~[m[K
+[7.182s]       |   [32m[Krmw_publisher_t[m[K
+[7.189s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.189s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider1[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.190s]    42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider1[m[K>();
+[7.190s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.190s]       |                                   [32m[KObstacleAvoider[m[K
+[7.190s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.190s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+[7.190s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.190s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.191s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+[7.191s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:1[m[K:
+[7.191s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.191s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.191s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.191s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.192s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider1.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.192s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider1>()[m[K;
+[7.192s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.201s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:32:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_sensor_value[m[K’ was not declared in this scope
+[7.201s]    32 |   if ([01;31m[Kleft_sensor_value[m[K < 0.9 * MAX_RANGE ||
+[7.201s]       |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[7.207s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[7.207s]    37 |   [01;31m[Kpublisher_[m[K->publish(std::move(command_message));
+[7.207s]       |   [01;31m[K^~~~~~~~~~[m[K
+[7.207s]       |   [32m[Krmw_publisher_t[m[K
+[7.215s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.215s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[KObstacleAvoider2[m[K’ was not declared in this scope; did you mean ‘[01m[KObstacleAvoider[m[K’?
+[7.215s]    42 |   auto avoider = std::make_shared<[01;31m[KObstacleAvoider2[m[K>();
+[7.215s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.215s]       |                                   [32m[KObstacleAvoider[m[K
+[7.215s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.215s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+[7.216s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.216s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.216s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/include/multiple_robots/ObstacleAvoider.hpp:1[m[K,
+[7.216s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:1[m[K:
+[7.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.216s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.216s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.217s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.217s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider2.cpp:42:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.217s]    42 |   auto avoider = [01;31m[Kstd::make_shared<ObstacleAvoider2>()[m[K;
+[7.217s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[8.540s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[8.540s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[8.569s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[8.569s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[8.569s] gmake: *** [Makefile:146: all] Error 2
+[8.572s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4

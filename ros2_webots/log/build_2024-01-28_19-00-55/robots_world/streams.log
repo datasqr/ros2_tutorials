@@ -1,0 +1,54 @@
+[0.107s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.344s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.637s] -- Detecting CXX compile features - done
+[0.638s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.862s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.975s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[1.035s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.056s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.347s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.479s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.512s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.788s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.829s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.884s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.917s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[2.105s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[2.107s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.107s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.444s] -- Configuring done
+[3.509s] -- Generating done
+[3.511s] -- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world
+[3.525s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world -DCMAKE_INSTALL_PREFIX=/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world
+[3.527s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4
+[3.596s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[3.596s] [ 50%] [32mBuilding CXX object CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o[0m
+[3.608s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/ObstacleAvoider.hpp: No such file or directory
+[3.608s]     1 | #include [01;31m[K"my_package/ObstacleAvoider.hpp"[m[K
+[3.609s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.609s] compilation terminated.
+[3.609s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/MyRobotDriver.hpp: No such file or directory
+[3.609s]     1 | #include [01;31m[K"my_package/MyRobotDriver.hpp"[m[K
+[3.609s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.610s] compilation terminated.
+[3.610s] gmake[2]: *** [CMakeFiles/obstacle_avoider.dir/build.make:76: CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o] Error 1
+[3.610s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/obstacle_avoider.dir/all] Error 2
+[3.610s] gmake[1]: *** Waiting for unfinished jobs....
+[3.610s] gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
+[3.610s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
+[3.611s] gmake: *** [Makefile:146: all] Error 2
+[3.613s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4

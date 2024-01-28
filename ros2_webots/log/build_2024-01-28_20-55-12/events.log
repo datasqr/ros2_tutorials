@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000369] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000440] (robots_world) JobQueued: {'identifier': 'robots_world', 'dependencies': OrderedDict()}
+[0.000954] (robots_world) JobStarted: {'identifier': 'robots_world'}
+[0.099729] (-) TimerEvent: {}
+[0.104835] (robots_world) JobProgress: {'identifier': 'robots_world', 'progress': 'cmake'}
+[0.105705] (robots_world) JobProgress: {'identifier': 'robots_world', 'progress': 'build'}
+[0.107088] (robots_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/my_package/lib:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '2294'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5597'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:35570'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/2480,unix/mz:/tmp/.ICE-unix/2480'), ('INVOCATION_ID', 'ee552301262147bd9e3bfefa436ddd3c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MWSII2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/my_package:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:4b7eb7fc-c8ce-4d7f-b98a-b70cdecd5dea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/my_package:/home/mz/projects/ros/tutorials/basics/ros2_webots/install/multiple_robots:/opt/ros/iron')]), 'shell': False}
+[0.192266] (robots_world) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robots_world\x1b[0m\n'}
+[0.199849] (-) TimerEvent: {}
+[0.216602] (robots_world) StdoutLine: {'line': b'[ 50%] Built target obstacle_avoider\n'}
+[0.231545] (robots_world) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o\x1b[0m\n'}
+[0.299974] (-) TimerEvent: {}
+[0.400606] (-) TimerEvent: {}
+[0.501047] (-) TimerEvent: {}
+[0.601484] (-) TimerEvent: {}
+[0.701840] (-) TimerEvent: {}
+[0.802262] (-) TimerEvent: {}
+[0.902722] (-) TimerEvent: {}
+[1.003097] (-) TimerEvent: {}
+[1.103461] (-) TimerEvent: {}
+[1.203802] (-) TimerEvent: {}
+[1.304149] (-) TimerEvent: {}
+[1.404577] (-) TimerEvent: {}
+[1.504924] (-) TimerEvent: {}
+[1.605290] (-) TimerEvent: {}
+[1.705644] (-) TimerEvent: {}
+[1.806001] (-) TimerEvent: {}
+[1.906355] (-) TimerEvent: {}
+[2.006782] (-) TimerEvent: {}
+[2.107130] (-) TimerEvent: {}
+[2.207462] (-) TimerEvent: {}
+[2.307805] (-) TimerEvent: {}
+[2.408156] (-) TimerEvent: {}
+[2.508498] (-) TimerEvent: {}
+[2.608848] (-) TimerEvent: {}
+[2.709197] (-) TimerEvent: {}
+[2.809507] (-) TimerEvent: {}
+[2.909845] (-) TimerEvent: {}
+[3.010194] (-) TimerEvent: {}
+[3.110545] (-) TimerEvent: {}
+[3.210890] (-) TimerEvent: {}
+[3.311274] (-) TimerEvent: {}
+[3.411817] (-) TimerEvent: {}
+[3.512166] (-) TimerEvent: {}
+[3.612521] (-) TimerEvent: {}
+[3.712871] (-) TimerEvent: {}
+[3.813294] (-) TimerEvent: {}
+[3.913663] (-) TimerEvent: {}
+[4.014015] (-) TimerEvent: {}
+[4.073352] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.073691] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:15:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kwebots_ros2_driver::PluginInterface::PluginInterface(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.073927] (robots_world) StderrLine: {'line': b'   15 | : PluginInterface(node_name, options\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[4.074057] (robots_world) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.074181] (robots_world) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:5\x1b[m\x1b[K,\n'}
+[4.074307] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1\x1b[m\x1b[K:\n'}
+[4.074426] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr webots_ros2_driver::PluginInterface::PluginInterface()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.074550] (robots_world) StderrLine: {'line': b'   24 |   class \x1b[01;36m\x1b[KPluginInterface\x1b[m\x1b[K {\n'}
+[4.074673] (robots_world) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.074811] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[4.074961] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr webots_ros2_driver::PluginInterface::PluginInterface(const webots_ros2_driver::PluginInterface&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.075100] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.075224] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr webots_ros2_driver::PluginInterface::PluginInterface(webots_ros2_driver::PluginInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.075346] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/PluginInterface.hpp:24:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.075471] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:16:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass my_robot_driver::MyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdeclare_parameter\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.075598] (robots_world) StderrLine: {'line': b'   16 |     this->\x1b[01;31m\x1b[Kdeclare_parameter\x1b[m\x1b[K("cmd_vel_topic", "/cmd_vel");\n'}
+[4.075719] (robots_world) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.075840] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void my_robot_driver::MyRobotDriver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.075970] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:24:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass my_robot_driver::MyRobotDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget_parameter\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.076096] (robots_world) StderrLine: {'line': b'   24 |   std::string cmd_vel_topic = this->\x1b[01;31m\x1b[Kget_parameter\x1b[m\x1b[K("cmd_vel_topic").as_string();\n'}
+[4.076233] (robots_world) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.114155] (-) TimerEvent: {}
+[4.214504] (-) TimerEvent: {}
+[4.314846] (-) TimerEvent: {}
+[4.415238] (-) TimerEvent: {}
+[4.515571] (-) TimerEvent: {}
+[4.615918] (-) TimerEvent: {}
+[4.716337] (-) TimerEvent: {}
+[4.816737] (-) TimerEvent: {}
+[4.917086] (-) TimerEvent: {}
+[5.017460] (-) TimerEvent: {}
+[5.117833] (-) TimerEvent: {}
+[5.218171] (-) TimerEvent: {}
+[5.318531] (-) TimerEvent: {}
+[5.418957] (-) TimerEvent: {}
+[5.519303] (-) TimerEvent: {}
+[5.619645] (-) TimerEvent: {}
+[5.720008] (-) TimerEvent: {}
+[5.820323] (-) TimerEvent: {}
+[5.920683] (-) TimerEvent: {}
+[6.021033] (-) TimerEvent: {}
+[6.121372] (-) TimerEvent: {}
+[6.221697] (-) TimerEvent: {}
+[6.322031] (-) TimerEvent: {}
+[6.422379] (-) TimerEvent: {}
+[6.519779] (robots_world) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/class_loader/class_loader/class_loader_core.hpp:58\x1b[m\x1b[K,\n'}
+[6.520059] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[6.520251] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[6.520402] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[6.520549] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/webots_ros2_driver/WebotsNode.hpp:26\x1b[m\x1b[K,\n'}
+[6.520780] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:6\x1b[m\x1b[K,\n'}
+[6.520944] (robots_world) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1\x1b[m\x1b[K:\n'}
+[6.521094] (robots_world) StderrLine: {'line': b'/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = my_robot_driver::MyRobotDriver; B = webots_ros2_driver::PluginInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.521260] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[6.521408] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver::MyRobotDriver::MyRobotDriver()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.521577] (robots_world) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[6.521721] (robots_world) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.521865] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:14:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.522016] (robots_world) StderrLine: {'line': b'   14 | \x1b[01;36m\x1b[KMyRobotDriver\x1b[m\x1b[K::MyRobotDriver(const std::string & node_name, const rclcpp::NodeOptions & options)\n'}
+[6.522164] (robots_world) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.522312] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:14:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[6.522465] (-) TimerEvent: {}
+[6.522704] (robots_world) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1\x1b[m\x1b[K:\n'}
+[6.522878] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(const my_robot_driver::MyRobotDriver&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.523036] (robots_world) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KMyRobotDriver\x1b[m\x1b[K : public webots_ros2_driver::PluginInterface {\n'}
+[6.523182] (robots_world) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.523328] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.523478] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmy_robot_driver::MyRobotDriver::MyRobotDriver(my_robot_driver::MyRobotDriver&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.523626] (robots_world) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.622581] (-) TimerEvent: {}
+[6.722983] (-) TimerEvent: {}
+[6.823341] (-) TimerEvent: {}
+[6.923735] (-) TimerEvent: {}
+[7.024087] (-) TimerEvent: {}
+[7.124446] (-) TimerEvent: {}
+[7.156383] (robots_world) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1\n'}
+[7.156824] (robots_world) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2\n'}
+[7.157179] (robots_world) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.160009] (robots_world) CommandEnded: {'returncode': 2}
+[7.224573] (-) TimerEvent: {}
+[7.321072] (robots_world) JobEnded: {'identifier': 'robots_world', 'rc': 2}
+[7.322373] (-) EventReactorShutdown: {}

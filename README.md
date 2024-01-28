@@ -57,3 +57,11 @@ gz sim -v 4 -r visualize_lidar.sdf
 
 https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
 
+## Debugging commmands
+
+* ros2 topic list -t
+* ros2 topic echo /topic_name
+* `rqt` and selecting Plugins > Introspection > Node Graph.
+* ros2 topic info /topic_name
+* ros2 interface show geometry_msgs/msg/Twist
+

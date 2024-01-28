@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[35m[1mConsolidate compiler generated dependencies of target multiple_robots[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver1.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver2.cpp.o[0m

@@ -1,0 +1,14 @@
+[0.209s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
+[0.309s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[0.309s] [ 50%] [32mBuilding CXX object CMakeFiles/multiple_robots.dir/src/MyRobotDriver.cpp.o[0m
+[0.318s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/ObstacleAvoider.cpp: No such file or directory
+[0.319s] compilation terminated.
+[0.319s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots/src/MyRobotDriver.cpp: No such file or directory
+[0.319s] compilation terminated.
+[0.320s] gmake[2]: *** [CMakeFiles/obstacle_avoider.dir/build.make:76: CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o] Error 1
+[0.320s] gmake[2]: *** [CMakeFiles/multiple_robots.dir/build.make:76: CMakeFiles/multiple_robots.dir/src/MyRobotDriver.cpp.o] Error 1
+[0.320s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/obstacle_avoider.dir/all] Error 2
+[0.320s] gmake[1]: *** Waiting for unfinished jobs....
+[0.321s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/multiple_robots.dir/all] Error 2
+[0.321s] gmake: *** [Makefile:146: all] Error 2
+[0.323s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/multiple_robots -- -j4 -l4
