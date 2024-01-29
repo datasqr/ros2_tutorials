@@ -1,0 +1,93 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider[0m
+[35m[1mConsolidate compiler generated dependencies of target robots_world[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[ 75%] Built target robots_world
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:10:12:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KObstacleAvoider[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   10 |   explicit [01;31m[KObstacleAvoider[m[K(const std::string& cmd_vel_topic,
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:10:3:[m[K [01;31m[Kerror: [m[Konly declarations of constructors and conversion operators can be ‘[01m[Kexplicit[m[K’
+   10 |   [01;31m[Kexplicit[m[K ObstacleAvoider(const std::string& cmd_vel_topic,
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:28:12:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KObstacleAvoider[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   28 |   explicit [01;31m[KObstacleAvoider[m[K(const std::string& cmd_vel_topic,
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:28:3:[m[K [01;31m[Kerror: [m[Konly declarations of constructors and conversion operators can be ‘[01m[Kexplicit[m[K’
+   28 |   [01;31m[Kexplicit[m[K ObstacleAvoider(const std::string& cmd_vel_topic,
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:7:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KObstacleAvoider[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    7 | [01;31m[KObstacleAvoider1[m[K::ObstacleAvoider(const std::string& cmd_vel_topic,
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:[m[K In member function ‘[01m[Kint ObstacleAvoider1::ObstacleAvoider(const string&, const string&, const string&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:9:75:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+    9 |                                  const std::string& right_sensor_topic) : [01;31m[KNode[m[K("obstacle_avoider1") {
+      |                                                                           [01;31m[K^~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:22:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   22 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:[m[K At global scope:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:47:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KObstacleAvoider[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   47 | [01;31m[KObstacleAvoider2[m[K::ObstacleAvoider(const std::string& cmd_vel_topic,
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:[m[K In member function ‘[01m[Kint ObstacleAvoider2::ObstacleAvoider(const string&, const string&, const string&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:49:75:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   49 |                                  const std::string& right_sensor_topic) : [01;31m[KNode[m[K("obstacle_avoider2") {
+      |                                                                           [01;31m[K^~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:62:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   62 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider1; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider1][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider1; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider1; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider1>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider1; _Alloc = std::allocator<ObstacleAvoider1>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider1; _Alloc = std::allocator<ObstacleAvoider1>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider1>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider1; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider1>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider1][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider1; _Alloc = std::allocator<ObstacleAvoider1>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider1; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:89:53:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const char [10], const char [23], const char [24])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider1::ObstacleAvoider1()[m[K’ (deleted)
+    8 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const ObstacleAvoider1&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider1::ObstacleAvoider1(ObstacleAvoider1&&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:8:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider2; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider2][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider2; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider2; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider2>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider2; _Alloc = std::allocator<ObstacleAvoider2>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider2; _Alloc = std::allocator<ObstacleAvoider2>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider2>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider2; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider2>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider2][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider2; _Alloc = std::allocator<ObstacleAvoider2>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider2; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:90:53:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoider2::ObstacleAvoider2(const char [10], const char [23], const char [24])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/ObstacleAvoider.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider2::ObstacleAvoider2()[m[K’ (deleted)
+   26 | class [01;36m[KObstacleAvoider2[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider2::ObstacleAvoider2(const ObstacleAvoider2&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider2::ObstacleAvoider2(ObstacleAvoider2&&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/ObstacleAvoider.hpp:26:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/obstacle_avoider.dir/build.make:76: CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/obstacle_avoider.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

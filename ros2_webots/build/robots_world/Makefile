@@ -198,17 +198,30 @@ robots_world_uninstall/fast:
 .PHONY : robots_world_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named obstacle_avoider
+# Target rules for targets named obstacle_avoider1
 
 # Build rule for target.
-obstacle_avoider: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider
-.PHONY : obstacle_avoider
+obstacle_avoider1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider1
+.PHONY : obstacle_avoider1
 
 # fast build rule for target.
-obstacle_avoider/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider.dir/build.make CMakeFiles/obstacle_avoider.dir/build
-.PHONY : obstacle_avoider/fast
+obstacle_avoider1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider1.dir/build.make CMakeFiles/obstacle_avoider1.dir/build
+.PHONY : obstacle_avoider1/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_avoider2
+
+# Build rule for target.
+obstacle_avoider2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider2
+.PHONY : obstacle_avoider2
+
+# fast build rule for target.
+obstacle_avoider2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider2.dir/build.make CMakeFiles/obstacle_avoider2.dir/build
+.PHONY : obstacle_avoider2/fast
 
 #=============================================================================
 # Target rules for targets named robots_world
@@ -247,29 +260,53 @@ src/MyRobotDriver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robots_world.dir/build.make CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.s
 .PHONY : src/MyRobotDriver.cpp.s
 
-src/ObstacleAvoider.o: src/ObstacleAvoider.cpp.o
-.PHONY : src/ObstacleAvoider.o
+src/ObstacleAvoider1.o: src/ObstacleAvoider1.cpp.o
+.PHONY : src/ObstacleAvoider1.o
 
 # target to build an object file
-src/ObstacleAvoider.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider.dir/build.make CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o
-.PHONY : src/ObstacleAvoider.cpp.o
+src/ObstacleAvoider1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider1.dir/build.make CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o
+.PHONY : src/ObstacleAvoider1.cpp.o
 
-src/ObstacleAvoider.i: src/ObstacleAvoider.cpp.i
-.PHONY : src/ObstacleAvoider.i
+src/ObstacleAvoider1.i: src/ObstacleAvoider1.cpp.i
+.PHONY : src/ObstacleAvoider1.i
 
 # target to preprocess a source file
-src/ObstacleAvoider.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider.dir/build.make CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.i
-.PHONY : src/ObstacleAvoider.cpp.i
+src/ObstacleAvoider1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider1.dir/build.make CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.i
+.PHONY : src/ObstacleAvoider1.cpp.i
 
-src/ObstacleAvoider.s: src/ObstacleAvoider.cpp.s
-.PHONY : src/ObstacleAvoider.s
+src/ObstacleAvoider1.s: src/ObstacleAvoider1.cpp.s
+.PHONY : src/ObstacleAvoider1.s
 
 # target to generate assembly for a file
-src/ObstacleAvoider.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider.dir/build.make CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.s
-.PHONY : src/ObstacleAvoider.cpp.s
+src/ObstacleAvoider1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider1.dir/build.make CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.s
+.PHONY : src/ObstacleAvoider1.cpp.s
+
+src/ObstacleAvoider2.o: src/ObstacleAvoider2.cpp.o
+.PHONY : src/ObstacleAvoider2.o
+
+# target to build an object file
+src/ObstacleAvoider2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider2.dir/build.make CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o
+.PHONY : src/ObstacleAvoider2.cpp.o
+
+src/ObstacleAvoider2.i: src/ObstacleAvoider2.cpp.i
+.PHONY : src/ObstacleAvoider2.i
+
+# target to preprocess a source file
+src/ObstacleAvoider2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider2.dir/build.make CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.i
+.PHONY : src/ObstacleAvoider2.cpp.i
+
+src/ObstacleAvoider2.s: src/ObstacleAvoider2.cpp.s
+.PHONY : src/ObstacleAvoider2.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider2.dir/build.make CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.s
+.PHONY : src/ObstacleAvoider2.cpp.s
 
 # Help Target
 help:
@@ -286,14 +323,18 @@ help:
 	@echo "... test"
 	@echo "... robots_world_uninstall"
 	@echo "... uninstall"
-	@echo "... obstacle_avoider"
+	@echo "... obstacle_avoider1"
+	@echo "... obstacle_avoider2"
 	@echo "... robots_world"
 	@echo "... src/MyRobotDriver.o"
 	@echo "... src/MyRobotDriver.i"
 	@echo "... src/MyRobotDriver.s"
-	@echo "... src/ObstacleAvoider.o"
-	@echo "... src/ObstacleAvoider.i"
-	@echo "... src/ObstacleAvoider.s"
+	@echo "... src/ObstacleAvoider1.o"
+	@echo "... src/ObstacleAvoider1.i"
+	@echo "... src/ObstacleAvoider1.s"
+	@echo "... src/ObstacleAvoider2.o"
+	@echo "... src/ObstacleAvoider2.i"
+	@echo "... src/ObstacleAvoider2.s"
 .PHONY : help
 
 

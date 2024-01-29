@@ -1,0 +1,12 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver::MyRobotDriver1::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:30:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ has not been declared
+   30 |       std::bind(&[01;31m[KMyRobotDriver[m[K::cmdVelCallback, this, std::placeholders::_1));
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver::MyRobotDriver2::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:70:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMyRobotDriver[m[K’ has not been declared
+   70 |       std::bind(&[01;31m[KMyRobotDriver[m[K::cmdVelCallback, this, std::placeholders::_1));
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

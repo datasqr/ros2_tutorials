@@ -1,5 +1,6 @@
 /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/my_robot_driver.xml
-/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/robots_world/obstacle_avoider
+/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/robots_world/obstacle_avoider1
+/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/robots_world/obstacle_avoider2
 /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include/robots_world/ObstacleAvoider.hpp
 /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include/robots_world/MyRobotDriver.hpp
 /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/librobots_world.so

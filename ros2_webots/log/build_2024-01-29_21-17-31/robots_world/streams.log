@@ -1,0 +1,46 @@
+[0.089s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider[0m
+[0.165s] [ 50%] Built target robots_world
+[0.178s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacle_avoider.dir/src/ObstacleAvoider.cpp.o[0m
+[9.370s] [100%] [32m[1mLinking CXX executable obstacle_avoider[0m
+[9.913s] [100%] Built target obstacle_avoider
+[9.929s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world -- -j4 -l4
+[9.988s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world
+[9.998s] -- Install configuration: ""
+[9.998s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/my_robot_driver.xml
+[9.999s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/robots_world/obstacle_avoider
+[10.007s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/robots_world/obstacle_avoider" to ""
+[10.007s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include
+[10.007s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include/robots_world
+[10.008s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include/robots_world/ObstacleAvoider.hpp
+[10.008s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/include/robots_world/MyRobotDriver.hpp
+[10.008s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/lib/librobots_world.so
+[10.008s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//launch
+[10.008s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//launch/robot_launch.py
+[10.008s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//resource
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//resource/my_robot1.urdf
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//resource/my_robot2.urdf
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//worlds
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//worlds/epuck_world.wbt
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world//worlds/my_world.wbt
+[10.009s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/library_path.sh
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/library_path.dsv
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/ament_index/resource_index/package_run_dependencies/robots_world
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/ament_index/resource_index/parent_prefix_path/robots_world
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/ament_prefix_path.sh
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/ament_prefix_path.dsv
+[10.010s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/path.sh
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/environment/path.dsv
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/local_setup.bash
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/local_setup.sh
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/local_setup.zsh
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/local_setup.dsv
+[10.011s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/package.dsv
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/ament_index/resource_index/packages/robots_world
+[10.011s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/robots_world
+[10.012s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.012s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/cmake/ament_cmake_export_libraries-extras.cmake
+[10.012s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/cmake/robots_worldConfig.cmake
+[10.012s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/cmake/robots_worldConfig-version.cmake
+[10.012s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_world/share/robots_world/package.xml
+[10.013s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_world

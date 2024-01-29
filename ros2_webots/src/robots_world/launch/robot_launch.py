@@ -17,7 +17,6 @@ def generate_launch_description():
         world=os.path.join(package_dir, 'worlds', 'my_world.wbt')
     )
 
-    #mappings1 = [('/diffdrive_controller/cmd_vel_unstamped', '/my_robot1/cmd_vel')]
     my_robot_driver1 = WebotsController(
         robot_name='my_robot1',
         parameters=[
@@ -26,7 +25,6 @@ def generate_launch_description():
         respawn=True
     )
 
-    #mappings2 = [('/diffdrive_controller/cmd_vel_unstamped', '/my_robot2/cmd_vel')]
     my_robot_driver2 = WebotsController(
         robot_name='my_robot2',
         parameters=[
@@ -35,16 +33,22 @@ def generate_launch_description():
         respawn=True
     )
 
-    obstacle_avoider = Node(
+    obstacle_avoider1 = Node(
         package='robots_world',
-        executable='obstacle_avoider',
+        executable='obstacle_avoider1',
+    )
+
+    obstacle_avoider2 = Node(
+        package='robots_world',
+        executable='obstacle_avoider2',
     )
 
     return LaunchDescription([
         webots,
         my_robot_driver1,
         my_robot_driver2,
-        obstacle_avoider,
+        obstacle_avoider1,
+        obstacle_avoider2,
         launch.actions.RegisterEventHandler(
             event_handler=launch.event_handlers.OnProcessExit(
                 target_action=webots,

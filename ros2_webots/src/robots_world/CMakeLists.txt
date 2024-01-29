@@ -20,18 +20,39 @@ pluginlib_export_plugin_description_file(webots_ros2_driver my_robot_driver.xml)
 include_directories(
   include
 )
-add_executable(obstacle_avoider
-  src/ObstacleAvoider.cpp
+
+add_executable(obstacle_avoider1
+  src/ObstacleAvoider1.cpp
 )
-ament_target_dependencies(obstacle_avoider
+
+add_executable(obstacle_avoider2
+  src/ObstacleAvoider2.cpp
+)
+
+ament_target_dependencies(
+  obstacle_avoider1
   rclcpp
   geometry_msgs
   sensor_msgs
 )
+
+ament_target_dependencies(
+  obstacle_avoider2
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
 install(TARGETS
-  obstacle_avoider
+  obstacle_avoider1
   DESTINATION lib/${PROJECT_NAME}
 )
+
+install(TARGETS
+  obstacle_avoider2
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(
   DIRECTORY include/
   DESTINATION include
