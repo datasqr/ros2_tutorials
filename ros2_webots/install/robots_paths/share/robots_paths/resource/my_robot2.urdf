@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <device reference="ds0" type="DistanceSensor">
+            <ros>
+                <topicName>/my_robot2/left_sensor</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <device reference="ds1" type="DistanceSensor">
+            <ros>
+                <topicName>/my_robot2/right_sensor</topicName>
+                <alwaysOn>true</alwaysOn>
+            </ros>
+        </device>
+        <plugin type="my_robot_driver2::MyRobotDriver2" />
+    </webots>
+</robot>

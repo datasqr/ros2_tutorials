@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:46 (file):
-  file INSTALL cannot find
-  "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/my_package/my_robot_driver.xml":
-  No such file or directory.
-
-[0m

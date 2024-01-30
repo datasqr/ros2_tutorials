@@ -1,0 +1,11 @@
+source;share/robots_paths/hook/cmake_prefix_path.ps1
+source;share/robots_paths/hook/cmake_prefix_path.dsv
+source;share/robots_paths/hook/cmake_prefix_path.sh
+source;share/robots_paths/hook/ld_library_path_lib.ps1
+source;share/robots_paths/hook/ld_library_path_lib.dsv
+source;share/robots_paths/hook/ld_library_path_lib.sh
+source;share/robots_paths/local_setup.bash
+source;share/robots_paths/local_setup.dsv
+source;share/robots_paths/local_setup.ps1
+source;share/robots_paths/local_setup.sh
+source;share/robots_paths/local_setup.zsh

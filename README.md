@@ -1,6 +1,10 @@
+# AGENDA
+* my_package - tutorial https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
+* multiple_robots - firs approach to implement two robots
+* robots_world - optimised approach to implement two robots
+* robots_paths - routs implementation for robots
 
-
-#ros2_tutorials
+# ros2_tutorials
 
 ROS2 Tutorials: https://docs.ros.org/en/iron/Tutorials.html
 
@@ -56,6 +60,10 @@ gz sim -v 4 -r visualize_lidar.sdf
 ## Webots tutorial
 
 https://docs.ros.org/en/iron/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
+
+Creating pkgs for WEBOTS:
+* ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name MyRobotDriver robots_world --dependencies rclcpp geometry_msgs webots_ros2_driver pluginlib
+
 
 ## Debugging commmands
 

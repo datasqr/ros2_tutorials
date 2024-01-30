@@ -1,8 +1,0 @@
-In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:1[m[K:
-[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/include/robots_world/MyRobotDriver.hpp:28:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
-   28 | }
-      |  [01;31m[K^[m[K
-      |  [32m[K;[m[K
-gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

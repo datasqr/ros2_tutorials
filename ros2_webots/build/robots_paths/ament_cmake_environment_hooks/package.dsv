@@ -1,0 +1,4 @@
+source;share/robots_paths/local_setup.bash
+source;share/robots_paths/local_setup.dsv
+source;share/robots_paths/local_setup.sh
+source;share/robots_paths/local_setup.zsh

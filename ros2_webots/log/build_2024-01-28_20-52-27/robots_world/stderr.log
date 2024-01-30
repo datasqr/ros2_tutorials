@@ -1,7 +1,0 @@
-[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver::MyRobotDriver::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
-[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_world/src/MyRobotDriver.cpp:18:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass my_robot_driver::MyRobotDriver[m[K’ has no member named ‘[01m[Kget_parameter[m[K’
-   18 |   std::string cmd_vel_topic = this->[01;31m[Kget_parameter[m[K("cmd_vel_topic").as_string();
-      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/robots_world.dir/build.make:76: CMakeFiles/robots_world.dir/src/MyRobotDriver.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robots_world.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

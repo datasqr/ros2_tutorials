@@ -1,9 +1,0 @@
-[31mCMake Error at CMakeLists.txt:63 (add_library):
-  add_library cannot create target "multiple_robots" because another target
-  with the same name already exists.  The existing target is a shared library
-  created in source directory
-  "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/multiple_robots".
-  See documentation for policy CMP0002 for more details.
-
-[0m
-gmake: *** [Makefile:376: cmake_check_build_system] Error 1
