@@ -16,6 +16,7 @@ TexturedBackground {
 TexturedBackgroundLight {
 }
 CircleArena {
+  radius 4.0
 }
 Robot {
   translation 0.5 0.0 0.0

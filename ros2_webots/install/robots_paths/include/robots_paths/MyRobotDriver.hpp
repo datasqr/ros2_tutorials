@@ -8,6 +8,13 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "rclcpp/rclcpp.hpp"
 
+enum RobotState {
+    MOVING_STRAIGHT,
+    TURNING,
+    FINISHED
+};
+
+
 namespace my_robot_driver1 {
 class MyRobotDriver1 : public webots_ros2_driver::PluginInterface {
 public:
@@ -30,9 +37,16 @@ private:
   double distance_covered = 0.0;
   bool moving_forward = true;
   std::chrono::steady_clock::time_point last_time;
+
+  double angle_turned = 0.0;
+  RobotState state = MOVING_STRAIGHT;
+
   void moveStraight(double speed);
 
+  void turn(double speed);
+
 };
+
 } // namespace my_robot_driver1
 
 namespace my_robot_driver2 {

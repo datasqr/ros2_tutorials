@@ -12,8 +12,10 @@
 #define HALF_DISTANCE_BETWEEN_WHEELS 0.045
 #define WHEEL_RADIUS 0.025
 
-#define ROBOT_SPEED 0.2 // meters per second
+#define ROBOT_SPEED 0.1 // meters per second
 #define LINE_LENGTH 1.0 // meters
+
+#define TURN_SPEED (M_PI / 4) // radians per second (45 degrees per second)
 
 namespace my_robot_driver1 {
 
@@ -46,29 +48,69 @@ void MyRobotDriver1::cmdVelCallback(
   cmd_vel_msg.angular = msg->angular;
 }
 
+// perpendicular lines
 void MyRobotDriver1::step() {
-  
-  auto current_time = std::chrono::steady_clock::now();
-  auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - last_time).count() / 1000.0;
-  last_time = current_time;
+    // Calculate elapsed time
+    auto current_time = std::chrono::steady_clock::now();
+    auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - last_time).count() / 1000.0;
+    last_time = current_time;
 
-  // Calculate distance covered
-  distance_covered += ROBOT_SPEED * elapsed_time;
-
-  // Check if the robot needs to change direction
-  if (distance_covered >= LINE_LENGTH) {
-      moving_forward = !moving_forward;
-      distance_covered = 0.0;
-  }
-
-  // Move the robot
-  moveStraight(moving_forward ? ROBOT_SPEED : -ROBOT_SPEED);
-
+    switch (state) {
+        case MOVING_STRAIGHT:
+            distance_covered += ROBOT_SPEED * elapsed_time;
+            if (distance_covered >= LINE_LENGTH) {
+                distance_covered = 0.0;
+                state = TURNING;
+            } else {
+                moveStraight(ROBOT_SPEED);
+            }
+            break;
+        case TURNING:
+            angle_turned += TURN_SPEED * elapsed_time;
+            if (angle_turned >= M_PI / 2) {
+                angle_turned = 0.0;
+                state = (state == TURNING) ? MOVING_STRAIGHT : FINISHED;
+            } else {
+                turn(TURN_SPEED);
+            }
+            break;
+        case FINISHED:
+            moveStraight(0.0); // Stop the robot
+            break;
+    }
 }
+
+//// strigh line
+
+// void MyRobotDriver1::step() {
+  
+//   auto current_time = std::chrono::steady_clock::now();
+//   auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - last_time).count() / 1000.0;
+//   last_time = current_time;
+
+//   // Calculate distance covered
+//   distance_covered += ROBOT_SPEED * elapsed_time;
+
+//   // Check if the robot needs to change direction
+//   if (distance_covered >= LINE_LENGTH) {
+//       moving_forward = !moving_forward;
+//       distance_covered = 0.0;
+//   }
+
+//   // Move the robot
+//   moveStraight(moving_forward ? ROBOT_SPEED : -ROBOT_SPEED);
+
+// }
 
 void MyRobotDriver1::moveStraight(double speed) {
     double motor_speed = speed / WHEEL_RADIUS;
     wb_motor_set_velocity(left_motor, motor_speed);
+    wb_motor_set_velocity(right_motor, motor_speed);
+}
+
+void MyRobotDriver1::turn(double speed) {
+    double motor_speed = speed * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS;
+    wb_motor_set_velocity(left_motor, -motor_speed);
     wb_motor_set_velocity(right_motor, motor_speed);
 }
 

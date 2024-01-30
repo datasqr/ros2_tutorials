@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[ 50%] Built target obstacle_avoider2
+[ 50%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::step()[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate[m[K’ was not declared in this scope; did you mean ‘[01m[K_xstate[m[K’?
+   58 |     switch ([01;31m[Kstate[m[K) {
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[K_xstate[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:69:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_turned[m[K’ was not declared in this scope
+   69 |             [01;31m[Kangle_turned[m[K += TURN_SPEED * elapsed_time;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable obstacle_avoider1[0m
+[ 83%] Built target obstacle_avoider1
+gmake: *** [Makefile:146: all] Error 2

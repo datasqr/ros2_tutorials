@@ -1,0 +1,18 @@
+[0.093s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[0.190s] [ 33%] Built target obstacle_avoider2
+[0.223s] [ 50%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[0.271s] [ 83%] Built target obstacle_avoider1
+[4.481s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::step()[m[K’:
+[4.482s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:64:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate[m[K’ was not declared in this scope; did you mean ‘[01m[K_xstate[m[K’?
+[4.482s]    64 |     switch ([01;31m[Kstate[m[K) {
+[4.482s]       |             [01;31m[K^~~~~[m[K
+[4.482s]       |             [32m[K_xstate[m[K
+[4.492s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:75:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_turned[m[K’ was not declared in this scope
+[4.492s]    75 |             [01;31m[Kangle_turned[m[K += TURN_SPEED * elapsed_time;
+[4.492s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[7.918s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[7.918s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[7.918s] gmake: *** [Makefile:146: all] Error 2
+[7.921s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
