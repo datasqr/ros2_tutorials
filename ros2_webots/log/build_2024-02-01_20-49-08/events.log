@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000490] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000792] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.000979] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.001089] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.099737] (-) TimerEvent: {}
+[0.120987] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.122103] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.123439] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '2294'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72520'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:35570'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/2480,unix/mz:/tmp/.ICE-unix/2480'), ('INVOCATION_ID', 'ee552301262147bd9e3bfefa436ddd3c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MWSII2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db05f9a6-7933-465a-bd40-d2400be874c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[0.195866] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robots_paths\x1b[0m\n'}
+[0.199868] (-) TimerEvent: {}
+[0.222906] (robots_paths) StdoutLine: {'line': b'[ 33%] Built target obstacle_avoider2\n'}
+[0.224905] (robots_paths) StdoutLine: {'line': b'[ 66%] Built target obstacle_avoider1\n'}
+[0.237439] (robots_paths) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o\x1b[0m\n'}
+[0.300008] (-) TimerEvent: {}
+[0.400347] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.601001] (-) TimerEvent: {}
+[0.701337] (-) TimerEvent: {}
+[0.801662] (-) TimerEvent: {}
+[0.902001] (-) TimerEvent: {}
+[1.002381] (-) TimerEvent: {}
+[1.102711] (-) TimerEvent: {}
+[1.203003] (-) TimerEvent: {}
+[1.303326] (-) TimerEvent: {}
+[1.403654] (-) TimerEvent: {}
+[1.503970] (-) TimerEvent: {}
+[1.604294] (-) TimerEvent: {}
+[1.704604] (-) TimerEvent: {}
+[1.804926] (-) TimerEvent: {}
+[1.905252] (-) TimerEvent: {}
+[2.005580] (-) TimerEvent: {}
+[2.105916] (-) TimerEvent: {}
+[2.206270] (-) TimerEvent: {}
+[2.306617] (-) TimerEvent: {}
+[2.406936] (-) TimerEvent: {}
+[2.507276] (-) TimerEvent: {}
+[2.607578] (-) TimerEvent: {}
+[2.707928] (-) TimerEvent: {}
+[2.808301] (-) TimerEvent: {}
+[2.908762] (-) TimerEvent: {}
+[3.009109] (-) TimerEvent: {}
+[3.109459] (-) TimerEvent: {}
+[3.209804] (-) TimerEvent: {}
+[3.310147] (-) TimerEvent: {}
+[3.410534] (-) TimerEvent: {}
+[3.510935] (-) TimerEvent: {}
+[3.611376] (-) TimerEvent: {}
+[3.711795] (-) TimerEvent: {}
+[3.812394] (-) TimerEvent: {}
+[3.912879] (-) TimerEvent: {}
+[4.013424] (-) TimerEvent: {}
+[4.113871] (-) TimerEvent: {}
+[4.214283] (-) TimerEvent: {}
+[4.243283] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:1\x1b[m\x1b[K:\n'}
+[4.243719] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/MyRobotDriver.hpp:36:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRobotState\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.243981] (robots_paths) StderrLine: {'line': b'   36 |   \x1b[01;31m\x1b[KRobotState\x1b[m\x1b[K state = MOVING_STRAIGHT;\n'}
+[4.244187] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.269177] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void my_robot_driver1::MyRobotDriver1::step()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.269459] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:65:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[K_xstate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.269623] (robots_paths) StderrLine: {'line': b'   65 |     switch (\x1b[01;31m\x1b[Kstate\x1b[m\x1b[K) {\n'}
+[4.269774] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.269920] (robots_paths) StderrLine: {'line': b'      |             \x1b[32m\x1b[K_xstate\x1b[m\x1b[K\n'}
+[4.314384] (-) TimerEvent: {}
+[4.414748] (-) TimerEvent: {}
+[4.515093] (-) TimerEvent: {}
+[4.615449] (-) TimerEvent: {}
+[4.715785] (-) TimerEvent: {}
+[4.816134] (-) TimerEvent: {}
+[4.916538] (-) TimerEvent: {}
+[5.016876] (-) TimerEvent: {}
+[5.117226] (-) TimerEvent: {}
+[5.217570] (-) TimerEvent: {}
+[5.317918] (-) TimerEvent: {}
+[5.418263] (-) TimerEvent: {}
+[5.518630] (-) TimerEvent: {}
+[5.618973] (-) TimerEvent: {}
+[5.719316] (-) TimerEvent: {}
+[5.819651] (-) TimerEvent: {}
+[5.920015] (-) TimerEvent: {}
+[6.020352] (-) TimerEvent: {}
+[6.120696] (-) TimerEvent: {}
+[6.221035] (-) TimerEvent: {}
+[6.321383] (-) TimerEvent: {}
+[6.421728] (-) TimerEvent: {}
+[6.522076] (-) TimerEvent: {}
+[6.622420] (-) TimerEvent: {}
+[6.722760] (-) TimerEvent: {}
+[6.823126] (-) TimerEvent: {}
+[6.923487] (-) TimerEvent: {}
+[7.023851] (-) TimerEvent: {}
+[7.124222] (-) TimerEvent: {}
+[7.224572] (-) TimerEvent: {}
+[7.324912] (-) TimerEvent: {}
+[7.406558] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1\n'}
+[7.406886] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2\n'}
+[7.407229] (robots_paths) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.410214] (robots_paths) CommandEnded: {'returncode': 2}
+[7.425021] (-) TimerEvent: {}
+[7.525556] (-) TimerEvent: {}
+[7.567120] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 2}
+[7.577712] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[0.094s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.177s] [ 33%] Built target obstacle_avoider2
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.190s] [ 66%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[4.149s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::step()[m[K’:
+[4.149s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:64:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTURNING_180[m[K’ was not declared in this scope; did you mean ‘[01m[KTURNING[m[K’?
+[4.149s]    64 |                 state = [01;31m[KTURNING_180[m[K;
+[4.150s]       |                         [01;31m[K^~~~~~~~~~~[m[K
+[4.150s]       |                         [32m[KTURNING[m[K
+[4.162s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:69:14:[m[K [01;31m[Kerror: [m[K‘[01m[KTURNING_180[m[K’ was not declared in this scope; did you mean ‘[01m[KTURNING[m[K’?
+[4.162s]    69 |         case [01;31m[KTURNING_180[m[K:
+[4.162s]       |              [01;31m[K^~~~~~~~~~~[m[K
+[4.162s]       |              [32m[KTURNING[m[K
+[4.180s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:73:38:[m[K [01;31m[Kerror: [m[K‘[01m[KSWITCHING_LINE[m[K’ was not declared in this scope
+[4.180s]    73 |                 state = first_line ? [01;31m[KSWITCHING_LINE[m[K : MOVING_STRAIGHT;
+[4.180s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.195s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:79:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSWITCHING_LINE[m[K’ was not declared in this scope
+[4.196s]    79 |         case [01;31m[KSWITCHING_LINE[m[K:
+[4.196s]       |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.198s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K At global scope:
+[4.199s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:116:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvvoid[m[K’ does not name a type; did you mean ‘[01m[Kvoid[m[K’?
+[4.199s]   116 | [01;31m[Kvvoid[m[K MyRobotDriver1::moveStraight(double speed) {
+[4.199s]       | [01;31m[K^~~~~[m[K
+[4.199s]       | [32m[Kvoid[m[K
+[8.082s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[8.082s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[8.082s] gmake[1]: *** Waiting for unfinished jobs....
+[10.593s] [ 83%] [32m[1mLinking CXX executable obstacle_avoider1[0m
+[11.127s] [ 83%] Built target obstacle_avoider1
+[11.129s] gmake: *** [Makefile:146: all] Error 2
+[11.132s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

@@ -1,0 +1,7 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:116:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvvoid[m[K’ does not name a type; did you mean ‘[01m[Kvoid[m[K’?
+  116 | [01;31m[Kvvoid[m[K MyRobotDriver1::moveStraight(double speed) {
+      | [01;31m[K^~~~~[m[K
+      | [32m[Kvoid[m[K
+gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

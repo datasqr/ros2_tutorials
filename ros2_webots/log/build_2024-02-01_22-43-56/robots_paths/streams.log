@@ -1,0 +1,16 @@
+[0.122s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[0.222s] [ 33%] Built target obstacle_avoider2
+[0.222s] [ 66%] Built target obstacle_avoider1
+[0.234s] [ 83%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[4.323s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[4.323s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:41:31:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+[4.323s]    41 |   double turn_circumference = [01;31m[KPI[m[K * HALF_DISTANCE_BETWEEN_WHEELS * 2; // Circumference of the circle traced by the wheels during a turn
+[4.323s]       |                               [01;31m[K^~[m[K
+[4.336s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:42:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTURN_ANGLE_RAD[m[K’ was not declared in this scope
+[4.336s]    42 |   wheel_turn_required = [01;31m[KTURN_ANGLE_RAD[m[K * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS; // Rotation needed for one wheel to turn 180 degrees
+[4.336s]       |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.428s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[7.429s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[7.429s] gmake: *** [Makefile:146: all] Error 2
+[7.432s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

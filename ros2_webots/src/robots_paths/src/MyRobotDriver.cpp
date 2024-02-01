@@ -15,11 +15,13 @@
 #define ROBOT_SPEED 0.1 // meters per second
 #define LINE_LENGTH 1.0 // meters
 
-#define TURN_SPEED (M_PI / 4) // radians per second (45 degrees per second)
+#define PI 3.14159265358979323846 // Value of pi for angle calculation
+// Angular velocity for turning, in radians per second
+#define TURN_ANGULAR_VELOCITY (2.1 * ROBOT_SPEED / (2 * HALF_DISTANCE_BETWEEN_WHEELS))
+
 
 namespace my_robot_driver1 {
 
-// Robot 1
 void MyRobotDriver1::init(
     webots_ros2_driver::WebotsNode *node,
     std::unordered_map<std::string, std::string> &parameters) {
@@ -37,82 +39,45 @@ void MyRobotDriver1::init(
       "/cmd_vel1", rclcpp::SensorDataQoS().reliable(),
       std::bind(&MyRobotDriver1::cmdVelCallback, this, std::placeholders::_1));
 
-  // New
-  last_time = std::chrono::steady_clock::now();
-
 }
 
 void MyRobotDriver1::cmdVelCallback(
-    const geometry_msgs::msg::Twist::SharedPtr msg) {
+  const geometry_msgs::msg::Twist::SharedPtr msg) {
   cmd_vel_msg.linear = msg->linear;
   cmd_vel_msg.angular = msg->angular;
 }
 
-// perpendicular lines
 void MyRobotDriver1::step() {
-    // Calculate elapsed time
-    auto current_time = std::chrono::steady_clock::now();
-    auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - last_time).count() / 1000.0;
-    last_time = current_time;
-
-    switch (state) {
-        case MOVING_STRAIGHT:
-            distance_covered += ROBOT_SPEED * elapsed_time;
-            if (distance_covered >= LINE_LENGTH) {
-                distance_covered = 0.0;
-                state = TURNING;
+        double time_step_seconds = wb_robot_get_basic_time_step() / 1000.0;
+        switch (state) {
+            case MOVING_FORWARD:
+                if (distance_covered < LINE_LENGTH) {
+                    setVelocity(ROBOT_SPEED, ROBOT_SPEED);
+                    distance_covered += ROBOT_SPEED * time_step_seconds;
+                } else {
+                    state = TURNING;
+                    total_turn_angle = 0.0; // Reset turn angle for the turn
+                }
+                break;
+            case TURNING:
+            if (total_turn_angle < M_PI) { // Complete a 180 degree turn
+                double left_wheel_speed = -ROBOT_SPEED;
+                double right_wheel_speed = ROBOT_SPEED;
+                setVelocity(left_wheel_speed, right_wheel_speed);
+                total_turn_angle += TURN_ANGULAR_VELOCITY * time_step_seconds;
             } else {
-                moveStraight(ROBOT_SPEED);
+                state = MOVING_FORWARD;
+                distance_covered = 0.0; // Reset distance for the next leg
             }
             break;
-        case TURNING:
-            angle_turned += TURN_SPEED * elapsed_time;
-            if (angle_turned >= M_PI / 2) {
-                angle_turned = 0.0;
-                state = (state == TURNING) ? MOVING_STRAIGHT : FINISHED;
-            } else {
-                turn(TURN_SPEED);
-            }
-            break;
-        case FINISHED:
-            moveStraight(0.0); // Stop the robot
-            break;
-    }
+          }
 }
 
-//// strigh line
-
-// void MyRobotDriver1::step() {
-  
-//   auto current_time = std::chrono::steady_clock::now();
-//   auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - last_time).count() / 1000.0;
-//   last_time = current_time;
-
-//   // Calculate distance covered
-//   distance_covered += ROBOT_SPEED * elapsed_time;
-
-//   // Check if the robot needs to change direction
-//   if (distance_covered >= LINE_LENGTH) {
-//       moving_forward = !moving_forward;
-//       distance_covered = 0.0;
-//   }
-
-//   // Move the robot
-//   moveStraight(moving_forward ? ROBOT_SPEED : -ROBOT_SPEED);
-
-// }
-
-void MyRobotDriver1::moveStraight(double speed) {
-    double motor_speed = speed / WHEEL_RADIUS;
-    wb_motor_set_velocity(left_motor, motor_speed);
-    wb_motor_set_velocity(right_motor, motor_speed);
+void MyRobotDriver1::setVelocity(double left_speed, double right_speed) {
+        wb_motor_set_velocity(left_motor, left_speed / WHEEL_RADIUS);
+        wb_motor_set_velocity(right_motor, right_speed / WHEEL_RADIUS);
 }
 
-void MyRobotDriver1::turn(double speed) {
-    double motor_speed = speed * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS;
-    wb_motor_set_velocity(left_motor, -motor_speed);
-    wb_motor_set_velocity(right_motor, motor_speed);
-}
 
 }; // namespace my_robot_driver1
 

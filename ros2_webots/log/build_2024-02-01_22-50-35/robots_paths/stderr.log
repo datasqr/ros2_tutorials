@@ -1,0 +1,7 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:40:25:[m[K [01;31m[Kerror: [m[K‘[01m[KTURN_ANGLE_RAD[m[K’ was not declared in this scope
+   40 |   wheel_turn_required = [01;31m[KTURN_ANGLE_RAD[m[K * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS; // Rotation needed for one wheel to turn 180 degrees
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:20:6:[m[K [01;31m[Kerror: [m[Kmultiple definition of ‘[01m[Kenum RobotState[m[K’
+   20 | enum [01;31m[KRobotState[m[K {
+      |      [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/MyRobotDriver.hpp:12:6:[m[K [01;36m[Knote: [m[Kprevious definition here
+   12 | enum [01;36m[KRobotState[m[K {
+      |      [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

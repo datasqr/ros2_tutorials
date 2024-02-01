@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000395] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000432] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.000465] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.000758] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.090698] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.092547] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.092600] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '2294'), ('SYSTEMD_EXEC_PID', '2540'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '72520'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:35570'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/2480,unix/mz:/tmp/.ICE-unix/2480'), ('INVOCATION_ID', 'ee552301262147bd9e3bfefa436ddd3c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MWSII2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:db05f9a6-7933-465a-bd40-d2400be874c9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[0.099605] (-) TimerEvent: {}
+[0.160781] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robots_paths\x1b[0m\n'}
+[0.184962] (robots_paths) StdoutLine: {'line': b'[ 33%] Built target obstacle_avoider2\n'}
+[0.188333] (robots_paths) StdoutLine: {'line': b'[ 66%] Built target obstacle_avoider1\n'}
+[0.199731] (-) TimerEvent: {}
+[0.208170] (robots_paths) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o\x1b[0m\n'}
+[0.299838] (-) TimerEvent: {}
+[0.400266] (-) TimerEvent: {}
+[0.500603] (-) TimerEvent: {}
+[0.600930] (-) TimerEvent: {}
+[0.701272] (-) TimerEvent: {}
+[0.801618] (-) TimerEvent: {}
+[0.901923] (-) TimerEvent: {}
+[1.002278] (-) TimerEvent: {}
+[1.102570] (-) TimerEvent: {}
+[1.202889] (-) TimerEvent: {}
+[1.303208] (-) TimerEvent: {}
+[1.403556] (-) TimerEvent: {}
+[1.503895] (-) TimerEvent: {}
+[1.604235] (-) TimerEvent: {}
+[1.704585] (-) TimerEvent: {}
+[1.804954] (-) TimerEvent: {}
+[1.905298] (-) TimerEvent: {}
+[2.005654] (-) TimerEvent: {}
+[2.105993] (-) TimerEvent: {}
+[2.206342] (-) TimerEvent: {}
+[2.306671] (-) TimerEvent: {}
+[2.407039] (-) TimerEvent: {}
+[2.507413] (-) TimerEvent: {}
+[2.607794] (-) TimerEvent: {}
+[2.708161] (-) TimerEvent: {}
+[2.808519] (-) TimerEvent: {}
+[2.908881] (-) TimerEvent: {}
+[3.009313] (-) TimerEvent: {}
+[3.109659] (-) TimerEvent: {}
+[3.209993] (-) TimerEvent: {}
+[3.310327] (-) TimerEvent: {}
+[3.410668] (-) TimerEvent: {}
+[3.510988] (-) TimerEvent: {}
+[3.611329] (-) TimerEvent: {}
+[3.711666] (-) TimerEvent: {}
+[3.779445] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void my_robot_driver1::MyRobotDriver1::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.779669] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:19:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPI\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.779763] (robots_paths) StderrLine: {'line': b'   19 | #define TURN_ANGLE_RAD \x1b[01;31m\x1b[KPI\x1b[m\x1b[K // 180 degrees turn in radians\n'}
+[3.779845] (robots_paths) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.779922] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:42:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_ANGLE_RAD\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.780008] (robots_paths) StderrLine: {'line': b'   42 |   wheel_turn_required = \x1b[01;36m\x1b[KTURN_ANGLE_RAD\x1b[m\x1b[K * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS; // Rotation needed for one wheel to turn 180 degrees\n'}
+[3.780087] (robots_paths) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.793583] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void my_robot_driver1::MyRobotDriver1::step()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.793781] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:68:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTURN_SPEED\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.793870] (robots_paths) StderrLine: {'line': b'   68 |                     setVelocity(-\x1b[01;31m\x1b[KTURN_SPEED\x1b[m\x1b[K, TURN_SPEED);\n'}
+[3.793951] (robots_paths) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.811799] (-) TimerEvent: {}
+[3.912127] (-) TimerEvent: {}
+[4.012451] (-) TimerEvent: {}
+[4.112828] (-) TimerEvent: {}
+[4.213193] (-) TimerEvent: {}
+[4.313572] (-) TimerEvent: {}
+[4.414040] (-) TimerEvent: {}
+[4.514440] (-) TimerEvent: {}
+[4.614801] (-) TimerEvent: {}
+[4.715173] (-) TimerEvent: {}
+[4.815548] (-) TimerEvent: {}
+[4.915907] (-) TimerEvent: {}
+[5.016279] (-) TimerEvent: {}
+[5.116638] (-) TimerEvent: {}
+[5.216982] (-) TimerEvent: {}
+[5.317337] (-) TimerEvent: {}
+[5.417691] (-) TimerEvent: {}
+[5.518039] (-) TimerEvent: {}
+[5.618416] (-) TimerEvent: {}
+[5.718776] (-) TimerEvent: {}
+[5.819089] (-) TimerEvent: {}
+[5.919439] (-) TimerEvent: {}
+[6.019786] (-) TimerEvent: {}
+[6.120148] (-) TimerEvent: {}
+[6.220497] (-) TimerEvent: {}
+[6.320848] (-) TimerEvent: {}
+[6.421193] (-) TimerEvent: {}
+[6.521543] (-) TimerEvent: {}
+[6.621895] (-) TimerEvent: {}
+[6.722291] (-) TimerEvent: {}
+[6.773183] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1\n'}
+[6.773553] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2\n'}
+[6.773846] (robots_paths) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.776749] (robots_paths) CommandEnded: {'returncode': 2}
+[6.822390] (-) TimerEvent: {}
+[6.922952] (-) TimerEvent: {}
+[6.937125] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 2}
+[6.948818] (-) EventReactorShutdown: {}

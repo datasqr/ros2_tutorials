@@ -1,0 +1,13 @@
+[0.090s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[0.171s] [ 33%] Built target obstacle_avoider2
+[0.182s] [ 66%] Built target obstacle_avoider1
+[0.196s] [ 83%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[3.684s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:116:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvvoid[m[K’ does not name a type; did you mean ‘[01m[Kvoid[m[K’?
+[3.685s]   116 | [01;31m[Kvvoid[m[K MyRobotDriver1::moveStraight(double speed) {
+[3.685s]       | [01;31m[K^~~~~[m[K
+[3.685s]       | [32m[Kvoid[m[K
+[6.668s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[6.668s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[6.668s] gmake: *** [Makefile:146: all] Error 2
+[6.671s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

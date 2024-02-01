@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[ 33%] Built target obstacle_avoider2
+[ 66%] Built target obstacle_avoider1
+[ 83%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:19:24:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+   19 | #define TURN_ANGLE_RAD [01;31m[KPI[m[K // 180 degrees turn in radians
+      |                        [01;31m[K^~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:42:25:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTURN_ANGLE_RAD[m[K’
+   42 |   wheel_turn_required = [01;36m[KTURN_ANGLE_RAD[m[K * HALF_DISTANCE_BETWEEN_WHEELS / WHEEL_RADIUS; // Rotation needed for one wheel to turn 180 degrees
+      |                         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_driver1::MyRobotDriver1::step()[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:68:34:[m[K [01;31m[Kerror: [m[K‘[01m[KTURN_SPEED[m[K’ was not declared in this scope
+   68 |                     setVelocity(-[01;31m[KTURN_SPEED[m[K, TURN_SPEED);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
