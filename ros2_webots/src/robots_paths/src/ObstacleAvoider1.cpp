@@ -26,25 +26,38 @@ void ObstacleAvoider1::leftSensorCallback(
   left_sensor_value = msg->range;
 }
 
+// void ObstacleAvoider1::rightSensorCallback(
+//     const sensor_msgs::msg::Range::SharedPtr msg) {
+//   right_sensor_value = msg->range;
+
+//   auto command_message = std::make_unique<geometry_msgs::msg::Twist>();
+
+//   command_message->linear.x = 0.1;
+
+//   if (left_sensor_value < 0.9 * MAX_RANGE ||
+//       right_sensor_value < 0.9 * MAX_RANGE) {
+//     command_message->angular.z = -2.0;
+//   }
+
+//   publisher_->publish(std::move(command_message));
+// }
+
 void ObstacleAvoider1::rightSensorCallback(
     const sensor_msgs::msg::Range::SharedPtr msg) {
-    right_sensor_value = msg->range;
+  right_sensor_value = msg->range;
 
-    if (left_sensor_value < MAX_RANGE || right_sensor_value < MAX_RANGE) {
-        auto stop_message = std::make_unique<geometry_msgs::msg::Twist>();
-        stop_message->linear.x = 0.0;
-        stop_message->angular.z = 0.0;
-        publisher_->publish(std::move(stop_message));
+  auto command_message = std::make_unique<geometry_msgs::msg::Twist>();
 
-        // Stop for 2 seconds
-        rclcpp::sleep_for(std::chrono::seconds(2));
+  command_message->linear.x = 0.1;
 
-        // Resume moving
-        auto resume_message = std::make_unique<geometry_msgs::msg::Twist>();
-        resume_message->linear.x = 0.1; // Resume with some speed
-        publisher_->publish(std::move(resume_message));
-    }
+  if (left_sensor_value < 0.9 * MAX_RANGE ||
+      right_sensor_value < 0.9 * MAX_RANGE) {
+    command_message->angular.z = -2.0;
+  }
+
+  publisher_->publish(std::move(command_message));
 }
+
 
 int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);

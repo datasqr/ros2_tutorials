@@ -23,6 +23,10 @@ private:
   double left_sensor_value{0.0};
   double right_sensor_value{0.0};
 
+  bool is_stopped = false;
+  // void checkAndReact();
+  rclcpp::TimerBase::SharedPtr timer_;
+
 };
 
 class ObstacleAvoider2 : public rclcpp::Node {

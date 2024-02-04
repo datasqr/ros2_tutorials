@@ -1,0 +1,30 @@
+[0.103s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[0.195s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.199s] [ 33%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.213s] [ 66%] Built target robots_paths
+[3.631s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[3.631s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckAndReact[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.631s]    27 |   [01;31m[KcheckAndReact[m[K();
+[3.632s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.649s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:37:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::checkAndReact()[m[K’
+[3.649s]    37 | void [01;31m[KObstacleAvoider1[m[K::checkAndReact() {
+[3.649s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.649s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[3.649s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint ObstacleAvoider1::checkAndReact()[m[K’
+[3.649s]    27 |   [01;36m[KcheckAndReact[m[K();
+[3.649s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.650s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+[3.650s]     9 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+[3.650s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.658s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[3.658s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckAndReact[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.658s]    27 |   [01;31m[KcheckAndReact[m[K();
+[3.658s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[6.338s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[6.338s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[6.338s] gmake[1]: *** Waiting for unfinished jobs....
+[6.455s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[6.455s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[6.455s] gmake: *** [Makefile:146: all] Error 2
+[6.458s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

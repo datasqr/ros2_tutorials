@@ -17,7 +17,7 @@
 
 #define PI 3.14159265358979323846 // Value of pi for angle calculation
 // Angular velocity for turning, in radians per second
-#define TURN_ANGULAR_VELOCITY (2.1 * ROBOT_SPEED / (2 * HALF_DISTANCE_BETWEEN_WHEELS))
+#define TURN_ANGULAR_VELOCITY (2.2 * ROBOT_SPEED / (2 * HALF_DISTANCE_BETWEEN_WHEELS))
 
 
 namespace my_robot_driver1 {

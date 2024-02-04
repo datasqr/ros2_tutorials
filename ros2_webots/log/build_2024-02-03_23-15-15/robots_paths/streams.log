@@ -1,0 +1,23 @@
+[0.096s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.209s] [ 33%] Built target robots_paths
+[0.214s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.235s] [ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[4.084s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:62:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::sensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’
+[4.084s]    62 | void [01;31m[KObstacleAvoider1[m[K::sensorCallback(const sensor_msgs::msg::Range::SharedPtr msg) {
+[4.084s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.084s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[4.084s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:29:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ObstacleAvoider1::sensorCallback()[m[K’
+[4.085s]    29 |   void [01;36m[KsensorCallback[m[K();
+[4.085s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.085s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+[4.085s]     9 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+[4.085s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[7.040s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[7.040s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[7.040s] gmake[1]: *** Waiting for unfinished jobs....
+[10.308s] [ 83%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[10.898s] [ 83%] Built target obstacle_avoider2
+[10.900s] gmake: *** [Makefile:146: all] Error 2
+[10.903s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[ 50%] Built target robots_paths
+[ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In constructor ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[KleftSensorCallback[m[K’ is not a member of ‘[01m[KObstacleAvoider1[m[K’
+   17 |       std::bind(&ObstacleAvoider1::[01;31m[KleftSensorCallback[m[K, this,
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:22:36:[m[K [01;31m[Kerror: [m[K‘[01m[KrightSensorCallback[m[K’ is not a member of ‘[01m[KObstacleAvoider1[m[K’
+   22 |       std::bind(&ObstacleAvoider1::[01;31m[KrightSensorCallback[m[K, this,
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K At global scope:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:62:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::sensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’
+   62 | void [01;31m[KObstacleAvoider1[m[K::sensorCallback(const sensor_msgs::msg::Range::SharedPtr msg) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:29:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ObstacleAvoider1::sensorCallback()[m[K’
+   29 |   void [01;36m[KsensorCallback[m[K();
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+    9 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[ 83%] Built target obstacle_avoider2
+gmake: *** [Makefile:146: all] Error 2

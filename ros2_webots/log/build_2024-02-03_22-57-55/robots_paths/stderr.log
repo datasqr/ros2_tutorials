@@ -1,0 +1,24 @@
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckAndReact[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   27 |   [01;31m[KcheckAndReact[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:37:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::checkAndReact()[m[K’
+   37 | void [01;31m[KObstacleAvoider1[m[K::checkAndReact() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint ObstacleAvoider1::checkAndReact()[m[K’
+   27 |   [01;36m[KcheckAndReact[m[K();
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+    9 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckAndReact[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   27 |   [01;31m[KcheckAndReact[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

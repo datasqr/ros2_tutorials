@@ -1,0 +1,15 @@
+[0.087s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.154s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.180s] [ 33%] Built target robots_paths
+[0.194s] [ 66%] Built target obstacle_avoider2
+[0.206s] [ 83%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[4.009s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::checkAndReact()[m[K’:
+[4.009s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:48:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[4.009s]    48 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[4.009s]       |       [01;31m[K^~~~~~[m[K
+[4.009s]       |       [32m[Ktimer_t[m[K
+[6.643s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[6.644s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[6.644s] gmake: *** [Makefile:146: all] Error 2
+[6.648s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
