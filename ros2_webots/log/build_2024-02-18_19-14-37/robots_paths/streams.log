@@ -1,0 +1,14 @@
+[0.093s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.192s] [ 33%] Built target obstacle_avoider2
+[0.201s] [ 66%] Built target robots_paths
+[0.207s] [ 83%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[3.886s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::turn180()[m[K’:
+[3.886s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:95:7:[m[K [01;31m[Kerror: [m[K‘[01m[KCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[3.886s]    95 |       [01;31m[KCLCPP_INFO[m[K(this->get_logger(), "duration_since_start_turning: %i", duration_since_start_turning);
+[3.886s]       |       [01;31m[K^~~~~~~~~~[m[K
+[3.887s]       |       [32m[KRCLCPP_INFO[m[K
+[6.763s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[6.764s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[6.765s] gmake: *** [Makefile:146: all] Error 2
+[6.768s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

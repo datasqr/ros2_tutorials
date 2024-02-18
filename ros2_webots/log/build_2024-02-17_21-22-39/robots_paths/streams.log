@@ -1,0 +1,14 @@
+[0.101s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.242s] [ 33%] Built target obstacle_avoider2
+[0.252s] [ 66%] Built target robots_paths
+[0.273s] [ 83%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[4.692s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateRobotBehavior()[m[K’:
+[4.692s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kommand_message[m[K’ was not declared in this scope; did you mean ‘[01m[Kcommand_message[m[K’?
+[4.692s]   103 |     [01;31m[Kommand_message[m[K->linear.x = 0.1;
+[4.692s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.692s]       |     [32m[Kcommand_message[m[K
+[7.497s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[7.497s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[7.497s] gmake: *** [Makefile:146: all] Error 2
+[7.501s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

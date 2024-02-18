@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[ 66%] Built target obstacle_avoider2
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:60:30:[m[K [01;31m[Kerror: [m[K‘[01m[KSTOP_TIME[m[K’ was not declared in this scope
+   60 |         std::chrono::seconds([01;31m[KSTOP_TIME[m[K), [this]() {
+      |                              [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX shared library librobots_paths.so[0m
+[ 83%] Built target robots_paths
+gmake: *** [Makefile:146: all] Error 2

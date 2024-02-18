@@ -1,0 +1,822 @@
+[0.000000] (-) TimerEvent: {}
+[0.000895] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000981] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001104] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.001280] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.001316] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.094796] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.095849] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.096670] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '22229'), ('SYSTEMD_EXEC_PID', '22454'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25598'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:486667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/22397,unix/mz:/tmp/.ICE-unix/22397'), ('INVOCATION_ID', '899a6021b3ba4d2889d8d93f9a7f418a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZU6MJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c83984fd-f360-44b5-8e41-f7e4904074cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[0.099923] (-) TimerEvent: {}
+[0.200639] (-) TimerEvent: {}
+[0.206089] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider1\x1b[0m\n'}
+[0.291845] (robots_paths) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o\x1b[0m\n'}
+[0.300756] (-) TimerEvent: {}
+[0.356932] (robots_paths) StdoutLine: {'line': b'[ 50%] Built target obstacle_avoider2\n'}
+[0.394657] (robots_paths) StdoutLine: {'line': b'[ 83%] Built target robots_paths\n'}
+[0.400858] (-) TimerEvent: {}
+[0.501224] (-) TimerEvent: {}
+[0.601685] (-) TimerEvent: {}
+[0.701965] (-) TimerEvent: {}
+[0.802314] (-) TimerEvent: {}
+[0.902625] (-) TimerEvent: {}
+[1.002933] (-) TimerEvent: {}
+[1.103261] (-) TimerEvent: {}
+[1.203666] (-) TimerEvent: {}
+[1.303995] (-) TimerEvent: {}
+[1.404352] (-) TimerEvent: {}
+[1.504771] (-) TimerEvent: {}
+[1.605134] (-) TimerEvent: {}
+[1.705510] (-) TimerEvent: {}
+[1.805830] (-) TimerEvent: {}
+[1.906303] (-) TimerEvent: {}
+[2.006663] (-) TimerEvent: {}
+[2.107027] (-) TimerEvent: {}
+[2.207396] (-) TimerEvent: {}
+[2.307678] (-) TimerEvent: {}
+[2.408100] (-) TimerEvent: {}
+[2.508443] (-) TimerEvent: {}
+[2.608790] (-) TimerEvent: {}
+[2.709102] (-) TimerEvent: {}
+[2.809454] (-) TimerEvent: {}
+[2.909800] (-) TimerEvent: {}
+[3.010147] (-) TimerEvent: {}
+[3.110477] (-) TimerEvent: {}
+[3.210801] (-) TimerEvent: {}
+[3.311126] (-) TimerEvent: {}
+[3.411502] (-) TimerEvent: {}
+[3.512075] (-) TimerEvent: {}
+[3.612400] (-) TimerEvent: {}
+[3.712783] (-) TimerEvent: {}
+[3.813185] (-) TimerEvent: {}
+[3.903007] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.903331] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.903489] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.903643] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.903771] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.903907] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.904051] (robots_paths) StderrLine: {'line': b'/usr/include/c++/11/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (ObstacleAvoider1::*)(double), ObstacleAvoider1*>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.904188] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:768:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (ObstacleAvoider1::*)(double), ObstacleAvoider1*>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.904348] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (ObstacleAvoider1::*)(double); _BoundArgs = {ObstacleAvoider1*}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.904493] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:34:61:\x1b[m\x1b[K   required from here\n'}
+[3.904652] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[3.904798] (robots_paths) StderrLine: {'line': b'  755 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[3.905003] (robots_paths) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[3.905194] (robots_paths) StderrLine: {'line': b'  756 | \x1b[01;31m\x1b[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[3.905327] (robots_paths) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.905473] (robots_paths) StderrLine: {'line': b'  757 | \x1b[01;31m\x1b[K                    : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[3.905675] (robots_paths) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.905834] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:756:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K(false ? (1 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (1 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\x1b[m\x1b[K\xe2\x80\x99 evaluates to false\n'}
+[3.906198] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.906489] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:34:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider1::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (ObstacleAvoider1::*)(double), ObstacleAvoider1*>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.906640] (robots_paths) StderrLine: {'line': b'   34 |   timer_distance_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(100ms, std::bind(&ObstacleAvoider1::updateDistance, this))\x1b[m\x1b[K;\n'}
+[3.906776] (robots_paths) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.906905] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611\x1b[m\x1b[K,\n'}
+[3.907035] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.907197] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.907332] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.907460] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.907589] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.907727] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.907880] (robots_paths) StderrLine: {'line': b'  110 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[3.908005] (robots_paths) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.908127] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.908251] (robots_paths) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))(double)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.908386] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:34:44:\x1b[m\x1b[K   required from here\n'}
+[3.908513] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.908650] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.909083] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[3.911058] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.911488] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:50:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid ObstacleAvoider1::updateDistance()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.911654] (robots_paths) StderrLine: {'line': b'   50 | void \x1b[01;31m\x1b[KObstacleAvoider1\x1b[m\x1b[K::updateDistance() {\n'}
+[3.911779] (robots_paths) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.911910] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.912053] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:49:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid ObstacleAvoider1::updateDistance(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.912179] (robots_paths) StderrLine: {'line': b'   49 |   void \x1b[01;36m\x1b[KupdateDistance\x1b[m\x1b[K(double);\n'}
+[3.912304] (robots_paths) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.912418] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:11:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ObstacleAvoider1\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[3.912538] (robots_paths) StderrLine: {'line': b'   11 | class \x1b[01;36m\x1b[KObstacleAvoider1\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[3.912655] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.913264] (-) TimerEvent: {}
+[3.923309] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ObstacleAvoider1::turn180()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.923787] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[3.924316] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || \x1b[32m\x1b[Kturn_start_time_\x1b[m\x1b[K \x1b[01;31m\x1b[K<\x1b[m\x1b[K TURN_DURATION){\n'}
+[3.928011] (robots_paths) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.928222] (robots_paths) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.928391] (robots_paths) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[Krclcpp::Time\x1b[m\x1b[K\n'}
+[3.928555] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[3.928754] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38\x1b[m\x1b[K,\n'}
+[3.928885] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.929002] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.929146] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.929296] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.929450] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.929626] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.929792] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.930850] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.931678] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.932110] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.932552] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.933250] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:119:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Time::operator<(const rclcpp::Time&) const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.933715] (robots_paths) StderrLine: {'line': b'  119 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const rclcpp::Time & rhs) const;\n'}
+[3.933883] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.934030] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:119:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Time&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.934205] (robots_paths) StderrLine: {'line': b'  119 |   operator<(\x1b[01;36m\x1b[Kconst rclcpp::Time & rhs\x1b[m\x1b[K) const;\n'}
+[3.934964] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.937824] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[3.938017] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.938264] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.938408] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.938535] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.938662] (robots_paths) StderrLine: {'line': b'  489 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[3.938785] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.938902] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:489:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.939023] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.939172] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.939292] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.939415] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.939537] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.939655] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.939773] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.939894] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.940012] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.940148] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.940268] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:426:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.940402] (robots_paths) StderrLine: {'line': b'  426 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const reverse_iterator<_Iterator>& __x,\n'}
+[3.940524] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.940637] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:426:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.940781] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.940913] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.941035] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.941148] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.941267] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.941384] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.941620] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.941772] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.942476] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.942617] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.942741] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:465:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.942867] (robots_paths) StderrLine: {'line': b'  465 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const reverse_iterator<_IteratorL>& __x,\n'}
+[3.942981] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.943097] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:465:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.943225] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.943346] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.943486] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.943607] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.943952] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.944085] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.944211] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.944332] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.944449] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.944808] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.944949] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.945100] (robots_paths) StderrLine: {'line': b' 1609 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const move_iterator<_IteratorL>& __x,\n'}
+[3.945382] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.945510] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1609:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.945660] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.945791] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.945910] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.946028] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.946151] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.946275] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.946391] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[3.946513] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[3.946632] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.946750] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.946871] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.946990] (robots_paths) StderrLine: {'line': b' 1667 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const move_iterator<_Iterator>& __x,\n'}
+[3.947104] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.947218] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.947334] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.947450] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.947566] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.947696] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.947828] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.947943] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.948058] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[3.948174] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[3.948289] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.948403] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.948522] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.948635] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.948762] (robots_paths) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)\n'}
+[3.948881] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.948997] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.949210] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.949356] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.949482] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.949599] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.949892] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.950012] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.950132] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[3.950247] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.950362] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.950482] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.950615] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1566:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.950733] (robots_paths) StderrLine: {'line': b' 1566 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const tuple<_TElements...>& __t,\n'}
+[3.950850] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.950969] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1566:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.951100] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.951216] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.951331] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.951443] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.951563] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.951681] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.951794] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.951906] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.952020] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.952135] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.952251] (robots_paths) StderrLine: {'line': b'  795 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[3.952366] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.952511] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.952626] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.952760] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.952879] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.952991] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.953245] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.953365] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.953498] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.953635] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.953790] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.953938] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:807:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.954095] (robots_paths) StderrLine: {'line': b'  807 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)\n'}
+[3.954257] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.954378] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:807:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.954494] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.954612] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.954727] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.954836] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.954953] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.955068] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.955194] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[3.955307] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.955430] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.955548] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:816:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.955675] (robots_paths) StderrLine: {'line': b'  816 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)\n'}
+[3.955795] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.955913] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:816:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.956034] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.956154] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.956268] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.956388] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.956507] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.956621] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.956738] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[3.956855] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.957129] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.957263] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.957378] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.957505] (robots_paths) StderrLine: {'line': b' 1457 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const __shared_ptr<_Tp, _Lp>& __a,\n'}
+[3.957628] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.957750] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.957868] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.957992] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.958103] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.958218] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.958332] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.958443] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.958557] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[3.958672] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.958791] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.958905] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.959020] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959136] (robots_paths) StderrLine: {'line': b' 1468 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[3.959249] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.959362] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.959487] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959602] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.959715] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.959829] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.959941] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.960067] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.960181] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[3.960294] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.960403] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.960516] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.960630] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.960751] (robots_paths) StderrLine: {'line': b' 1476 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[3.960965] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.961086] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.961206] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961328] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.961441] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.961553] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.961682] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.961799] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.961909] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.962020] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.962142] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.962252] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:488:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator<(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962375] (robots_paths) StderrLine: {'line': b'  488 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[3.962488] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.962602] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:488:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.962711] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.962827] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.962939] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.963050] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.963164] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.963277] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.963386] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.963500] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.963616] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.963729] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator<(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.963841] (robots_paths) StderrLine: {'line': b'  499 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[3.963954] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.964067] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:499:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.964193] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.964350] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.964490] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.964649] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.965021] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.965254] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.965444] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.965624] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[3.965811] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.965963] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:508:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.966123] (robots_paths) StderrLine: {'line': b'  508 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[3.966300] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.966445] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:508:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.966577] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.966697] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.966815] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.966943] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.967062] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.967188] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.967311] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[3.967421] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[3.967530] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.967647] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.967757] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:8\x1b[m\x1b[K,\n'}
+[3.967880] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.967997] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.968126] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.968237] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1930:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.968365] (robots_paths) StderrLine: {'line': b' 1930 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[3.968479] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.968594] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1930:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.968843] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.968968] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.969112] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.969228] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.969372] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.969517] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.969648] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[3.969768] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.969899] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.970015] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.970146] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.970271] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.970385] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:589:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.970515] (robots_paths) StderrLine: {'line': b'  589 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (basic_string_view<_CharT, _Traits> __x,\n'}
+[3.970637] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.970746] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:589:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.970860] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.970992] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.971107] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.971216] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.971342] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.971456] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.971567] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[3.971692] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.971809] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.971927] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.972066] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.972188] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.972308] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.972441] (robots_paths) StderrLine: {'line': b'  595 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (basic_string_view<_CharT, _Traits> __x,\n'}
+[3.972668] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.972815] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.972937] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.973090] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.973215] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.973329] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.973461] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.973586] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.973728] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[3.973907] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.974024] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.974142] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.974269] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.974385] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.974498] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:602:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.974627] (robots_paths) StderrLine: {'line': b'  602 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[3.974739] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.974849] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:602:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.974973] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.975093] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.975207] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.975331] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.975461] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.975573] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.975685] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.975795] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.975906] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.976014] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.976141] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.976250] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6340:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.976363] (robots_paths) StderrLine: {'line': b' 6340 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[3.976578] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.976688] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6340:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.976798] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.976923] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.977042] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.977168] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.977288] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.977400] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.977509] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.977638] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.977766] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.977878] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.977989] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.978102] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.978218] (robots_paths) StderrLine: {'line': b' 6353 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[3.978329] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.978439] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6353:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.978551] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.978663] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.978774] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.978884] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.978997] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.979105] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.979218] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.979329] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:11\x1b[m\x1b[K,\n'}
+[3.979438] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.979564] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[3.979688] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.979800] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.979936] (robots_paths) StderrLine: {'line': b' 6365 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const _CharT* __lhs,\n'}
+[3.980047] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.980156] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6365:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.980269] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.980493] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.980629] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.980757] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.980873] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.980987] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.981098] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[3.981206] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[3.981318] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.981428] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.981537] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.981667] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.981783] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1023:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.981896] (robots_paths) StderrLine: {'line': b' 1023 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[3.982007] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.982122] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:1023:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.982231] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982367] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.982480] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.982593] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.982703] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.982818] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.982928] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[3.983037] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[3.983157] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.983265] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.983369] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.983477] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.983584] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.983696] (robots_paths) StderrLine: {'line': b' 1009 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[3.983802] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.983914] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.984019] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.984146] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.984367] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.984477] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.984590] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.984707] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.984813] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[3.984922] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[3.985029] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.985135] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.985240] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.985348] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.985455] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.985564] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2085:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.985701] (robots_paths) StderrLine: {'line': b' 2085 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[3.985817] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.985923] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2085:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.986035] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.986148] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.986255] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.986368] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.986490] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.986600] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.986710] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[3.986816] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[3.986924] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.987049] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.987177] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.987289] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.987403] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.987551] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1501:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.987762] (robots_paths) StderrLine: {'line': b' 1501 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[3.987998] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.988360] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1501:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.988553] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.988779] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.988977] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.989104] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.989226] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.989355] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.989473] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[3.989591] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[3.989767] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.989886] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.989997] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.990126] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.990256] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.990376] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.990503] (robots_paths) StderrLine: {'line': b' 1166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[3.990618] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.990731] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.990861] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.991012] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.991129] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.991248] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.991365] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.991482] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.991608] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[3.991721] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.991849] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.991980] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.992219] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.992350] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.992467] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.992578] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.992724] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.992838] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.992957] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.993099] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.993213] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1063:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.993334] (robots_paths) StderrLine: {'line': b' 1063 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[3.993466] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.993584] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1063:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.993733] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.993881] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.994007] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.994139] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.994265] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.994389] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.994525] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[3.994646] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.994767] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.994903] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.995025] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.995146] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.995277] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.995389] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.995508] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.995634] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.995743] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.995856] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.996084] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1131:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator<(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.996217] (robots_paths) StderrLine: {'line': b' 1131 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept\n'}
+[3.996332] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.996442] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1131:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.996553] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.996670] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.996783] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.996891] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.997018] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.997133] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.997254] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[3.997366] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.997482] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.997591] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.997717] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.997830] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.997941] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.998049] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.998164] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.998285] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.998395] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[3.998508] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[3.998620] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator<(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.998730] (robots_paths) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[3.998841] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.998953] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.999064] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.999180] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[3.999293] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.999403] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.999514] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[3.999628] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.999754] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[3.999965] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.000082] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.000192] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.000310] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.000423] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.000532] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.000641] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.000764] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.000872] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.000983] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.001108] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.001221] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1197:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.001342] (robots_paths) StderrLine: {'line': b' 1197 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[4.001455] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.001566] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1197:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.001693] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.001808] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.001920] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.002028] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.002144] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.002259] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.002370] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[4.002479] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.002592] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.002703] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.002812] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.002925] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.003038] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.003161] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.003275] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.003386] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.003494] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.003615] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.003824] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.003949] (robots_paths) StderrLine: {'line': b' 1203 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[4.004068] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.004177] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1203:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.004290] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::milliseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.004408] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.004520] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.004635] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.004752] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.004876] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.004988] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:29\x1b[m\x1b[K,\n'}
+[4.005116] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.005227] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.005332] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.005441] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.005558] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.005686] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.005794] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.005910] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.006018] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.006123] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.006232] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.006341] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1230:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator<(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.006452] (robots_paths) StderrLine: {'line': b' 1230 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(<, less)\n'}
+[4.006559] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.006669] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1230:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.006775] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.006886] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.006999] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.007107] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.007226] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.007338] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.007447] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/deque:67\x1b[m\x1b[K,\n'}
+[4.007555] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:18\x1b[m\x1b[K,\n'}
+[4.007794] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:24\x1b[m\x1b[K,\n'}
+[4.007907] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:24\x1b[m\x1b[K,\n'}
+[4.008034] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.008146] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.008257] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.008368] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2285:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.008479] (robots_paths) StderrLine: {'line': b' 2285 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)\n'}
+[4.008589] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.008694] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_deque.h:2285:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.008803] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::deque<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.008927] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.009046] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.009150] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.009260] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.009366] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.009473] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/queue:64\x1b[m\x1b[K,\n'}
+[4.009583] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp:18\x1b[m\x1b[K,\n'}
+[4.009709] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:27\x1b[m\x1b[K,\n'}
+[4.009817] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:24\x1b[m\x1b[K,\n'}
+[4.009923] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.010031] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.010139] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.010243] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:362:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Seq> bool std::operator<(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.010368] (robots_paths) StderrLine: {'line': b'  362 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)\n'}
+[4.010476] (robots_paths) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.010581] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_queue.h:362:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.010700] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::queue<_Tp, _Seq>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.010813] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.010920] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.011025] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.011134] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.011239] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.011349] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:39\x1b[m\x1b[K,\n'}
+[4.011458] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[4.011659] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[4.011771] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.011875] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.011982] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.012092] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:772:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr bool std::chrono::operator<(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.012205] (robots_paths) StderrLine: {'line': b'  772 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const duration<_Rep1, _Period1>& __lhs,\n'}
+[4.012311] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.012431] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:772:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.012539] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.012664] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.012771] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.012890] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.012997] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.013108] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.013224] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:39\x1b[m\x1b[K,\n'}
+[4.013324] (-) TimerEvent: {}
+[4.013485] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[4.013621] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[4.013739] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.013857] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.013988] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.014108] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1075:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr bool std::chrono::operator<(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.014249] (robots_paths) StderrLine: {'line': b' 1075 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const time_point<_Clock, _Dur1>& __lhs,\n'}
+[4.014366] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.014485] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1075:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.014610] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:8:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::time_point<_Clock, _Duration1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.014730] (robots_paths) StderrLine: {'line': b'    8 | #define TURN_DURATION std::chrono::milliseconds(2000\x1b[01;36m\x1b[K)\x1b[m\x1b[K // Duration of turn to achieve 180 degrees\n'}
+[4.014839] (robots_paths) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.014949] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:83:99:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_DURATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.015074] (robots_paths) StderrLine: {'line': b'   83 |   if (state_==State::TURNING_AROUND || distance_traveled >= TRAVEL_DISTANCE || turn_start_time_ < \x1b[01;36m\x1b[KTURN_DURATION\x1b[m\x1b[K){\n'}
+[4.015182] (robots_paths) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.015297] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[4.015512] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[4.015634] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/istream:38\x1b[m\x1b[K,\n'}
+[4.015747] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/sstream:38\x1b[m\x1b[K,\n'}
+[4.015853] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:10\x1b[m\x1b[K,\n'}
+[4.015962] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/twist.hpp:9\x1b[m\x1b[K,\n'}
+[4.016074] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:3\x1b[m\x1b[K,\n'}
+[4.016195] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.016299] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:269:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.016406] (robots_paths) StderrLine: {'line': b'  269 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[4.016527] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.016630] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:269:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.016747] (robots_paths) StderrLine: {'line': b'  269 |   operator<(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[4.016853] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.016954] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:398:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.017059] (robots_paths) StderrLine: {'line': b'  398 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(const error_condition& __lhs,\n'}
+[4.017170] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.017273] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:398:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.017377] (robots_paths) StderrLine: {'line': b'  398 |   operator<(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[4.017481] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[4.017594] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K,\n'}
+[4.018443] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.018569] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.018679] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.018799] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.018904] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:70:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator<(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.019012] (robots_paths) StderrLine: {'line': b'   70 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(thread::id __x, thread::id __y) noexcept\n'}
+[4.019217] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.019330] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:70:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.019442] (robots_paths) StderrLine: {'line': b'   70 |   operator<(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[4.019543] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.019647] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:29\x1b[m\x1b[K,\n'}
+[4.019758] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.019863] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.019966] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.020072] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.020176] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.020277] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.020383] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.020490] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.020591] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.020696] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.020800] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.020905] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1272:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator<(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.021032] (robots_paths) StderrLine: {'line': b' 1272 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<(monostate, monostate) noexcept { return false; }\n'}
+[4.021139] (robots_paths) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.021244] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1272:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.021349] (robots_paths) StderrLine: {'line': b' 1272 |   constexpr bool operator<(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return false; }\n'}
+[4.021460] (robots_paths) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.113441] (-) TimerEvent: {}
+[4.213769] (-) TimerEvent: {}
+[4.314099] (-) TimerEvent: {}
+[4.414404] (-) TimerEvent: {}
+[4.514770] (-) TimerEvent: {}
+[4.615093] (-) TimerEvent: {}
+[4.715485] (-) TimerEvent: {}
+[4.815854] (-) TimerEvent: {}
+[4.916236] (-) TimerEvent: {}
+[5.016773] (-) TimerEvent: {}
+[5.117144] (-) TimerEvent: {}
+[5.217471] (-) TimerEvent: {}
+[5.317804] (-) TimerEvent: {}
+[5.418167] (-) TimerEvent: {}
+[5.518492] (-) TimerEvent: {}
+[5.618822] (-) TimerEvent: {}
+[5.719142] (-) TimerEvent: {}
+[5.819446] (-) TimerEvent: {}
+[5.919833] (-) TimerEvent: {}
+[6.020172] (-) TimerEvent: {}
+[6.120492] (-) TimerEvent: {}
+[6.220805] (-) TimerEvent: {}
+[6.321113] (-) TimerEvent: {}
+[6.421426] (-) TimerEvent: {}
+[6.521691] (-) TimerEvent: {}
+[6.622022] (-) TimerEvent: {}
+[6.722351] (-) TimerEvent: {}
+[6.822677] (-) TimerEvent: {}
+[6.905983] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1\n'}
+[6.906289] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2\n'}
+[6.906634] (robots_paths) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.909173] (robots_paths) CommandEnded: {'returncode': 2}
+[6.922809] (-) TimerEvent: {}
+[7.023141] (-) TimerEvent: {}
+[7.063977] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 2}
+[7.085159] (-) EventReactorShutdown: {}

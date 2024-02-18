@@ -1,0 +1,26 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In constructor ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:17:42:[m[K [01;31m[Kerror: [m[K‘[01m[KMOVING_FORWARD[m[K’ was not declared in this scope
+   17 |                                   state_([01;31m[KMOVING_FORWARD[m[K) {
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateDistance(double)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:59:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_message[m[K’ was not declared in this scope
+   59 |   if (std::fabs([01;31m[Kcommand_message[m[K->linear.x) < epsilon){
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateRobotBehavior()[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:116:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+  116 |       updateDistance(command_message->linear.x)
+      |                                                [01;31m[K^[m[K
+      |                                                [32m[K;[m[K
+  117 | 
+  118 |       [32m[Kif[m[K (distance_traveled >= TRAVEL_DISTANCE || left_sensor_value < 0.9 * MAX_RANGE || right_sensor_value < 0.9 * MAX_RANGE) {
+      |       [32m[K~~[m[K                                        
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:147:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  147 |       updateDistance(command_message->linear.x)
+      |                                                [01;31m[K^[m[K
+      |                                                [32m[K;[m[K
+  148 |     [32m[K}[m[K
+      |     [32m[K~[m[K                                           
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

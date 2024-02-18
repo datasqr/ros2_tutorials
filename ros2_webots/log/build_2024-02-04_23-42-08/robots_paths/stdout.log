@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[ 66%] Built target obstacle_avoider2
+[ 83%] [32m[1mLinking CXX shared library librobots_paths.so[0m
+[ 83%] Built target robots_paths

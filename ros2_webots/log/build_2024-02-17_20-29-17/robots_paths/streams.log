@@ -1,0 +1,16 @@
+[0.114s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.236s] [ 33%] Built target robots_paths
+[0.249s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.279s] [ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[5.311s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::finishTurning()[m[K’:
+[5.311s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:155:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturning_timer_[m[K’ was not declared in this scope
+[5.311s]   155 |         [01;31m[Kturning_timer_[m[K->cancel(); // Stop the timer
+[5.312s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[8.687s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[8.688s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[8.688s] gmake[1]: *** Waiting for unfinished jobs....
+[12.150s] [ 83%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[12.742s] [ 83%] Built target obstacle_avoider2
+[12.745s] gmake: *** [Makefile:146: all] Error 2
+[12.748s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

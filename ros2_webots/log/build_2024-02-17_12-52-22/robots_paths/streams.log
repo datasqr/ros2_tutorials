@@ -1,0 +1,38 @@
+[0.096s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.211s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.222s] [ 50%] Built target robots_paths
+[0.268s] [ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[5.056s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[5.057s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:35:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+[5.057s]    35 |   double [01;31m[Kleft_sensor_value[m[K;
+[5.057s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.057s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+[5.057s]    24 |   double [01;36m[Kleft_sensor_value[m[K{0.0};
+[5.057s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.058s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+[5.058s]    36 |   double [01;31m[Kright_sensor_value[m[K;
+[5.058s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.058s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:25:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+[5.058s]    25 |   double [01;36m[Kright_sensor_value[m[K{0.0};
+[5.058s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.277s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.277s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:35:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+[5.278s]    35 |   double [01;31m[Kleft_sensor_value[m[K;
+[5.278s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.278s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+[5.278s]    24 |   double [01;36m[Kleft_sensor_value[m[K{0.0};
+[5.278s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.278s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+[5.279s]    36 |   double [01;31m[Kright_sensor_value[m[K;
+[5.279s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.279s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:25:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+[5.279s]    25 |   double [01;36m[Kright_sensor_value[m[K{0.0};
+[5.279s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.109s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[8.109s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[8.109s] gmake[1]: *** Waiting for unfinished jobs....
+[8.201s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[8.201s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[8.201s] gmake: *** [Makefile:146: all] Error 2
+[8.204s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

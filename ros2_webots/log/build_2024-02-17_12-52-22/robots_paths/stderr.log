@@ -1,0 +1,32 @@
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:35:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+   35 |   double [01;31m[Kleft_sensor_value[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+   24 |   double [01;36m[Kleft_sensor_value[m[K{0.0};
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+   36 |   double [01;31m[Kright_sensor_value[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:25:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+   25 |   double [01;36m[Kright_sensor_value[m[K{0.0};
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:35:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+   35 |   double [01;31m[Kleft_sensor_value[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:24:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::left_sensor_value[m[K’
+   24 |   double [01;36m[Kleft_sensor_value[m[K{0.0};
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+   36 |   double [01;31m[Kright_sensor_value[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:25:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ObstacleAvoider1::right_sensor_value[m[K’
+   25 |   double [01;36m[Kright_sensor_value[m[K{0.0};
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

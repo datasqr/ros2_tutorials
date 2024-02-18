@@ -1,0 +1,16 @@
+[0.113s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.246s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.264s] [ 33%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.272s] [ 66%] Built target robots_paths
+[4.410s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::turn180()[m[K’:
+[4.410s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:126:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_traveled[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_traveled_[m[K’?
+[4.410s]   126 |   if (state_==State::TURNING_AROUND || [01;31m[Kdistance_traveled[m[K >= TRAVEL_DISTANCE || duration_since_start_turning < turn_duration){
+[4.410s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.411s]       |                                        [32m[Kdistance_traveled_[m[K
+[7.536s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[7.536s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[7.536s] gmake[1]: *** Waiting for unfinished jobs....
+[10.631s] [ 83%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[11.211s] [ 83%] Built target obstacle_avoider2
+[11.213s] gmake: *** [Makefile:146: all] Error 2
+[11.216s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

@@ -1,0 +1,281 @@
+[0.000000] (-) TimerEvent: {}
+[0.000437] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000528] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000576] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.000605] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.000809] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.096718] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.097895] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.099164] (-) TimerEvent: {}
+[0.099400] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '22229'), ('SYSTEMD_EXEC_PID', '22454'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25598'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:486667'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/22397,unix/mz:/tmp/.ICE-unix/22397'), ('INVOCATION_ID', '899a6021b3ba4d2889d8d93f9a7f418a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZU6MJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c83984fd-f360-44b5-8e41-f7e4904074cf'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[0.199298] (-) TimerEvent: {}
+[0.202180] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider1\x1b[0m\n'}
+[0.218984] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider2\x1b[0m\n'}
+[0.232450] (robots_paths) StdoutLine: {'line': b'[ 33%] Built target robots_paths\n'}
+[0.251363] (robots_paths) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o\x1b[0m\n'}
+[0.273235] (robots_paths) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o\x1b[0m\n'}
+[0.299404] (-) TimerEvent: {}
+[0.399798] (-) TimerEvent: {}
+[0.500283] (-) TimerEvent: {}
+[0.600639] (-) TimerEvent: {}
+[0.701095] (-) TimerEvent: {}
+[0.801882] (-) TimerEvent: {}
+[0.902668] (-) TimerEvent: {}
+[1.003033] (-) TimerEvent: {}
+[1.103613] (-) TimerEvent: {}
+[1.204113] (-) TimerEvent: {}
+[1.304516] (-) TimerEvent: {}
+[1.405095] (-) TimerEvent: {}
+[1.505464] (-) TimerEvent: {}
+[1.605809] (-) TimerEvent: {}
+[1.706152] (-) TimerEvent: {}
+[1.806506] (-) TimerEvent: {}
+[1.906857] (-) TimerEvent: {}
+[2.007251] (-) TimerEvent: {}
+[2.107686] (-) TimerEvent: {}
+[2.208064] (-) TimerEvent: {}
+[2.308445] (-) TimerEvent: {}
+[2.409051] (-) TimerEvent: {}
+[2.509522] (-) TimerEvent: {}
+[2.612722] (-) TimerEvent: {}
+[2.713535] (-) TimerEvent: {}
+[2.814296] (-) TimerEvent: {}
+[2.914963] (-) TimerEvent: {}
+[3.015959] (-) TimerEvent: {}
+[3.116856] (-) TimerEvent: {}
+[3.217636] (-) TimerEvent: {}
+[3.318439] (-) TimerEvent: {}
+[3.419203] (-) TimerEvent: {}
+[3.519903] (-) TimerEvent: {}
+[3.620608] (-) TimerEvent: {}
+[3.721292] (-) TimerEvent: {}
+[3.821986] (-) TimerEvent: {}
+[3.922616] (-) TimerEvent: {}
+[4.023199] (-) TimerEvent: {}
+[4.124946] (-) TimerEvent: {}
+[4.226256] (-) TimerEvent: {}
+[4.326809] (-) TimerEvent: {}
+[4.428865] (-) TimerEvent: {}
+[4.529453] (-) TimerEvent: {}
+[4.630067] (-) TimerEvent: {}
+[4.730774] (-) TimerEvent: {}
+[4.831483] (-) TimerEvent: {}
+[4.836606] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.836889] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:34:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.838593] (robots_paths) StderrLine: {'line': b'   34 |   turning_timer_ = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K;\n'}
+[4.838776] (robots_paths) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.838900] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[4.839019] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38\x1b[m\x1b[K,\n'}
+[4.839139] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.839262] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.839386] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.839528] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.839676] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.839818] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.839959] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.840116] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.840266] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.840410] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.840533] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.840650] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.840770] (robots_paths) StderrLine: {'line': b'   91 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Time & rhs);\n'}
+[4.840882] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.841006] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Time&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.841172] (robots_paths) StderrLine: {'line': b'   91 |   operator=(\x1b[01;36m\x1b[Kconst Time & rhs\x1b[m\x1b[K);\n'}
+[4.841320] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.841468] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.841619] (robots_paths) StderrLine: {'line': b'  101 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const builtin_interfaces::msg::Time & time_msg);\n'}
+[4.841786] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.850757] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Time&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.851047] (robots_paths) StderrLine: {'line': b'  101 |   operator=(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Time & time_msg\x1b[m\x1b[K);\n'}
+[4.851239] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.856289] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ObstacleAvoider1::updateRobotBehavior()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.867636] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:118:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator!\x1b[m\x1b[K\xe2\x80\x99 (operand type is \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.867930] (robots_paths) StderrLine: {'line': b'  118 |                 if (\x1b[01;31m\x1b[K!turning_timer_\x1b[m\x1b[K) {\n'}
+[4.868114] (robots_paths) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.868264] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:118:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koperator!(bool)\x1b[m\x1b[K\xe2\x80\x99 (built-in)\n'}
+[4.868412] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:118:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.868583] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:30\x1b[m\x1b[K,\n'}
+[4.868731] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:22\x1b[m\x1b[K,\n'}
+[4.868898] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24\x1b[m\x1b[K,\n'}
+[4.869099] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26\x1b[m\x1b[K,\n'}
+[4.869410] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26\x1b[m\x1b[K,\n'}
+[4.869593] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.869779] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.869963] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.870144] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.870340] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.870503] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.870652] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.870800] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.870945] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.871086] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.871226] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.871375] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst std::mutex& operator!(const std::mutex&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.871521] (robots_paths) StderrLine: {'line': b'   55 | inline const std::mutex & \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K!(const std::mutex & a)\n'}
+[4.871664] (robots_paths) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.871806] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::mutex&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.871956] (robots_paths) StderrLine: {'line': b'   55 | inline const std::mutex & operator!(\x1b[01;36m\x1b[Kconst std::mutex & a\x1b[m\x1b[K)\n'}
+[4.872095] (robots_paths) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[4.881335] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:121:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0>::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[4.881625] (robots_paths) StderrLine: {'line': b'  121 |                         std::bind(&ObstacleAvoider1::finishTurning, this)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.881794] (robots_paths) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.881943] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[4.882093] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38\x1b[m\x1b[K,\n'}
+[4.883347] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.885697] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.885987] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.886231] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.886466] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.886691] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.886892] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.887072] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.887271] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.887455] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.887658] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.887835] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.888021] (robots_paths) StderrLine: {'line': b'   91 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Time & rhs);\n'}
+[4.888221] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.888974] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0>::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Time&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.889292] (robots_paths) StderrLine: {'line': b'   91 |   operator=(\x1b[01;36m\x1b[Kconst Time & rhs\x1b[m\x1b[K);\n'}
+[4.889478] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.889619] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.889748] (robots_paths) StderrLine: {'line': b'  101 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const builtin_interfaces::msg::Time & time_msg);\n'}
+[4.889864] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.889977] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0>::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::WallTimer<std::_Bind<void (ObstacleAvoider1::*(ObstacleAvoider1*))()>, 0> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst Time&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.909151] (robots_paths) StderrLine: {'line': b'  101 |   operator=(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Time & time_msg\x1b[m\x1b[K);\n'}
+[4.909391] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.909552] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ObstacleAvoider1::finishTurning()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.909709] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:147:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909882] (robots_paths) StderrLine: {'line': b'  147 |         turning_timer_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kcancel(); // Stop the timer\n'}
+[4.910034] (robots_paths) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.910191] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:148:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.910346] (robots_paths) StderrLine: {'line': b'  148 |         turning_timer_ = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K; // Reset timer to nullptr\n'}
+[4.910491] (robots_paths) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.910641] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[4.910794] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38\x1b[m\x1b[K,\n'}
+[4.910989] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.911136] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.911310] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.911461] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.911609] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.911761] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.911928] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.913816] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.914204] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[4.914537] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4\x1b[m\x1b[K,\n'}
+[4.914803] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[4.915032] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.915198] (robots_paths) StderrLine: {'line': b'   91 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const Time & rhs);\n'}
+[4.915354] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.915526] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:91:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Time&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.915681] (robots_paths) StderrLine: {'line': b'   91 |   operator=(\x1b[01;36m\x1b[Kconst Time & rhs\x1b[m\x1b[K);\n'}
+[4.915844] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.915998] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time& rclcpp::Time::operator=(const Time&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.916171] (robots_paths) StderrLine: {'line': b'  101 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const builtin_interfaces::msg::Time & time_msg);\n'}
+[4.916327] (robots_paths) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.916494] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:101:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Time&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.916654] (robots_paths) StderrLine: {'line': b'  101 |   operator=(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Time & time_msg\x1b[m\x1b[K);\n'}
+[4.916802] (robots_paths) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.931590] (-) TimerEvent: {}
+[5.031958] (-) TimerEvent: {}
+[5.132330] (-) TimerEvent: {}
+[5.233047] (-) TimerEvent: {}
+[5.334059] (-) TimerEvent: {}
+[5.435106] (-) TimerEvent: {}
+[5.535707] (-) TimerEvent: {}
+[5.636276] (-) TimerEvent: {}
+[5.736654] (-) TimerEvent: {}
+[5.837076] (-) TimerEvent: {}
+[5.937460] (-) TimerEvent: {}
+[6.039023] (-) TimerEvent: {}
+[6.139507] (-) TimerEvent: {}
+[6.239984] (-) TimerEvent: {}
+[6.340773] (-) TimerEvent: {}
+[6.441491] (-) TimerEvent: {}
+[6.542072] (-) TimerEvent: {}
+[6.642379] (-) TimerEvent: {}
+[6.742942] (-) TimerEvent: {}
+[6.843462] (-) TimerEvent: {}
+[6.943868] (-) TimerEvent: {}
+[7.044212] (-) TimerEvent: {}
+[7.144571] (-) TimerEvent: {}
+[7.244987] (-) TimerEvent: {}
+[7.345610] (-) TimerEvent: {}
+[7.446431] (-) TimerEvent: {}
+[7.547382] (-) TimerEvent: {}
+[7.647805] (-) TimerEvent: {}
+[7.748439] (-) TimerEvent: {}
+[7.849341] (-) TimerEvent: {}
+[7.949993] (-) TimerEvent: {}
+[8.050706] (-) TimerEvent: {}
+[8.151149] (-) TimerEvent: {}
+[8.251554] (-) TimerEvent: {}
+[8.351932] (-) TimerEvent: {}
+[8.452298] (-) TimerEvent: {}
+[8.552648] (-) TimerEvent: {}
+[8.653387] (-) TimerEvent: {}
+[8.754007] (-) TimerEvent: {}
+[8.854574] (-) TimerEvent: {}
+[8.955236] (-) TimerEvent: {}
+[9.055880] (-) TimerEvent: {}
+[9.078400] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1\n'}
+[9.078746] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2\n'}
+[9.078855] (robots_paths) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.156005] (-) TimerEvent: {}
+[9.256613] (-) TimerEvent: {}
+[9.357072] (-) TimerEvent: {}
+[9.457449] (-) TimerEvent: {}
+[9.557969] (-) TimerEvent: {}
+[9.658768] (-) TimerEvent: {}
+[9.759152] (-) TimerEvent: {}
+[9.859720] (-) TimerEvent: {}
+[9.960130] (-) TimerEvent: {}
+[10.060521] (-) TimerEvent: {}
+[10.160966] (-) TimerEvent: {}
+[10.261313] (-) TimerEvent: {}
+[10.361671] (-) TimerEvent: {}
+[10.462318] (-) TimerEvent: {}
+[10.562687] (-) TimerEvent: {}
+[10.663054] (-) TimerEvent: {}
+[10.763545] (-) TimerEvent: {}
+[10.863883] (-) TimerEvent: {}
+[10.964248] (-) TimerEvent: {}
+[11.064631] (-) TimerEvent: {}
+[11.165622] (-) TimerEvent: {}
+[11.266145] (-) TimerEvent: {}
+[11.366555] (-) TimerEvent: {}
+[11.466869] (-) TimerEvent: {}
+[11.567246] (-) TimerEvent: {}
+[11.667568] (-) TimerEvent: {}
+[11.767893] (-) TimerEvent: {}
+[11.868298] (-) TimerEvent: {}
+[11.968806] (-) TimerEvent: {}
+[12.069120] (-) TimerEvent: {}
+[12.169452] (-) TimerEvent: {}
+[12.269792] (-) TimerEvent: {}
+[12.370153] (-) TimerEvent: {}
+[12.470439] (-) TimerEvent: {}
+[12.570790] (-) TimerEvent: {}
+[12.671124] (-) TimerEvent: {}
+[12.771451] (-) TimerEvent: {}
+[12.871930] (-) TimerEvent: {}
+[12.972332] (-) TimerEvent: {}
+[13.072690] (-) TimerEvent: {}
+[13.172996] (-) TimerEvent: {}
+[13.273318] (-) TimerEvent: {}
+[13.373661] (-) TimerEvent: {}
+[13.425736] (robots_paths) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider2\x1b[0m\n'}
+[13.473789] (-) TimerEvent: {}
+[13.574142] (-) TimerEvent: {}
+[13.674462] (-) TimerEvent: {}
+[13.774786] (-) TimerEvent: {}
+[13.875107] (-) TimerEvent: {}
+[13.975495] (-) TimerEvent: {}
+[14.046754] (robots_paths) StdoutLine: {'line': b'[ 83%] Built target obstacle_avoider2\n'}
+[14.048913] (robots_paths) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.051910] (robots_paths) CommandEnded: {'returncode': 2}
+[14.075598] (-) TimerEvent: {}
+[14.176204] (-) TimerEvent: {}
+[14.234379] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 2}
+[14.245216] (-) EventReactorShutdown: {}

@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[ 33%] Built target robots_paths
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:47:40:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Krclcpp::Duration(2, 0)[m[K’ from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Krclcpp::Time[m[K’
+   47 |   rclcpp::Time turn_duration = rclcpp::[01;31m[KDuration(2, 0)[m[K
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Krclcpp::Duration[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:49:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+   49 |   [01;31m[Kvoid[m[K updateRobotBehavior();
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::leftSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateRobotBehavior[m[K’ was not declared in this scope
+   42 |   [01;31m[KupdateRobotBehavior[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::rightSensorCallback(sensor_msgs::msg::Range_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateRobotBehavior[m[K’ was not declared in this scope
+   48 |   [01;31m[KupdateRobotBehavior[m[K();
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K At global scope:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:117:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::updateRobotBehavior()[m[K’
+  117 | void [01;31m[KObstacleAvoider1[m[K::updateRobotBehavior() {
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:117:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ObstacleAvoider1::updateRobotBehavior()[m[K’
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+   11 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:47:40:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Krclcpp::Duration(2, 0)[m[K’ from ‘[01m[Krclcpp::Duration[m[K’ to ‘[01m[Krclcpp::Time[m[K’
+   47 |   rclcpp::Time turn_duration = rclcpp::[01;31m[KDuration(2, 0)[m[K
+      |                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Krclcpp::Duration[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:49:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+   49 |   [01;31m[Kvoid[m[K updateRobotBehavior();
+      |   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

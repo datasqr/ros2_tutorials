@@ -1,0 +1,21 @@
+[0.091s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.187s] [ 33%] Built target robots_paths
+[0.195s] [ 83%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.195s] [ 83%] Built target obstacle_avoider2
+[3.791s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In constructor ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)[m[K’:
+[3.791s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:18:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KObstacleAvoider1[m[K’ does not have any field named ‘[01m[Kdistance_traveled_[m[K’
+[3.791s]    18 |                                   [01;31m[Kdistance_traveled_[m[K(0.0), state_(State::MOVING_FORWARD)
+[3.791s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.828s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateDistance()[m[K’:
+[3.828s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_traveled_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_traveled[m[K’?
+[3.828s]    69 |     [01;31m[Kdistance_traveled_[m[K += linear_velocity_ * time_interval;
+[3.828s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.828s]       |     [32m[Kdistance_traveled[m[K
+[3.842s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:69:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity_[m[K’ was not declared in this scope
+[3.842s]    69 |     distance_traveled_ += [01;31m[Klinear_velocity_[m[K * time_interval;
+[3.842s]       |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.756s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[6.757s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[6.757s] gmake: *** [Makefile:146: all] Error 2
+[6.760s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

@@ -48,34 +48,19 @@ void MyRobotDriver1::cmdVelCallback(
 }
 
 void MyRobotDriver1::step() {
-        double time_step_seconds = wb_robot_get_basic_time_step() / 1000.0;
-        switch (state) {
-            case MOVING_FORWARD:
-                if (distance_covered < LINE_LENGTH) {
-                    setVelocity(ROBOT_SPEED, ROBOT_SPEED);
-                    distance_covered += ROBOT_SPEED * time_step_seconds;
-                } else {
-                    state = TURNING;
-                    total_turn_angle = 0.0; // Reset turn angle for the turn
-                }
-                break;
-            case TURNING:
-            if (total_turn_angle < M_PI) { // Complete a 180 degree turn
-                double left_wheel_speed = -ROBOT_SPEED;
-                double right_wheel_speed = ROBOT_SPEED;
-                setVelocity(left_wheel_speed, right_wheel_speed);
-                total_turn_angle += TURN_ANGULAR_VELOCITY * time_step_seconds;
-            } else {
-                state = MOVING_FORWARD;
-                distance_covered = 0.0; // Reset distance for the next leg
-            }
-            break;
-          }
-}
 
-void MyRobotDriver1::setVelocity(double left_speed, double right_speed) {
-        wb_motor_set_velocity(left_motor, left_speed / WHEEL_RADIUS);
-        wb_motor_set_velocity(right_motor, right_speed / WHEEL_RADIUS);
+    auto forward_speed = cmd_vel_msg.linear.x;
+    auto angular_speed = cmd_vel_msg.angular.z;
+
+    auto command_motor_left =
+        (forward_speed - angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) /
+        WHEEL_RADIUS;
+    auto command_motor_right =
+        (forward_speed + angular_speed * HALF_DISTANCE_BETWEEN_WHEELS) /
+        WHEEL_RADIUS;
+
+    wb_motor_set_velocity(left_motor, command_motor_left);
+    wb_motor_set_velocity(right_motor, command_motor_right);
 }
 
 

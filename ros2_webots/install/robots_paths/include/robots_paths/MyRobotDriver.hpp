@@ -23,8 +23,6 @@ public:
   void init(webots_ros2_driver::WebotsNode *node,
             std::unordered_map<std::string, std::string> &parameters) override;
 
-  void setVelocity(double, double);
-
 private:
   void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg);
 
@@ -34,14 +32,6 @@ private:
 
   WbDeviceTag right_motor;
   WbDeviceTag left_motor;
-
-  // New
-  double distance_covered = 0.0;
-
-  RobotState state = MOVING_FORWARD;
-  double total_turn_angle = 0.0; // Total angle turned during the TURNING state
-
-
 
 };
 

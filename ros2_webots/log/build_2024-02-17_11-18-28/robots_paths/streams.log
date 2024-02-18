@@ -1,0 +1,56 @@
+[0.104s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.268s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.270s] [ 33%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[0.271s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[4.077s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[4.077s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckObstacleAndPublish[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.077s]    27 |   [01;31m[KcheckObstacleAndPublish[m[K();
+[4.077s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.757s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.757s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KcheckObstacleAndPublish[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.758s]    27 |   [01;31m[KcheckObstacleAndPublish[m[K();
+[5.758s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.782s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:38:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ObstacleAvoider1::checkObstacleAndPublish()[m[K’
+[5.783s]    38 | void [01;31m[KObstacleAvoider1[m[K::checkObstacleAndPublish() {
+[5.783s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[5.783s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.783s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:27:3:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kint ObstacleAvoider1::checkObstacleAndPublish()[m[K’
+[5.783s]    27 |   [01;36m[KcheckObstacleAndPublish[m[K();
+[5.783s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.783s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider1[m[K’ defined here
+[5.783s]     9 | class [01;36m[KObstacleAvoider1[m[K : public rclcpp::Node {
+[5.784s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.840s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:92:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ has not been declared
+[6.840s]    92 | void [01;31m[Kc[m[K::init(
+[6.840s]       |      [01;31m[K^[m[K
+[6.850s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver2::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[6.850s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:96:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_motor[m[K’ was not declared in this scope
+[6.850s]    96 |   [01;31m[Kright_motor[m[K = wb_robot_get_device("right wheel motor");
+[6.850s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.859s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_motor[m[K’ was not declared in this scope
+[6.859s]    97 |   [01;31m[Kleft_motor[m[K = wb_robot_get_device("left wheel motor");
+[6.859s]       |   [01;31m[K^~~~~~~~~~[m[K
+[6.877s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:105:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[6.877s]   105 |   [01;31m[Kcmd_vel_subscription_[m[K = node->create_subscription<geometry_msgs::msg::Twist>(
+[6.877s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.877s]       |   [32m[Krmw_subscription_t[m[K
+[6.880s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:107:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid my_robot_driver2::MyRobotDriver2::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+[6.880s]   107 |       std::bind(&MyRobotDriver2::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+[6.881s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.881s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:1[m[K:
+[6.881s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/MyRobotDriver.hpp:59:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[6.881s]    59 |   void [01;36m[KcmdVelCallback[m[K(const geometry_msgs::msg::Twist::SharedPtr msg);
+[6.881s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.881s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:107:50:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.882s]   107 |       std::bind(&MyRobotDriver2::cmdVelCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[6.882s]       |                                                  [01;31m[K^~~~[m[K
+[7.020s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[7.021s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[7.021s] gmake[1]: *** Waiting for unfinished jobs....
+[8.944s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[8.945s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[9.974s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[9.975s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[9.975s] gmake: *** [Makefile:146: all] Error 2
+[9.978s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

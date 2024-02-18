@@ -1,0 +1,110 @@
+[0.121s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.314s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.339s] [ 50%] Built target robots_paths
+[0.344s] [ 66%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[5.069s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.069s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:28:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[5.069s]    36 |   double distance_traveled([01;31m[K0.0[m[K);
+[5.070s]       |                            [01;31m[K^~~[m[K
+[5.070s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[5.070s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In constructor ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)[m[K’:
+[5.071s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:17:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KObstacleAvoider1[m[K’ does not have any field named ‘[01m[Kdistance_traveled[m[K’
+[5.071s]    17 |                                   [01;31m[Kdistance_traveled[m[K(0.0) {
+[5.071s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.108s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateDistance()[m[K’:
+[5.108s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:67:3:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kdouble ObstacleAvoider1::distance_traveled(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[5.109s]    67 |   [01;31m[Kdistance_traveled[m[K = velocity_ * elapsed_seconds;
+[5.109s]       |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.121s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::turn180()[m[K’:
+[5.121s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:89:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000> >::duration(double)[m[K’
+[5.121s]    89 |   std::this_thread::sleep_for(std::chrono::milliseconds(time_to_turn * 1000[01;31m[K)[m[K);
+[5.122s]       |                                                                            [01;31m[K^[m[K
+[5.122s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[5.122s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[5.123s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[5.123s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[5.123s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4[m[K,
+[5.123s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.124s] [01m[K/usr/include/c++/11/chrono:529:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class _Period2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = _Rep2; _Period2 = _Period2; <template-parameter-2-3> = <template-parameter-1-3>; _Rep = long int; _Period = std::ratio<1, 1000>][m[K’
+[5.124s]   529 |           constexpr [01;36m[Kduration[m[K(const duration<_Rep2, _Period2>& __d)
+[5.124s]       |                     [01;36m[K^~~~~~~~[m[K
+[5.124s] [01m[K/usr/include/c++/11/chrono:529:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.124s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:89:76:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+[5.125s]    89 |   std::this_thread::sleep_for(std::chrono::milliseconds(time_to_turn * 1000[01;36m[K)[m[K);
+[5.125s]       |                                                                            [01;36m[K^[m[K
+[5.125s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[5.125s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[5.125s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[5.126s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[5.126s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4[m[K,
+[5.126s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.127s] [01m[K/usr/include/c++/11/chrono:521:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep2, class> constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = _Rep2; <template-parameter-2-2> = <template-parameter-1-2>; _Rep = long int; _Period = std::ratio<1, 1000>][m[K’
+[5.127s]   521 |           constexpr explicit [01;36m[Kduration[m[K(const _Rep2& __rep)
+[5.127s]       |                              [01;36m[K^~~~~~~~[m[K
+[5.127s] [01m[K/usr/include/c++/11/chrono:521:30:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.127s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[5.128s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[5.128s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[5.128s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[5.128s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1[m[K,
+[5.128s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.128s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[5.129s] [01m[K/usr/include/c++/11/type_traits:2209:11:[m[K   required by substitution of ‘[01m[Ktemplate<class ... _Cond> using _Require = std::__enable_if_t<std::__and_< <template-parameter-1-1> >::value> [with _Cond = {std::is_convertible<const double&, long int>, std::__or_<std::chrono::treat_as_floating_point<long int>, std::__not_<std::chrono::treat_as_floating_point<double> > >}][m[K’
+[5.129s] [01m[K/usr/include/c++/11/chrono:518:27:[m[K   required from here
+[5.129s] [01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[5.129s]  2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[5.129s]       |           [01;31m[K^~~~~~~~~~~~~[m[K
+[5.129s] In file included from [01m[K/usr/include/c++/11/mutex:39[m[K,
+[5.130s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[5.130s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[5.130s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[5.130s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4[m[K,
+[5.130s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.131s] [01m[K/usr/include/c++/11/chrono:514:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000>][m[K’
+[5.131s]   514 |         [01;36m[Kduration[m[K(const duration&) = default;
+[5.131s]       |         [01;36m[K^~~~~~~~[m[K
+[5.131s] [01m[K/usr/include/c++/11/chrono:514:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::chrono::duration<long int, std::ratio<1, 1000> >&[m[K’
+[5.131s]   514 |         duration([01;36m[Kconst duration&[m[K) = default;
+[5.131s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[5.132s] [01m[K/usr/include/c++/11/chrono:512:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::chrono::duration<_Rep, _Period>::duration() [with _Rep = long int; _Period = std::ratio<1, 1000>][m[K’
+[5.132s]   512 |         constexpr [01;36m[Kduration[m[K() = default;
+[5.132s]       |                   [01;36m[K^~~~~~~~[m[K
+[5.133s] [01m[K/usr/include/c++/11/chrono:512:19:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[5.133s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateRobotBehavior()[m[K’:
+[5.133s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:123:8:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kdouble ObstacleAvoider1::distance_traveled(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[5.133s]   123 |     if([01;31m[Kdistance_traveled[m[K > TRAVEL_DISTANCE) {
+[5.137s]       |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.137s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.137s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.138s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.139s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.141s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[5.141s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:4[m[K,
+[5.141s]                  from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.141s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:125:81:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kdouble ObstacleAvoider1::distance_traveled(int)[m[K’
+[5.141s]   125 |       RCLCPP_INFO(this->get_logger(), "Distance traveled by Robot1: %f meters", [01;31m[Kdistance_traveled[m[K);
+[5.142s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.142s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[5.142s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.142s]    36 |   double [01;36m[Kdistance_traveled[m[K(0.0);
+[5.142s]       |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.372s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[5.372s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:28:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[5.372s]    36 |   double distance_traveled([01;31m[K0.0[m[K);
+[5.372s]       |                            [01;31m[K^~~[m[K
+[5.373s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:36:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[8.180s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[8.181s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[8.181s] gmake[1]: *** Waiting for unfinished jobs....
+[8.443s] gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+[8.443s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+[8.443s] gmake: *** [Makefile:146: all] Error 2
+[8.446s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

@@ -1,0 +1,18 @@
+[0.095s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.211s] [ 33%] Built target obstacle_avoider2
+[0.217s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.236s] [ 83%] Built target robots_paths
+[3.729s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In constructor ‘[01m[KObstacleAvoider1::ObstacleAvoider1(const string&, const string&, const string&)[m[K’:
+[3.729s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:18:35:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KObstacleAvoider1[m[K’ does not have any field named ‘[01m[Kdistance_traveled_[m[K’
+[3.729s]    18 |                                   [01;31m[Kdistance_traveled_[m[K(0.0), state_(State::MOVING_FORWARD)
+[3.729s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.772s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateDistance()[m[K’:
+[3.773s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_traveled_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistance_traveled[m[K’?
+[3.773s]    69 |     [01;31m[Kdistance_traveled_[m[K += ROBOT_SPEED * time_interval;
+[3.773s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.773s]       |     [32m[Kdistance_traveled[m[K
+[6.813s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[6.813s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[6.813s] gmake: *** [Makefile:146: all] Error 2
+[6.816s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

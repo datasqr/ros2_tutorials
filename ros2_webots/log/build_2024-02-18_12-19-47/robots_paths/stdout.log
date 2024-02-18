@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[ 33%] Built target robots_paths
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[ 83%] Built target obstacle_avoider2

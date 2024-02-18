@@ -1,0 +1,16 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In member function ‘[01m[Kvoid ObstacleAvoider1::updateDistance()[m[K’:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:74:18:[m[K [01;31m[Kerror: [m[K‘[01m[KisMoving[m[K’ was not declared in this scope
+   74 |             if (![01;31m[KisMoving[m[K) {
+      |                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:80:13:[m[K [01;31m[Kerror: [m[K‘[01m[KisMoving[m[K’ was not declared in this scope
+   80 |             [01;31m[KisMoving[m[K = false;
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:84:13:[m[K [01;31m[Kerror: [m[K‘[01m[KisMoving[m[K’ was not declared in this scope
+   84 |         if ([01;31m[KisMoving[m[K) {
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[KisMoving[m[K’ was not declared in this scope
+  106 |             [01;31m[KisMoving[m[K = false; // Reset moving flag as we're turning now
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

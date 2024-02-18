@@ -1,0 +1,40 @@
+[0.105s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target robots_paths[0m
+[0.226s] [ 16%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.244s] [ 33%] [32mBuilding CXX object CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o[0m
+[0.253s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[6.542s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:92:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ has not been declared
+[6.542s]    92 | void [01;31m[Kc[m[K::init(
+[6.542s]       |      [01;31m[K^[m[K
+[6.550s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:[m[K In function ‘[01m[Kvoid my_robot_driver2::init(webots_ros2_driver::WebotsNode*, std::unordered_map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >&)[m[K’:
+[6.550s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:96:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_motor[m[K’ was not declared in this scope
+[6.550s]    96 |   [01;31m[Kright_motor[m[K = wb_robot_get_device("right wheel motor");
+[6.550s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.557s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:97:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_motor[m[K’ was not declared in this scope
+[6.557s]    97 |   [01;31m[Kleft_motor[m[K = wb_robot_get_device("left wheel motor");
+[6.557s]       |   [01;31m[K^~~~~~~~~~[m[K
+[6.572s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:105:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[6.573s]   105 |   [01;31m[Kcmd_vel_subscription_[m[K = node->create_subscription<geometry_msgs::msg::Twist>(
+[6.574s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.574s]       |   [32m[Krmw_subscription_t[m[K
+[6.574s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:107:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid my_robot_driver2::MyRobotDriver2::cmdVelCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+[6.575s]   107 |       std::bind(&MyRobotDriver2::[01;31m[KcmdVelCallback[m[K, this, std::placeholders::_1));
+[6.576s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.576s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:1[m[K:
+[6.577s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/MyRobotDriver.hpp:59:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[6.577s]    59 |   void [01;36m[KcmdVelCallback[m[K(const geometry_msgs::msg::Twist::SharedPtr msg);
+[6.577s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[6.577s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/MyRobotDriver.cpp:107:50:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[6.577s]   107 |       std::bind(&MyRobotDriver2::cmdVelCallback, [01;31m[Kthis[m[K, std::placeholders::_1));
+[6.577s]       |                                                  [01;31m[K^~~~[m[K
+[10.760s] gmake[2]: *** [CMakeFiles/robots_paths.dir/build.make:76: CMakeFiles/robots_paths.dir/src/MyRobotDriver.cpp.o] Error 1
+[10.760s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/robots_paths.dir/all] Error 2
+[10.761s] gmake[1]: *** Waiting for unfinished jobs....
+[13.348s] [ 66%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[13.961s] [ 66%] Built target obstacle_avoider2
+[14.221s] [ 83%] [32m[1mLinking CXX executable obstacle_avoider1[0m
+[14.770s] [ 83%] Built target obstacle_avoider1
+[14.771s] gmake: *** [Makefile:146: all] Error 2
+[14.775s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

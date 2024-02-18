@@ -1,0 +1,30 @@
+[0.097s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.287s] [ 33%] Built target obstacle_avoider2
+[0.370s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.385s] [ 83%] Built target robots_paths
+[4.551s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:[m[K In function ‘[01m[Kconst char* stateToString(ObstacleAvoider1::State)[m[K’:
+[4.551s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:41:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kenum class ObstacleAvoider1::State[m[K’ is private within this context
+[4.551s]    41 | const char* stateToString(ObstacleAvoider1::[01;31m[KState[m[K state) {
+[4.551s]       |                                             [01;31m[K^~~~~[m[K
+[4.552s] In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[4.552s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:28:14:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.552s]    28 |   enum class [01;36m[KState[m[K {
+[4.552s]       |              [01;36m[K^~~~~[m[K
+[4.552s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:43:14:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ has not been declared
+[4.552s]    43 |         case [01;31m[KState[m[K::MOVING_FORWARD: return "MOVING_FORWARD";
+[4.552s]       |              [01;31m[K^~~~~[m[K
+[4.553s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:44:14:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ has not been declared
+[4.553s]    44 |         case [01;31m[KState[m[K::STOPPING: return "STOPPING";
+[4.553s]       |              [01;31m[K^~~~~[m[K
+[4.553s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ has not been declared
+[4.553s]    45 |         case [01;31m[KState[m[K::TURNING_AROUND: return "TURNING_AROUND";
+[4.553s]       |              [01;31m[K^~~~~[m[K
+[4.553s] [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:46:14:[m[K [01;31m[Kerror: [m[K‘[01m[KState[m[K’ has not been declared
+[4.553s]    46 |         case [01;31m[KState[m[K::MOVING_BACK: return "MOVING_BACK";
+[4.554s]       |              [01;31m[K^~~~~[m[K
+[7.631s] gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+[7.631s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+[7.631s] gmake: *** [Makefile:146: all] Error 2
+[7.635s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
