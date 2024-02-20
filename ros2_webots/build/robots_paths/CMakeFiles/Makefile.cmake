@@ -956,5 +956,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/robots_paths_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/obstacle_avoider1.dir/DependInfo.cmake"
   "CMakeFiles/obstacle_avoider2.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoider3.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoider4.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoider5.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoider6.dir/DependInfo.cmake"
+  "CMakeFiles/obstacle_avoider7.dir/DependInfo.cmake"
   "CMakeFiles/robots_paths.dir/DependInfo.cmake"
   )

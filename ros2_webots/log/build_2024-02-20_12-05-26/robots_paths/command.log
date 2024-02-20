@@ -1,0 +1,2 @@
+Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

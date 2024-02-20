@@ -1,0 +1,226 @@
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:14:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KObstacleAvoider3::ObstacleAvoider3(const string&, const string&, const string&)[m[K’
+   14 | [01;31m[KObstacleAvoider3[m[K::ObstacleAvoider3(const std::string& cmd_vel_topic,
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KObstacleAvoider3::ObstacleAvoider3(ObstacleAvoider3&&)[m[K’
+   78 | class [01;36m[KObstacleAvoider3[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KObstacleAvoider3::ObstacleAvoider3(const ObstacleAvoider3&)[m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KObstacleAvoider3::ObstacleAvoider3()[m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider3[m[K’ defined here
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:14:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KObstacleAvoider4::ObstacleAvoider4(const string&, const string&, const string&)[m[K’
+   14 | [01;31m[KObstacleAvoider4[m[K::ObstacleAvoider4(const std::string& cmd_vel_topic,
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KObstacleAvoider4::ObstacleAvoider4(ObstacleAvoider4&&)[m[K’
+  127 | class [01;36m[KObstacleAvoider4[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KObstacleAvoider4::ObstacleAvoider4(const ObstacleAvoider4&)[m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KObstacleAvoider4::ObstacleAvoider4()[m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ObstacleAvoider4[m[K’ defined here
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+   80 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  129 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  178 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  227 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1([01;31m[Kconst[m[K std::string& cmd_vel_topic,
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+  276 |   explicit ObstacleAvoider1[34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::string& cmd_vel_topic,
+      |                            [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                             [32m[K)[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider4>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:165:52:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoider4::ObstacleAvoider4(const char [10], const char [23], const char [24])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider4::ObstacleAvoider4()[m[K’ (deleted)
+  127 | class [01;36m[KObstacleAvoider4[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider4::ObstacleAvoider4(const ObstacleAvoider4&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider4::ObstacleAvoider4(ObstacleAvoider4&&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1[m[K,
+                 from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider3>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}][m[K’
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:165:52:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KObstacleAvoider3::ObstacleAvoider3(const char [10], const char [23], const char [24])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider3::ObstacleAvoider3()[m[K’ (deleted)
+   78 | class [01;36m[KObstacleAvoider3[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider3::ObstacleAvoider3(const ObstacleAvoider3&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KObstacleAvoider3::ObstacleAvoider3(ObstacleAvoider3&&)[m[K’ (deleted)
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/obstacle_avoider3.dir/build.make:76: CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/obstacle_avoider3.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/obstacle_avoider4.dir/build.make:76: CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/obstacle_avoider4.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/obstacle_avoider2.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/obstacle_avoider1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

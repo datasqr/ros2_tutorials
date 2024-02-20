@@ -29,6 +29,26 @@ add_executable(obstacle_avoider2
   src/ObstacleAvoider2.cpp
 )
 
+add_executable(obstacle_avoider3
+  src/ObstacleAvoider3.cpp
+)
+
+add_executable(obstacle_avoider4
+  src/ObstacleAvoider4.cpp
+)
+
+add_executable(obstacle_avoider5
+  src/ObstacleAvoider5.cpp
+)
+
+add_executable(obstacle_avoider6
+  src/ObstacleAvoider6.cpp
+)
+
+add_executable(obstacle_avoider7
+  src/ObstacleAvoider7.cpp
+)
+
 ament_target_dependencies(
   obstacle_avoider1
   rclcpp
@@ -38,6 +58,41 @@ ament_target_dependencies(
 
 ament_target_dependencies(
   obstacle_avoider2
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+ament_target_dependencies(
+  obstacle_avoider3
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+ament_target_dependencies(
+  obstacle_avoider4
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+ament_target_dependencies(
+  obstacle_avoider5
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+ament_target_dependencies(
+  obstacle_avoider6
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+)
+
+ament_target_dependencies(
+  obstacle_avoider7
   rclcpp
   geometry_msgs
   sensor_msgs
@@ -50,6 +105,31 @@ install(TARGETS
 
 install(TARGETS
   obstacle_avoider2
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  obstacle_avoider3
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  obstacle_avoider4
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  obstacle_avoider5
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  obstacle_avoider6
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  obstacle_avoider7
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -70,6 +150,7 @@ target_include_directories(
   PRIVATE
   include
 )
+
 ament_target_dependencies(
   ${PROJECT_NAME}
   pluginlib

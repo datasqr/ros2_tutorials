@@ -1,0 +1,87 @@
+[0.094s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider2[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider3[0m
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider1[0m
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider4[0m
+[0.217s] [  6%] [32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o[0m
+[0.226s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o[0m
+[0.247s] [ 18%] [32mBuilding CXX object CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o[0m
+[0.253s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o[0m
+[16.049s] [ 31%] [32m[1mLinking CXX executable obstacle_avoider4[0m
+[16.101s] [ 37%] [32m[1mLinking CXX executable obstacle_avoider3[0m
+[16.200s] [ 43%] [32m[1mLinking CXX executable obstacle_avoider2[0m
+[17.072s] [ 43%] Built target obstacle_avoider4
+[17.101s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider5[0m
+[17.136s] [ 43%] Built target obstacle_avoider3
+[17.142s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_avoider5.dir/src/ObstacleAvoider5.cpp.o[0m
+[17.162s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider6[0m
+[17.204s] [ 56%] [32mBuilding CXX object CMakeFiles/obstacle_avoider6.dir/src/ObstacleAvoider6.cpp.o[0m
+[17.579s] [ 56%] Built target obstacle_avoider2
+[17.651s] [35m[1mConsolidate compiler generated dependencies of target obstacle_avoider7[0m
+[17.753s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle_avoider7.dir/src/ObstacleAvoider7.cpp.o[0m
+[19.331s] [ 68%] [32m[1mLinking CXX executable obstacle_avoider1[0m
+[20.316s] [ 68%] Built target obstacle_avoider1
+[20.520s] [ 81%] Built target robots_paths
+[29.833s] [ 87%] [32m[1mLinking CXX executable obstacle_avoider5[0m
+[30.658s] [ 87%] Built target obstacle_avoider5
+[32.114s] [ 93%] [32m[1mLinking CXX executable obstacle_avoider6[0m
+[32.831s] [ 93%] Built target obstacle_avoider6
+[33.805s] [100%] [32m[1mLinking CXX executable obstacle_avoider7[0m
+[34.428s] [100%] Built target obstacle_avoider7
+[34.443s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[34.531s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths
+[34.541s] -- Install configuration: ""
+[34.541s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/my_robot_driver.xml
+[34.541s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider1
+[34.553s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider1" to ""
+[34.554s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider2
+[34.564s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider2" to ""
+[34.564s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider3
+[34.573s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider3" to ""
+[34.574s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider4
+[34.586s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider4" to ""
+[34.587s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider5
+[34.597s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider5" to ""
+[34.598s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider6
+[34.608s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider6" to ""
+[34.608s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider7
+[34.618s] -- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider7" to ""
+[34.618s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include
+[34.618s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths
+[34.618s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths/ObstacleAvoider.hpp
+[34.619s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths/MyRobotDriver.hpp
+[34.619s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/librobots_paths.so
+[34.619s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//launch
+[34.619s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//launch/robot_launch.py
+[34.620s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource
+[34.620s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot1.urdf
+[34.620s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot7.urdf
+[34.620s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot4.urdf
+[34.620s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot6.urdf
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot2.urdf
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot5.urdf
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot3.urdf
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds/epuck_world.wbt
+[34.621s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds/my_world.wbt
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/library_path.sh
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/library_path.dsv
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/package_run_dependencies/robots_paths
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/parent_prefix_path/robots_paths
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/ament_prefix_path.sh
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/ament_prefix_path.dsv
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/path.sh
+[34.622s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/path.dsv
+[34.623s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.bash
+[34.623s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.sh
+[34.623s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.zsh
+[34.623s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.dsv
+[34.623s] -- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/package.dsv
+[34.623s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/packages/robots_paths
+[34.624s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/robots_paths
+[34.624s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.625s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/ament_cmake_export_libraries-extras.cmake
+[34.625s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/robots_pathsConfig.cmake
+[34.625s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/robots_pathsConfig-version.cmake
+[34.625s] -- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/package.xml
+[34.626s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths

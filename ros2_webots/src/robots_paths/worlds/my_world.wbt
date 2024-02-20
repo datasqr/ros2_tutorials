@@ -16,10 +16,13 @@ TexturedBackground {
 TexturedBackgroundLight {
 }
 CircleArena {
-  radius 2.5
+  radius 3.0
 }
+
+# Robot 1 with rotation 90 degrees
 Robot {
-  translation 0.5 0.0 0.0
+  translation -0.5 0.0 0.0
+  rotation 0 0 1 1.5708
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
@@ -152,8 +155,9 @@ Robot {
   name "my_robot1"
 }
 
+# Robot 2 
 Robot {
-  translation -0.5 0.0 0.0
+  translation -2.0 0.5 0.0
   children [
     HingeJoint {
       jointParameters HingeJointParameters {
@@ -284,4 +288,681 @@ Robot {
   }
   controller "<extern>"
   name "my_robot2"
+}
+
+# Robot 3 with rotation 90 degrees
+Robot {
+  translation 0.0 0.0 0.0
+  rotation 0 0 1 1.5708
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Transform {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Transform {
+      translation 0 0 0.0415
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0.042 0.02 0.063
+      rotation 0 0 1 0.5236003061004253
+      children [
+        DEF SENSOR Transform {
+          rotation 0 1 0 1.5708
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.042 -0.02 0.063
+      rotation 0 0 1 -0.5235996938995747
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0 0.0415
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+  name "my_robot3"
+}
+
+# Robot 4 with rotation 90 degrees
+Robot {
+  translation 0.5 0.0 0.0
+  rotation 0 0 1 1.5708
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Transform {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Transform {
+      translation 0 0 0.0415
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0.042 0.02 0.063
+      rotation 0 0 1 0.5236003061004253
+      children [
+        DEF SENSOR Transform {
+          rotation 0 1 0 1.5708
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.042 -0.02 0.063
+      rotation 0 0 1 -0.5235996938995747
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0 0.0415
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+  name "my_robot4"
+}
+
+# Robot 5 without
+Robot {
+  translation -1.0 0.5 0.0
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Transform {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Transform {
+      translation 0 0 0.0415
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0.042 0.02 0.063
+      rotation 0 0 1 0.5236003061004253
+      children [
+        DEF SENSOR Transform {
+          rotation 0 1 0 1.5708
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.042 -0.02 0.063
+      rotation 0 0 1 -0.5235996938995747
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0 0.0415
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+  name "my_robot5"
+}
+
+# Robot 6
+Robot {
+  translation -1.0 1.0 0.0
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Transform {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Transform {
+      translation 0 0 0.0415
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0.042 0.02 0.063
+      rotation 0 0 1 0.5236003061004253
+      children [
+        DEF SENSOR Transform {
+          rotation 0 1 0 1.5708
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.042 -0.02 0.063
+      rotation 0 0 1 -0.5235996938995747
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0 0.0415
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+  name "my_robot6"
+}
+
+# Robot 7
+Robot {
+  translation -1.0 1.5 0.0
+  children [
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "left wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 0.045 0.025
+        children [
+          DEF WHEEL Transform {
+            rotation 1 0 0 1.5707996938995747
+            children [
+              Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Cylinder {
+                  height 0.01
+                  radius 0.025
+                }
+              }
+            ]
+          }
+        ]
+        name "left wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        axis 0 1 0
+        anchor 0 0 0.025
+      }
+      device [
+        RotationalMotor {
+          name "right wheel motor"
+        }
+      ]
+      endPoint Solid {
+        translation 0 -0.045 0.025
+        children [
+          USE WHEEL
+        ]
+        name "right wheel"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    Transform {
+      translation 0 0 0.0415
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+            roughness 1
+            metalness 0
+          }
+          geometry DEF BODY Cylinder {
+            height 0.08
+            radius 0.045
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0.042 0.02 0.063
+      rotation 0 0 1 0.5236003061004253
+      children [
+        DEF SENSOR Transform {
+          rotation 0 1 0 1.5708
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 1 1 0
+                roughness 1
+                metalness 0
+              }
+              geometry Cylinder {
+                height 0.004
+                radius 0.008
+              }
+            }
+          ]
+        }
+      ]
+      name "ds0"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+    DistanceSensor {
+      translation 0.042 -0.02 0.063
+      rotation 0 0 1 -0.5235996938995747
+      children [
+        USE SENSOR
+      ]
+      name "ds1"
+      lookupTable [
+        0 1020 0
+        0.05 1020 0
+        0.15 0 0
+      ]
+      numberOfRays 2
+      aperture 1
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0 0.0415
+    children [
+      USE BODY
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+  name "my_robot7"
 }

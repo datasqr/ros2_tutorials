@@ -1,13 +1,5 @@
 #include "robots_paths/ObstacleAvoider.hpp"
 
-#define MAX_RANGE 0.15
-#define STOP_TIME 2
-#define TRAVEL_DISTANCE 1.0 // Distance to travel before turning around (meters)
-#define ROBOT_SPEED 0.1 // Speed of the robot in meters per second
-#define TURN_SPEED 4.0 // Angular velocity for turning 180 degrees (radians per second), adjust as needed
-#define TURN_DURATION 3 // Duration of turn to achieve 180 degrees
-#define WHEELBASE_WIDTH 0.09
-#define WHEEL_RADIUS 0.025 // 0.025 - 90 
 
 // ObstacleAvoider1 stops for 2 sec when apporach obstacle
 
@@ -16,8 +8,7 @@ ObstacleAvoider1::ObstacleAvoider1(const std::string& cmd_vel_topic,
                                   const std::string& right_sensor_topic) : Node("obstacle_avoider1"),
                                   left_sensor_value(0.0), right_sensor_value(0.0), 
                                   turn_start_time_(0), start_time_distance_(0),
-                                  distance_traveled_(0.0), state_(State::MOVING_FORWARD)
-                                   {
+                                  distance_traveled_(0.0), state_(State::MOVING_FORWARD){
 
   publisher_ = create_publisher<geometry_msgs::msg::Twist>(cmd_vel_topic, 1);
 
@@ -136,8 +127,8 @@ void ObstacleAvoider1::updateRobotBehavior() {
     if(state_ != State::TURNING_AROUND){
 
       command_message->linear.x = ROBOT_SPEED; // run
-
-      if (left_sensor_value < MAX_RANGE || right_sensor_value < MAX_RANGE) {
+      // left_sensor_value < MAX_RANGE || 
+      if (right_sensor_value < MAX_RANGE) {
         // Obstacle detected, stop and wait
         RCLCPP_INFO(this->get_logger(), "Robot1 - Obstacle detected, stop and wait");
         command_message->linear.x = 0.0; // Stop

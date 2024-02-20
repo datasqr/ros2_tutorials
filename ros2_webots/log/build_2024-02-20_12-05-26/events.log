@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000368] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000408] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000455] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.000627] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.000664] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.076405] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.077328] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.078361] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1599'), ('SYSTEMD_EXEC_PID', '1808'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8418'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:31005'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/1758,unix/mz:/tmp/.ICE-unix/1758'), ('INVOCATION_ID', '54d18a8a6b0a4d96aa3ba12142e577a0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.X67LJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:3488dcf3-b03d-4c62-8fd3-8f59ce97bd61'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098780] (-) TimerEvent: {}
+[0.110822] (robots_paths) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.198874] (-) TimerEvent: {}
+[0.299177] (-) TimerEvent: {}
+[0.301033] (robots_paths) StdoutLine: {'line': b'-- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.336774] (robots_paths) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.348565] (robots_paths) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.363763] (robots_paths) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.383056] (robots_paths) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399315] (-) TimerEvent: {}
+[0.499667] (-) TimerEvent: {}
+[0.584145] (robots_paths) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.585768] (robots_paths) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599762] (-) TimerEvent: {}
+[0.700069] (-) TimerEvent: {}
+[0.734667] (robots_paths) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800209] (-) TimerEvent: {}
+[0.900532] (-) TimerEvent: {}
+[0.947270] (robots_paths) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.985677] (robots_paths) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.000615] (-) TimerEvent: {}
+[1.035221] (robots_paths) StdoutLine: {'line': b'-- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)\n'}
+[1.056348] (robots_paths) StdoutLine: {'line': b'-- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)\n'}
+[1.100764] (-) TimerEvent: {}
+[1.201073] (-) TimerEvent: {}
+[1.246736] (robots_paths) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[1.248532] (robots_paths) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.301214] (-) TimerEvent: {}
+[1.401530] (-) TimerEvent: {}
+[1.501799] (-) TimerEvent: {}
+[1.602095] (-) TimerEvent: {}
+[1.702425] (-) TimerEvent: {}
+[1.802746] (-) TimerEvent: {}
+[1.903073] (-) TimerEvent: {}
+[2.003394] (-) TimerEvent: {}
+[2.103678] (-) TimerEvent: {}
+[2.204004] (-) TimerEvent: {}
+[2.304338] (-) TimerEvent: {}
+[2.404665] (-) TimerEvent: {}
+[2.504970] (-) TimerEvent: {}
+[2.586978] (robots_paths) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605093] (-) TimerEvent: {}
+[2.705428] (-) TimerEvent: {}
+[2.716271] (robots_paths) StdoutLine: {'line': b'-- Generating done\n'}
+[2.719289] (robots_paths) StdoutLine: {'line': b'-- Build files have been written to: /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths\n'}
+[2.759501] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider2\x1b[0m\n'}
+[2.769805] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider1\x1b[0m\n'}
+[2.775834] (robots_paths) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o\x1b[0m\n'}
+[2.782614] (robots_paths) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o\x1b[0m\n'}
+[2.805538] (-) TimerEvent: {}
+[2.837817] (robots_paths) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o\x1b[0m\n'}
+[2.874934] (robots_paths) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o\x1b[0m\n'}
+[2.905654] (-) TimerEvent: {}
+[3.006106] (-) TimerEvent: {}
+[3.106675] (-) TimerEvent: {}
+[3.207344] (-) TimerEvent: {}
+[3.307977] (-) TimerEvent: {}
+[3.408683] (-) TimerEvent: {}
+[3.509057] (-) TimerEvent: {}
+[3.609548] (-) TimerEvent: {}
+[3.709971] (-) TimerEvent: {}
+[3.810595] (-) TimerEvent: {}
+[3.911213] (-) TimerEvent: {}
+[4.011831] (-) TimerEvent: {}
+[4.112517] (-) TimerEvent: {}
+[4.213136] (-) TimerEvent: {}
+[4.313936] (-) TimerEvent: {}
+[4.414538] (-) TimerEvent: {}
+[4.515109] (-) TimerEvent: {}
+[4.615772] (-) TimerEvent: {}
+[4.716475] (-) TimerEvent: {}
+[4.816820] (-) TimerEvent: {}
+[4.917176] (-) TimerEvent: {}
+[5.017626] (-) TimerEvent: {}
+[5.118003] (-) TimerEvent: {}
+[5.218455] (-) TimerEvent: {}
+[5.318886] (-) TimerEvent: {}
+[5.419469] (-) TimerEvent: {}
+[5.520099] (-) TimerEvent: {}
+[5.620675] (-) TimerEvent: {}
+[5.721321] (-) TimerEvent: {}
+[5.821977] (-) TimerEvent: {}
+[5.922648] (-) TimerEvent: {}
+[6.023235] (-) TimerEvent: {}
+[6.123960] (-) TimerEvent: {}
+[6.224536] (-) TimerEvent: {}
+[6.324888] (-) TimerEvent: {}
+[6.425276] (-) TimerEvent: {}
+[6.525917] (-) TimerEvent: {}
+[6.626277] (-) TimerEvent: {}
+[6.727000] (-) TimerEvent: {}
+[6.828231] (-) TimerEvent: {}
+[6.928876] (-) TimerEvent: {}
+[7.029682] (-) TimerEvent: {}
+[7.130598] (-) TimerEvent: {}
+[7.231279] (-) TimerEvent: {}
+[7.331909] (-) TimerEvent: {}
+[7.432559] (-) TimerEvent: {}
+[7.533358] (-) TimerEvent: {}
+[7.633954] (-) TimerEvent: {}
+[7.734651] (-) TimerEvent: {}
+[7.835351] (-) TimerEvent: {}
+[7.936144] (-) TimerEvent: {}
+[8.036794] (-) TimerEvent: {}
+[8.137160] (-) TimerEvent: {}
+[8.237506] (-) TimerEvent: {}
+[8.337868] (-) TimerEvent: {}
+[8.438213] (-) TimerEvent: {}
+[8.538556] (-) TimerEvent: {}
+[8.638986] (-) TimerEvent: {}
+[8.739356] (-) TimerEvent: {}
+[8.839761] (-) TimerEvent: {}
+[8.940152] (-) TimerEvent: {}
+[9.040954] (-) TimerEvent: {}
+[9.141707] (-) TimerEvent: {}
+[9.242268] (-) TimerEvent: {}
+[9.242954] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1\x1b[m\x1b[K:\n'}
+[9.243234] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.243413] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.243570] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.245055] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.245242] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.245387] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.247002] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.247536] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.247804] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.247943] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.248067] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.248197] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.248373] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.248504] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.248639] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.248793] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.248943] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.251423] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.251605] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.251770] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.252032] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.252186] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.252343] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.252496] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.252650] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.252798] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.252919] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.253037] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.255425] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.255678] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.255846] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.255997] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.256273] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.256452] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.256604] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.256750] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.256910] (robots_paths) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[KObstacleAvoider3\x1b[m\x1b[K::ObstacleAvoider3(const std::string& cmd_vel_topic,\n'}
+[9.257060] (robots_paths) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.257198] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1\x1b[m\x1b[K:\n'}
+[9.257318] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(ObstacleAvoider3&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.259781] (robots_paths) StderrLine: {'line': b'   78 | class \x1b[01;36m\x1b[KObstacleAvoider3\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[9.259975] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.260129] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(const ObstacleAvoider3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.260269] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.260547] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ObstacleAvoider3\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[9.282997] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider1.cpp:1\x1b[m\x1b[K:\n'}
+[9.283254] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.283517] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.283677] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.284023] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.284197] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.284366] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.284514] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.287091] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.287342] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.287507] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.287972] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.288158] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.288320] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.288467] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.291270] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.291560] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.291778] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.292394] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.292645] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.292817] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.293097] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.295288] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.295541] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.295705] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.296034] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.296309] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.296469] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.296626] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.297790] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.298070] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.298237] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.299537] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.299769] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.299934] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.300085] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.331984] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1\x1b[m\x1b[K:\n'}
+[9.332257] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.332434] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.332678] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.332847] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.332996] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.333141] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.333273] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.333680] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.333863] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.334002] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.334147] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.334291] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.334434] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.334578] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.334821] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.334974] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.335123] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.335280] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.335416] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.335570] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.335837] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.336222] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.336403] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.336559] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.336828] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.337033] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.337167] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.337282] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.337394] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.337506] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.337734] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.337847] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.337962] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.338073] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.338190] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.338305] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:14:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.338445] (robots_paths) StderrLine: {'line': b'   14 | \x1b[01;31m\x1b[KObstacleAvoider4\x1b[m\x1b[K::ObstacleAvoider4(const std::string& cmd_vel_topic,\n'}
+[9.338597] (robots_paths) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.338733] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1\x1b[m\x1b[K:\n'}
+[9.339012] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(ObstacleAvoider4&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.339180] (robots_paths) StderrLine: {'line': b'  127 | class \x1b[01;36m\x1b[KObstacleAvoider4\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[9.339314] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.339460] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(const ObstacleAvoider4&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.339593] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.339847] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass ObstacleAvoider4\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[9.342372] (-) TimerEvent: {}
+[9.406095] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1\x1b[m\x1b[K:\n'}
+[9.406460] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.406661] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.407060] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.407257] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:80:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.407438] (robots_paths) StderrLine: {'line': b'   80 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.407592] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.407882] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.408071] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.408228] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.408379] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.408658] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:129:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.408840] (robots_paths) StderrLine: {'line': b'  129 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.408996] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.409154] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.409301] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.409498] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.409657] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.409807] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:178:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.409958] (robots_paths) StderrLine: {'line': b'  178 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.410120] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.410268] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.410429] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.410577] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.410726] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.410872] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:227:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.411023] (robots_paths) StderrLine: {'line': b'  227 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.411177] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.411314] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.411578] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.411744] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.411892] (robots_paths) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.412039] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:276:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.412207] (robots_paths) StderrLine: {'line': b'  276 |   explicit ObstacleAvoider1\x1b[34m\x1b[K(\x1b[m\x1b[K\x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Konst\x1b[m\x1b[K std::string& cmd_vel_topic,\n'}
+[9.412352] (robots_paths) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K\x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~\x1b[m\x1b[K\n'}
+[9.412498] (robots_paths) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[9.442477] (-) TimerEvent: {}
+[9.542956] (-) TimerEvent: {}
+[9.643416] (-) TimerEvent: {}
+[9.743883] (-) TimerEvent: {}
+[9.844225] (-) TimerEvent: {}
+[9.944578] (-) TimerEvent: {}
+[10.044933] (-) TimerEvent: {}
+[10.145284] (-) TimerEvent: {}
+[10.245666] (-) TimerEvent: {}
+[10.346024] (-) TimerEvent: {}
+[10.446370] (-) TimerEvent: {}
+[10.546715] (-) TimerEvent: {}
+[10.647077] (-) TimerEvent: {}
+[10.747449] (-) TimerEvent: {}
+[10.847926] (-) TimerEvent: {}
+[10.948363] (-) TimerEvent: {}
+[11.048760] (-) TimerEvent: {}
+[11.149185] (-) TimerEvent: {}
+[11.239927] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[11.240198] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[11.240361] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[11.240530] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[11.240677] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1\x1b[m\x1b[K:\n'}
+[11.240836] (robots_paths) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.240988] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider4>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241142] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241293] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241463] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241625] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider4]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241792] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider4; _Alloc = std::allocator<ObstacleAvoider4>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241951] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider4; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.242101] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:165:52:\x1b[m\x1b[K   required from here\n'}
+[11.242242] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(const char [10], const char [23], const char [24])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.242387] (robots_paths) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[11.242528] (robots_paths) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.242668] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider4.cpp:1\x1b[m\x1b[K:\n'}
+[11.242812] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4()\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.242957] (robots_paths) StderrLine: {'line': b'  127 | class \x1b[01;36m\x1b[KObstacleAvoider4\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[11.243095] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.248041] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[11.248320] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(const ObstacleAvoider4&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.248485] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[11.248647] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider4::ObstacleAvoider4(ObstacleAvoider4&&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.248794] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[11.249258] (-) TimerEvent: {}
+[11.252109] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[11.252445] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[11.252693] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[11.252928] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:1\x1b[m\x1b[K,\n'}
+[11.253163] (robots_paths) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1\x1b[m\x1b[K:\n'}
+[11.253399] (robots_paths) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.253669] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ObstacleAvoider3>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.253949] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.254188] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.254444] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.254667] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}; _Tp = ObstacleAvoider3]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.254882] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ObstacleAvoider3; _Alloc = std::allocator<ObstacleAvoider3>; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.255604] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ObstacleAvoider3; _Args = {const char (&)[10], const char (&)[23], const char (&)[24]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.255883] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:165:52:\x1b[m\x1b[K   required from here\n'}
+[11.256097] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(const char [10], const char [23], const char [24])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.256320] (robots_paths) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[11.256550] (robots_paths) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.256835] (robots_paths) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider3.cpp:1\x1b[m\x1b[K:\n'}
+[11.257077] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3()\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.257308] (robots_paths) StderrLine: {'line': b'   78 | class \x1b[01;36m\x1b[KObstacleAvoider3\x1b[m\x1b[K : public rclcpp::Node {\n'}
+[11.257536] (robots_paths) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.257825] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[11.258115] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(const ObstacleAvoider3&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.258381] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[11.258666] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KObstacleAvoider3::ObstacleAvoider3(ObstacleAvoider3&&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[11.258947] (robots_paths) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:78:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[11.349383] (-) TimerEvent: {}
+[11.449715] (-) TimerEvent: {}
+[11.537893] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider3.dir/build.make:76: CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o] Error 1\n'}
+[11.539019] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:203: CMakeFiles/obstacle_avoider3.dir/all] Error 2\n'}
+[11.539356] (robots_paths) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.539747] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider4.dir/build.make:76: CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o] Error 1\n'}
+[11.540034] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:229: CMakeFiles/obstacle_avoider4.dir/all] Error 2\n'}
+[11.549815] (-) TimerEvent: {}
+[11.650180] (-) TimerEvent: {}
+[11.750547] (-) TimerEvent: {}
+[11.850906] (-) TimerEvent: {}
+[11.951609] (-) TimerEvent: {}
+[12.052415] (-) TimerEvent: {}
+[12.153091] (-) TimerEvent: {}
+[12.254054] (-) TimerEvent: {}
+[12.354966] (-) TimerEvent: {}
+[12.455977] (-) TimerEvent: {}
+[12.556507] (-) TimerEvent: {}
+[12.657576] (-) TimerEvent: {}
+[12.758334] (-) TimerEvent: {}
+[12.858753] (-) TimerEvent: {}
+[12.959434] (-) TimerEvent: {}
+[13.059788] (-) TimerEvent: {}
+[13.067951] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider2.dir/build.make:76: CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o] Error 1\n'}
+[13.068188] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:177: CMakeFiles/obstacle_avoider2.dir/all] Error 2\n'}
+[13.159890] (-) TimerEvent: {}
+[13.203159] (robots_paths) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/obstacle_avoider1.dir/build.make:76: CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o] Error 1\n'}
+[13.203493] (robots_paths) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/obstacle_avoider1.dir/all] Error 2\n'}
+[13.204173] (robots_paths) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.207184] (robots_paths) CommandEnded: {'returncode': 2}
+[13.259977] (-) TimerEvent: {}
+[13.360281] (-) TimerEvent: {}
+[13.384789] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 2}
+[13.395568] (-) EventReactorShutdown: {}

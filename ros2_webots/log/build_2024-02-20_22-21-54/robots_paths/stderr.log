@@ -1,0 +1,21 @@
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:5:[m[K [01;35m[Kwarning: [m[K"TRAVEL_DISTANCE" redefined
+    5 | #define TRAVEL_DISTANCE 2.0 // Distance to travel before turning around (meters)
+      | 
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider2.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:11:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   11 | #define TRAVEL_DISTANCE 2.5 // Distance to travel before turning around (meters)
+      | 
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider6.cpp:5:[m[K [01;35m[Kwarning: [m[K"TRAVEL_DISTANCE" redefined
+    5 | #define TRAVEL_DISTANCE 2.0 // Distance to travel before turning around (meters)
+      | 
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider6.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:11:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   11 | #define TRAVEL_DISTANCE 2.5 // Distance to travel before turning around (meters)
+      | 
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider7.cpp:5:[m[K [01;35m[Kwarning: [m[K"TRAVEL_DISTANCE" redefined
+    5 | #define TRAVEL_DISTANCE 2.0 // Distance to travel before turning around (meters)
+      | 
+In file included from [01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/src/ObstacleAvoider7.cpp:1[m[K:
+[01m[K/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths/include/robots_paths/ObstacleAvoider.hpp:11:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   11 | #define TRAVEL_DISTANCE 2.5 // Distance to travel before turning around (meters)
+      | 

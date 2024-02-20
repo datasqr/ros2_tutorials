@@ -1,7 +1,5 @@
 #include "robots_paths/ObstacleAvoider.hpp"
 
-#define MAX_RANGE 0.15
-
 // ObstacleAvoider2
 
 ObstacleAvoider2::ObstacleAvoider2(const std::string& cmd_vel_topic, 
@@ -24,6 +22,16 @@ ObstacleAvoider2::ObstacleAvoider2(const std::string& cmd_vel_topic,
 void ObstacleAvoider2::leftSensorCallback(
     const sensor_msgs::msg::Range::SharedPtr msg) {
   left_sensor_value = msg->range;
+
+  auto command_message = std::make_unique<geometry_msgs::msg::Twist>();
+
+  command_message->linear.x = 0.1;
+
+  if (left_sensor_value < 0.9 * MAX_RANGE) {
+    command_message->angular.z = -2.0;
+  }
+
+  publisher_->publish(std::move(command_message));
 }
 
 void ObstacleAvoider2::rightSensorCallback(
@@ -34,8 +42,7 @@ void ObstacleAvoider2::rightSensorCallback(
 
   command_message->linear.x = 0.1;
 
-  if (left_sensor_value < 0.9 * MAX_RANGE ||
-      right_sensor_value < 0.9 * MAX_RANGE) {
+  if (right_sensor_value < 0.9 * MAX_RANGE) {
     command_message->angular.z = 2.0;
   }
 

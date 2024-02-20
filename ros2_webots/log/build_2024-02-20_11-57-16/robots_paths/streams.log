@@ -1,0 +1,66 @@
+[0.077s] Invoking command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4
+[0.141s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.344s] -- Found rclcpp: 21.0.4 (/opt/ros/iron/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.634s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.637s] -- Found rmw_fastrtps_cpp: 7.1.2 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.075s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.133s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.155s] -- Found webots_ros2_driver: 2023.1.1 (/opt/ros/iron/share/webots_ros2_driver/cmake)
+[1.325s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[1.327s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.274s] [31mCMake Error at CMakeLists.txt:32 (add_executable):
+[2.274s]   add_executable cannot create target "obstacle_avoider2" because another
+[2.274s]   target with the same name already exists.  The existing target is an
+[2.274s]   executable created in source directory
+[2.274s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths".  See
+[2.275s]   documentation for policy CMP0002 for more details.
+[2.275s] 
+[2.275s] [0m
+[2.275s] [31mCMake Error at CMakeLists.txt:36 (add_executable):
+[2.275s]   add_executable cannot create target "obstacle_avoider2" because another
+[2.275s]   target with the same name already exists.  The existing target is an
+[2.275s]   executable created in source directory
+[2.275s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths".  See
+[2.275s]   documentation for policy CMP0002 for more details.
+[2.275s] 
+[2.276s] [0m
+[2.276s] [31mCMake Error at CMakeLists.txt:40 (add_executable):
+[2.276s]   add_executable cannot create target "obstacle_avoider2" because another
+[2.276s]   target with the same name already exists.  The existing target is an
+[2.276s]   executable created in source directory
+[2.276s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths".  See
+[2.276s]   documentation for policy CMP0002 for more details.
+[2.276s] 
+[2.276s] [0m
+[2.277s] [31mCMake Error at CMakeLists.txt:44 (add_executable):
+[2.277s]   add_executable cannot create target "obstacle_avoider2" because another
+[2.277s]   target with the same name already exists.  The existing target is an
+[2.277s]   executable created in source directory
+[2.277s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths".  See
+[2.277s]   documentation for policy CMP0002 for more details.
+[2.277s] 
+[2.277s] [0m
+[2.277s] [31mCMake Error at CMakeLists.txt:48 (add_executable):
+[2.278s]   add_executable cannot create target "obstacle_avoider2" because another
+[2.278s]   target with the same name already exists.  The existing target is an
+[2.278s]   executable created in source directory
+[2.278s]   "/home/mz/projects/ros/tutorials/basics/ros2_webots/src/robots_paths".  See
+[2.278s]   documentation for policy CMP0002 for more details.
+[2.278s] 
+[2.278s] [0m
+[2.278s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.278s]   ament_target_dependencies() the first argument must be a valid target name
+[2.279s] Call Stack (most recent call first):
+[2.279s]   CMakeLists.txt:66 (ament_target_dependencies)
+[2.279s] 
+[2.279s] [0m
+[2.279s] -- Configuring incomplete, errors occurred!
+[2.279s] See also "/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths/CMakeFiles/CMakeOutput.log".
+[2.286s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[2.289s] Invoked command in '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths -- -j4 -l4

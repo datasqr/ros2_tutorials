@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'multiple_robots'}
+[0.000299] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000336] (-) JobUnselected: {'identifier': 'robots_world'}
+[0.000397] (robots_paths) JobQueued: {'identifier': 'robots_paths', 'dependencies': OrderedDict()}
+[0.000452] (robots_paths) JobStarted: {'identifier': 'robots_paths'}
+[0.092069] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'cmake'}
+[0.092856] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'build'}
+[0.093667] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', '--', '-j4', '-l4'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1575'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2504'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:30468'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/1729,unix/mz:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', 'e84fd09e5c224ec5a20d64f760a42d16'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKN9I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:245abe91-8106-4316-a3eb-5327031ffccc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[0.098988] (-) TimerEvent: {}
+[0.158165] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider2\x1b[0m\n'}
+[0.166317] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider3\x1b[0m\n'}
+[0.172714] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider1\x1b[0m\n'}
+[0.199101] (-) TimerEvent: {}
+[0.199405] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider4\x1b[0m\n'}
+[0.217320] (robots_paths) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider1.dir/src/ObstacleAvoider1.cpp.o\x1b[0m\n'}
+[0.225861] (robots_paths) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.o\x1b[0m\n'}
+[0.247164] (robots_paths) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o\x1b[0m\n'}
+[0.253548] (robots_paths) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o\x1b[0m\n'}
+[0.299206] (-) TimerEvent: {}
+[0.399537] (-) TimerEvent: {}
+[0.499869] (-) TimerEvent: {}
+[0.600174] (-) TimerEvent: {}
+[0.700510] (-) TimerEvent: {}
+[0.800877] (-) TimerEvent: {}
+[0.901188] (-) TimerEvent: {}
+[1.001560] (-) TimerEvent: {}
+[1.101895] (-) TimerEvent: {}
+[1.202251] (-) TimerEvent: {}
+[1.302609] (-) TimerEvent: {}
+[1.402974] (-) TimerEvent: {}
+[1.503327] (-) TimerEvent: {}
+[1.603683] (-) TimerEvent: {}
+[1.704073] (-) TimerEvent: {}
+[1.804436] (-) TimerEvent: {}
+[1.904828] (-) TimerEvent: {}
+[2.005217] (-) TimerEvent: {}
+[2.105611] (-) TimerEvent: {}
+[2.205999] (-) TimerEvent: {}
+[2.306408] (-) TimerEvent: {}
+[2.406790] (-) TimerEvent: {}
+[2.507166] (-) TimerEvent: {}
+[2.607548] (-) TimerEvent: {}
+[2.707922] (-) TimerEvent: {}
+[2.808293] (-) TimerEvent: {}
+[2.908679] (-) TimerEvent: {}
+[3.009049] (-) TimerEvent: {}
+[3.109428] (-) TimerEvent: {}
+[3.209809] (-) TimerEvent: {}
+[3.310192] (-) TimerEvent: {}
+[3.410572] (-) TimerEvent: {}
+[3.510948] (-) TimerEvent: {}
+[3.611537] (-) TimerEvent: {}
+[3.712209] (-) TimerEvent: {}
+[3.812888] (-) TimerEvent: {}
+[3.913594] (-) TimerEvent: {}
+[4.014305] (-) TimerEvent: {}
+[4.115020] (-) TimerEvent: {}
+[4.215691] (-) TimerEvent: {}
+[4.316344] (-) TimerEvent: {}
+[4.417016] (-) TimerEvent: {}
+[4.517710] (-) TimerEvent: {}
+[4.618436] (-) TimerEvent: {}
+[4.718780] (-) TimerEvent: {}
+[4.819382] (-) TimerEvent: {}
+[4.920054] (-) TimerEvent: {}
+[5.020696] (-) TimerEvent: {}
+[5.121355] (-) TimerEvent: {}
+[5.222098] (-) TimerEvent: {}
+[5.322810] (-) TimerEvent: {}
+[5.423484] (-) TimerEvent: {}
+[5.524146] (-) TimerEvent: {}
+[5.624834] (-) TimerEvent: {}
+[5.725469] (-) TimerEvent: {}
+[5.826094] (-) TimerEvent: {}
+[5.926897] (-) TimerEvent: {}
+[6.027516] (-) TimerEvent: {}
+[6.128069] (-) TimerEvent: {}
+[6.228431] (-) TimerEvent: {}
+[6.328769] (-) TimerEvent: {}
+[6.429131] (-) TimerEvent: {}
+[6.529478] (-) TimerEvent: {}
+[6.629878] (-) TimerEvent: {}
+[6.730498] (-) TimerEvent: {}
+[6.830840] (-) TimerEvent: {}
+[6.931225] (-) TimerEvent: {}
+[7.031583] (-) TimerEvent: {}
+[7.131950] (-) TimerEvent: {}
+[7.232295] (-) TimerEvent: {}
+[7.332653] (-) TimerEvent: {}
+[7.433008] (-) TimerEvent: {}
+[7.533375] (-) TimerEvent: {}
+[7.633737] (-) TimerEvent: {}
+[7.734090] (-) TimerEvent: {}
+[7.834473] (-) TimerEvent: {}
+[7.934846] (-) TimerEvent: {}
+[8.035217] (-) TimerEvent: {}
+[8.135662] (-) TimerEvent: {}
+[8.236041] (-) TimerEvent: {}
+[8.336386] (-) TimerEvent: {}
+[8.436740] (-) TimerEvent: {}
+[8.537084] (-) TimerEvent: {}
+[8.637437] (-) TimerEvent: {}
+[8.737807] (-) TimerEvent: {}
+[8.838166] (-) TimerEvent: {}
+[8.938548] (-) TimerEvent: {}
+[9.038902] (-) TimerEvent: {}
+[9.139231] (-) TimerEvent: {}
+[9.239562] (-) TimerEvent: {}
+[9.339896] (-) TimerEvent: {}
+[9.440233] (-) TimerEvent: {}
+[9.540571] (-) TimerEvent: {}
+[9.640917] (-) TimerEvent: {}
+[9.741274] (-) TimerEvent: {}
+[9.841617] (-) TimerEvent: {}
+[9.941968] (-) TimerEvent: {}
+[10.042311] (-) TimerEvent: {}
+[10.142660] (-) TimerEvent: {}
+[10.243015] (-) TimerEvent: {}
+[10.343349] (-) TimerEvent: {}
+[10.443702] (-) TimerEvent: {}
+[10.544049] (-) TimerEvent: {}
+[10.644422] (-) TimerEvent: {}
+[10.744770] (-) TimerEvent: {}
+[10.845118] (-) TimerEvent: {}
+[10.945471] (-) TimerEvent: {}
+[11.045859] (-) TimerEvent: {}
+[11.146301] (-) TimerEvent: {}
+[11.246673] (-) TimerEvent: {}
+[11.347035] (-) TimerEvent: {}
+[11.447387] (-) TimerEvent: {}
+[11.547729] (-) TimerEvent: {}
+[11.648069] (-) TimerEvent: {}
+[11.748420] (-) TimerEvent: {}
+[11.848769] (-) TimerEvent: {}
+[11.949120] (-) TimerEvent: {}
+[12.049466] (-) TimerEvent: {}
+[12.149807] (-) TimerEvent: {}
+[12.250135] (-) TimerEvent: {}
+[12.350465] (-) TimerEvent: {}
+[12.450808] (-) TimerEvent: {}
+[12.551140] (-) TimerEvent: {}
+[12.651470] (-) TimerEvent: {}
+[12.751800] (-) TimerEvent: {}
+[12.852133] (-) TimerEvent: {}
+[12.952475] (-) TimerEvent: {}
+[13.052824] (-) TimerEvent: {}
+[13.153175] (-) TimerEvent: {}
+[13.253521] (-) TimerEvent: {}
+[13.354097] (-) TimerEvent: {}
+[13.454395] (-) TimerEvent: {}
+[13.554717] (-) TimerEvent: {}
+[13.655037] (-) TimerEvent: {}
+[13.755369] (-) TimerEvent: {}
+[13.855714] (-) TimerEvent: {}
+[13.956039] (-) TimerEvent: {}
+[14.056363] (-) TimerEvent: {}
+[14.156708] (-) TimerEvent: {}
+[14.257031] (-) TimerEvent: {}
+[14.357345] (-) TimerEvent: {}
+[14.457664] (-) TimerEvent: {}
+[14.557996] (-) TimerEvent: {}
+[14.658658] (-) TimerEvent: {}
+[14.758999] (-) TimerEvent: {}
+[14.859325] (-) TimerEvent: {}
+[14.959665] (-) TimerEvent: {}
+[15.060000] (-) TimerEvent: {}
+[15.160339] (-) TimerEvent: {}
+[15.260675] (-) TimerEvent: {}
+[15.361069] (-) TimerEvent: {}
+[15.461404] (-) TimerEvent: {}
+[15.561730] (-) TimerEvent: {}
+[15.662060] (-) TimerEvent: {}
+[15.762401] (-) TimerEvent: {}
+[15.862792] (-) TimerEvent: {}
+[15.963158] (-) TimerEvent: {}
+[16.049444] (robots_paths) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider4\x1b[0m\n'}
+[16.063277] (-) TimerEvent: {}
+[16.101297] (robots_paths) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider3\x1b[0m\n'}
+[16.163374] (-) TimerEvent: {}
+[16.200660] (robots_paths) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider2\x1b[0m\n'}
+[16.263588] (-) TimerEvent: {}
+[16.364237] (-) TimerEvent: {}
+[16.464814] (-) TimerEvent: {}
+[16.565303] (-) TimerEvent: {}
+[16.665778] (-) TimerEvent: {}
+[16.766347] (-) TimerEvent: {}
+[16.866823] (-) TimerEvent: {}
+[16.967216] (-) TimerEvent: {}
+[17.067686] (-) TimerEvent: {}
+[17.071954] (robots_paths) StdoutLine: {'line': b'[ 43%] Built target obstacle_avoider4\n'}
+[17.101114] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider5\x1b[0m\n'}
+[17.136315] (robots_paths) StdoutLine: {'line': b'[ 43%] Built target obstacle_avoider3\n'}
+[17.141911] (robots_paths) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider5.dir/src/ObstacleAvoider5.cpp.o\x1b[0m\n'}
+[17.162555] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider6\x1b[0m\n'}
+[17.167775] (-) TimerEvent: {}
+[17.204305] (robots_paths) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider6.dir/src/ObstacleAvoider6.cpp.o\x1b[0m\n'}
+[17.267882] (-) TimerEvent: {}
+[17.368299] (-) TimerEvent: {}
+[17.468735] (-) TimerEvent: {}
+[17.569189] (-) TimerEvent: {}
+[17.579247] (robots_paths) StdoutLine: {'line': b'[ 56%] Built target obstacle_avoider2\n'}
+[17.651070] (robots_paths) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_avoider7\x1b[0m\n'}
+[17.669289] (-) TimerEvent: {}
+[17.753619] (robots_paths) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoider7.dir/src/ObstacleAvoider7.cpp.o\x1b[0m\n'}
+[17.769392] (-) TimerEvent: {}
+[17.869810] (-) TimerEvent: {}
+[17.970240] (-) TimerEvent: {}
+[18.071404] (-) TimerEvent: {}
+[18.172043] (-) TimerEvent: {}
+[18.272700] (-) TimerEvent: {}
+[18.373503] (-) TimerEvent: {}
+[18.474149] (-) TimerEvent: {}
+[18.575678] (-) TimerEvent: {}
+[18.676406] (-) TimerEvent: {}
+[18.777073] (-) TimerEvent: {}
+[18.877763] (-) TimerEvent: {}
+[18.978573] (-) TimerEvent: {}
+[19.079412] (-) TimerEvent: {}
+[19.180313] (-) TimerEvent: {}
+[19.281015] (-) TimerEvent: {}
+[19.331736] (robots_paths) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider1\x1b[0m\n'}
+[19.381144] (-) TimerEvent: {}
+[19.482003] (-) TimerEvent: {}
+[19.582829] (-) TimerEvent: {}
+[19.683704] (-) TimerEvent: {}
+[19.784546] (-) TimerEvent: {}
+[19.885222] (-) TimerEvent: {}
+[19.986106] (-) TimerEvent: {}
+[20.086806] (-) TimerEvent: {}
+[20.187589] (-) TimerEvent: {}
+[20.288056] (-) TimerEvent: {}
+[20.315916] (robots_paths) StdoutLine: {'line': b'[ 68%] Built target obstacle_avoider1\n'}
+[20.388169] (-) TimerEvent: {}
+[20.489687] (-) TimerEvent: {}
+[20.520327] (robots_paths) StdoutLine: {'line': b'[ 81%] Built target robots_paths\n'}
+[20.589925] (-) TimerEvent: {}
+[20.691283] (-) TimerEvent: {}
+[20.792061] (-) TimerEvent: {}
+[20.892794] (-) TimerEvent: {}
+[20.993456] (-) TimerEvent: {}
+[21.094081] (-) TimerEvent: {}
+[21.194671] (-) TimerEvent: {}
+[21.295373] (-) TimerEvent: {}
+[21.396140] (-) TimerEvent: {}
+[21.497208] (-) TimerEvent: {}
+[21.597873] (-) TimerEvent: {}
+[21.698641] (-) TimerEvent: {}
+[21.799285] (-) TimerEvent: {}
+[21.899846] (-) TimerEvent: {}
+[22.000415] (-) TimerEvent: {}
+[22.101073] (-) TimerEvent: {}
+[22.201638] (-) TimerEvent: {}
+[22.301991] (-) TimerEvent: {}
+[22.402635] (-) TimerEvent: {}
+[22.503055] (-) TimerEvent: {}
+[22.603388] (-) TimerEvent: {}
+[22.703746] (-) TimerEvent: {}
+[22.804067] (-) TimerEvent: {}
+[22.904434] (-) TimerEvent: {}
+[23.004787] (-) TimerEvent: {}
+[23.105142] (-) TimerEvent: {}
+[23.205492] (-) TimerEvent: {}
+[23.305837] (-) TimerEvent: {}
+[23.406208] (-) TimerEvent: {}
+[23.506551] (-) TimerEvent: {}
+[23.606897] (-) TimerEvent: {}
+[23.707252] (-) TimerEvent: {}
+[23.807597] (-) TimerEvent: {}
+[23.907930] (-) TimerEvent: {}
+[24.008290] (-) TimerEvent: {}
+[24.108712] (-) TimerEvent: {}
+[24.209107] (-) TimerEvent: {}
+[24.309478] (-) TimerEvent: {}
+[24.409851] (-) TimerEvent: {}
+[24.510237] (-) TimerEvent: {}
+[24.610623] (-) TimerEvent: {}
+[24.711010] (-) TimerEvent: {}
+[24.811341] (-) TimerEvent: {}
+[24.911682] (-) TimerEvent: {}
+[25.012032] (-) TimerEvent: {}
+[25.112388] (-) TimerEvent: {}
+[25.212743] (-) TimerEvent: {}
+[25.313116] (-) TimerEvent: {}
+[25.413454] (-) TimerEvent: {}
+[25.513827] (-) TimerEvent: {}
+[25.614162] (-) TimerEvent: {}
+[25.714504] (-) TimerEvent: {}
+[25.814855] (-) TimerEvent: {}
+[25.915193] (-) TimerEvent: {}
+[26.015538] (-) TimerEvent: {}
+[26.115892] (-) TimerEvent: {}
+[26.216283] (-) TimerEvent: {}
+[26.316701] (-) TimerEvent: {}
+[26.417062] (-) TimerEvent: {}
+[26.517399] (-) TimerEvent: {}
+[26.617735] (-) TimerEvent: {}
+[26.718074] (-) TimerEvent: {}
+[26.818400] (-) TimerEvent: {}
+[26.918756] (-) TimerEvent: {}
+[27.019434] (-) TimerEvent: {}
+[27.120126] (-) TimerEvent: {}
+[27.220697] (-) TimerEvent: {}
+[27.321296] (-) TimerEvent: {}
+[27.421867] (-) TimerEvent: {}
+[27.522726] (-) TimerEvent: {}
+[27.623332] (-) TimerEvent: {}
+[27.723905] (-) TimerEvent: {}
+[27.824455] (-) TimerEvent: {}
+[27.925044] (-) TimerEvent: {}
+[28.025708] (-) TimerEvent: {}
+[28.126389] (-) TimerEvent: {}
+[28.226965] (-) TimerEvent: {}
+[28.327534] (-) TimerEvent: {}
+[28.428194] (-) TimerEvent: {}
+[28.528528] (-) TimerEvent: {}
+[28.629106] (-) TimerEvent: {}
+[28.729684] (-) TimerEvent: {}
+[28.830237] (-) TimerEvent: {}
+[28.930789] (-) TimerEvent: {}
+[29.031317] (-) TimerEvent: {}
+[29.131852] (-) TimerEvent: {}
+[29.232398] (-) TimerEvent: {}
+[29.332764] (-) TimerEvent: {}
+[29.433121] (-) TimerEvent: {}
+[29.533685] (-) TimerEvent: {}
+[29.634370] (-) TimerEvent: {}
+[29.734718] (-) TimerEvent: {}
+[29.833556] (robots_paths) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider5\x1b[0m\n'}
+[29.834805] (-) TimerEvent: {}
+[29.935137] (-) TimerEvent: {}
+[30.035634] (-) TimerEvent: {}
+[30.136128] (-) TimerEvent: {}
+[30.236481] (-) TimerEvent: {}
+[30.336814] (-) TimerEvent: {}
+[30.437398] (-) TimerEvent: {}
+[30.538081] (-) TimerEvent: {}
+[30.638717] (-) TimerEvent: {}
+[30.658217] (robots_paths) StdoutLine: {'line': b'[ 87%] Built target obstacle_avoider5\n'}
+[30.738864] (-) TimerEvent: {}
+[30.839220] (-) TimerEvent: {}
+[30.939653] (-) TimerEvent: {}
+[31.040022] (-) TimerEvent: {}
+[31.140800] (-) TimerEvent: {}
+[31.241144] (-) TimerEvent: {}
+[31.341480] (-) TimerEvent: {}
+[31.441822] (-) TimerEvent: {}
+[31.542192] (-) TimerEvent: {}
+[31.642939] (-) TimerEvent: {}
+[31.743261] (-) TimerEvent: {}
+[31.843580] (-) TimerEvent: {}
+[31.943940] (-) TimerEvent: {}
+[32.044282] (-) TimerEvent: {}
+[32.114305] (robots_paths) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider6\x1b[0m\n'}
+[32.144398] (-) TimerEvent: {}
+[32.244763] (-) TimerEvent: {}
+[32.345163] (-) TimerEvent: {}
+[32.445527] (-) TimerEvent: {}
+[32.545931] (-) TimerEvent: {}
+[32.646264] (-) TimerEvent: {}
+[32.746734] (-) TimerEvent: {}
+[32.831633] (robots_paths) StdoutLine: {'line': b'[ 93%] Built target obstacle_avoider6\n'}
+[32.846835] (-) TimerEvent: {}
+[32.947140] (-) TimerEvent: {}
+[33.047462] (-) TimerEvent: {}
+[33.147765] (-) TimerEvent: {}
+[33.248047] (-) TimerEvent: {}
+[33.348380] (-) TimerEvent: {}
+[33.448658] (-) TimerEvent: {}
+[33.548998] (-) TimerEvent: {}
+[33.649301] (-) TimerEvent: {}
+[33.749635] (-) TimerEvent: {}
+[33.805136] (robots_paths) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoider7\x1b[0m\n'}
+[33.849739] (-) TimerEvent: {}
+[33.950106] (-) TimerEvent: {}
+[34.050543] (-) TimerEvent: {}
+[34.150998] (-) TimerEvent: {}
+[34.251342] (-) TimerEvent: {}
+[34.351684] (-) TimerEvent: {}
+[34.428340] (robots_paths) StdoutLine: {'line': b'[100%] Built target obstacle_avoider7\n'}
+[34.443525] (robots_paths) CommandEnded: {'returncode': 0}
+[34.451816] (-) TimerEvent: {}
+[34.518491] (robots_paths) JobProgress: {'identifier': 'robots_paths', 'progress': 'install'}
+[34.530255] (robots_paths) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'], 'cwd': '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mz'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/mz'), ('OLDPWD', '/home/mz/projects/ros/tutorials/basics'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('MANAGERPID', '1575'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2504'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'mz'), ('JOURNAL_STREAM', '8:30468'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mz:@/tmp/.ICE-unix/1729,unix/mz:/tmp/.ICE-unix/1729'), ('INVOCATION_ID', 'e84fd09e5c224ec5a20d64f760a42d16'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PKN9I2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:245abe91-8106-4316-a3eb-5327031ffccc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mz/projects/ros/tutorials/basics/ros2_webots/build/robots_paths'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths:/opt/ros/iron')]), 'shell': False}
+[34.541254] (robots_paths) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.541463] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/my_robot_driver.xml\n'}
+[34.541781] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider1\n'}
+[34.551922] (-) TimerEvent: {}
+[34.553904] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider1" to ""\n'}
+[34.554312] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider2\n'}
+[34.564092] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider2" to ""\n'}
+[34.564542] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider3\n'}
+[34.573726] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider3" to ""\n'}
+[34.574076] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider4\n'}
+[34.586621] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider4" to ""\n'}
+[34.587116] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider5\n'}
+[34.597342] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider5" to ""\n'}
+[34.597935] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider6\n'}
+[34.608449] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider6" to ""\n'}
+[34.608751] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider7\n'}
+[34.618227] (robots_paths) StdoutLine: {'line': b'-- Set runtime path of "/home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/robots_paths/obstacle_avoider7" to ""\n'}
+[34.618541] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include\n'}
+[34.618706] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths\n'}
+[34.618858] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths/ObstacleAvoider.hpp\n'}
+[34.618969] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/include/robots_paths/MyRobotDriver.hpp\n'}
+[34.619109] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/lib/librobots_paths.so\n'}
+[34.619437] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//launch\n'}
+[34.619691] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//launch/robot_launch.py\n'}
+[34.619973] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource\n'}
+[34.620176] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot1.urdf\n'}
+[34.620358] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot7.urdf\n'}
+[34.620586] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot4.urdf\n'}
+[34.620795] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot6.urdf\n'}
+[34.620976] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot2.urdf\n'}
+[34.621166] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot5.urdf\n'}
+[34.621345] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//resource/my_robot3.urdf\n'}
+[34.621460] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds\n'}
+[34.621588] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds/epuck_world.wbt\n'}
+[34.621795] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths//worlds/my_world.wbt\n'}
+[34.621982] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/library_path.sh\n'}
+[34.622160] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/library_path.dsv\n'}
+[34.622279] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/package_run_dependencies/robots_paths\n'}
+[34.622408] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/parent_prefix_path/robots_paths\n'}
+[34.622535] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/ament_prefix_path.sh\n'}
+[34.622655] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/ament_prefix_path.dsv\n'}
+[34.622768] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/path.sh\n'}
+[34.622883] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/environment/path.dsv\n'}
+[34.622997] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.bash\n'}
+[34.623113] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.sh\n'}
+[34.623235] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.zsh\n'}
+[34.623350] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/local_setup.dsv\n'}
+[34.623466] (robots_paths) StdoutLine: {'line': b'-- Installing: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/package.dsv\n'}
+[34.623630] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/packages/robots_paths\n'}
+[34.623829] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/robots_paths\n'}
+[34.624198] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.625009] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.625266] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/robots_pathsConfig.cmake\n'}
+[34.625511] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/cmake/robots_pathsConfig-version.cmake\n'}
+[34.625777] (robots_paths) StdoutLine: {'line': b'-- Up-to-date: /home/mz/projects/ros/tutorials/basics/ros2_webots/install/robots_paths/share/robots_paths/package.xml\n'}
+[34.625944] (robots_paths) CommandEnded: {'returncode': 0}
+[34.651996] (-) TimerEvent: {}
+[34.752792] (-) TimerEvent: {}
+[34.853086] (-) TimerEvent: {}
+[34.925932] (robots_paths) JobEnded: {'identifier': 'robots_paths', 'rc': 0}
+[34.926764] (-) EventReactorShutdown: {}

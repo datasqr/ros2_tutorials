@@ -224,6 +224,71 @@ obstacle_avoider2/fast:
 .PHONY : obstacle_avoider2/fast
 
 #=============================================================================
+# Target rules for targets named obstacle_avoider3
+
+# Build rule for target.
+obstacle_avoider3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider3
+.PHONY : obstacle_avoider3
+
+# fast build rule for target.
+obstacle_avoider3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider3.dir/build.make CMakeFiles/obstacle_avoider3.dir/build
+.PHONY : obstacle_avoider3/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_avoider4
+
+# Build rule for target.
+obstacle_avoider4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider4
+.PHONY : obstacle_avoider4
+
+# fast build rule for target.
+obstacle_avoider4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider4.dir/build.make CMakeFiles/obstacle_avoider4.dir/build
+.PHONY : obstacle_avoider4/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_avoider5
+
+# Build rule for target.
+obstacle_avoider5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider5
+.PHONY : obstacle_avoider5
+
+# fast build rule for target.
+obstacle_avoider5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider5.dir/build.make CMakeFiles/obstacle_avoider5.dir/build
+.PHONY : obstacle_avoider5/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_avoider6
+
+# Build rule for target.
+obstacle_avoider6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider6
+.PHONY : obstacle_avoider6
+
+# fast build rule for target.
+obstacle_avoider6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider6.dir/build.make CMakeFiles/obstacle_avoider6.dir/build
+.PHONY : obstacle_avoider6/fast
+
+#=============================================================================
+# Target rules for targets named obstacle_avoider7
+
+# Build rule for target.
+obstacle_avoider7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_avoider7
+.PHONY : obstacle_avoider7
+
+# fast build rule for target.
+obstacle_avoider7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider7.dir/build.make CMakeFiles/obstacle_avoider7.dir/build
+.PHONY : obstacle_avoider7/fast
+
+#=============================================================================
 # Target rules for targets named robots_paths
 
 # Build rule for target.
@@ -308,6 +373,126 @@ src/ObstacleAvoider2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider2.dir/build.make CMakeFiles/obstacle_avoider2.dir/src/ObstacleAvoider2.cpp.s
 .PHONY : src/ObstacleAvoider2.cpp.s
 
+src/ObstacleAvoider3.o: src/ObstacleAvoider3.cpp.o
+.PHONY : src/ObstacleAvoider3.o
+
+# target to build an object file
+src/ObstacleAvoider3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider3.dir/build.make CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.o
+.PHONY : src/ObstacleAvoider3.cpp.o
+
+src/ObstacleAvoider3.i: src/ObstacleAvoider3.cpp.i
+.PHONY : src/ObstacleAvoider3.i
+
+# target to preprocess a source file
+src/ObstacleAvoider3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider3.dir/build.make CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.i
+.PHONY : src/ObstacleAvoider3.cpp.i
+
+src/ObstacleAvoider3.s: src/ObstacleAvoider3.cpp.s
+.PHONY : src/ObstacleAvoider3.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider3.dir/build.make CMakeFiles/obstacle_avoider3.dir/src/ObstacleAvoider3.cpp.s
+.PHONY : src/ObstacleAvoider3.cpp.s
+
+src/ObstacleAvoider4.o: src/ObstacleAvoider4.cpp.o
+.PHONY : src/ObstacleAvoider4.o
+
+# target to build an object file
+src/ObstacleAvoider4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider4.dir/build.make CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.o
+.PHONY : src/ObstacleAvoider4.cpp.o
+
+src/ObstacleAvoider4.i: src/ObstacleAvoider4.cpp.i
+.PHONY : src/ObstacleAvoider4.i
+
+# target to preprocess a source file
+src/ObstacleAvoider4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider4.dir/build.make CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.i
+.PHONY : src/ObstacleAvoider4.cpp.i
+
+src/ObstacleAvoider4.s: src/ObstacleAvoider4.cpp.s
+.PHONY : src/ObstacleAvoider4.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider4.dir/build.make CMakeFiles/obstacle_avoider4.dir/src/ObstacleAvoider4.cpp.s
+.PHONY : src/ObstacleAvoider4.cpp.s
+
+src/ObstacleAvoider5.o: src/ObstacleAvoider5.cpp.o
+.PHONY : src/ObstacleAvoider5.o
+
+# target to build an object file
+src/ObstacleAvoider5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider5.dir/build.make CMakeFiles/obstacle_avoider5.dir/src/ObstacleAvoider5.cpp.o
+.PHONY : src/ObstacleAvoider5.cpp.o
+
+src/ObstacleAvoider5.i: src/ObstacleAvoider5.cpp.i
+.PHONY : src/ObstacleAvoider5.i
+
+# target to preprocess a source file
+src/ObstacleAvoider5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider5.dir/build.make CMakeFiles/obstacle_avoider5.dir/src/ObstacleAvoider5.cpp.i
+.PHONY : src/ObstacleAvoider5.cpp.i
+
+src/ObstacleAvoider5.s: src/ObstacleAvoider5.cpp.s
+.PHONY : src/ObstacleAvoider5.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider5.dir/build.make CMakeFiles/obstacle_avoider5.dir/src/ObstacleAvoider5.cpp.s
+.PHONY : src/ObstacleAvoider5.cpp.s
+
+src/ObstacleAvoider6.o: src/ObstacleAvoider6.cpp.o
+.PHONY : src/ObstacleAvoider6.o
+
+# target to build an object file
+src/ObstacleAvoider6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider6.dir/build.make CMakeFiles/obstacle_avoider6.dir/src/ObstacleAvoider6.cpp.o
+.PHONY : src/ObstacleAvoider6.cpp.o
+
+src/ObstacleAvoider6.i: src/ObstacleAvoider6.cpp.i
+.PHONY : src/ObstacleAvoider6.i
+
+# target to preprocess a source file
+src/ObstacleAvoider6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider6.dir/build.make CMakeFiles/obstacle_avoider6.dir/src/ObstacleAvoider6.cpp.i
+.PHONY : src/ObstacleAvoider6.cpp.i
+
+src/ObstacleAvoider6.s: src/ObstacleAvoider6.cpp.s
+.PHONY : src/ObstacleAvoider6.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider6.dir/build.make CMakeFiles/obstacle_avoider6.dir/src/ObstacleAvoider6.cpp.s
+.PHONY : src/ObstacleAvoider6.cpp.s
+
+src/ObstacleAvoider7.o: src/ObstacleAvoider7.cpp.o
+.PHONY : src/ObstacleAvoider7.o
+
+# target to build an object file
+src/ObstacleAvoider7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider7.dir/build.make CMakeFiles/obstacle_avoider7.dir/src/ObstacleAvoider7.cpp.o
+.PHONY : src/ObstacleAvoider7.cpp.o
+
+src/ObstacleAvoider7.i: src/ObstacleAvoider7.cpp.i
+.PHONY : src/ObstacleAvoider7.i
+
+# target to preprocess a source file
+src/ObstacleAvoider7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider7.dir/build.make CMakeFiles/obstacle_avoider7.dir/src/ObstacleAvoider7.cpp.i
+.PHONY : src/ObstacleAvoider7.cpp.i
+
+src/ObstacleAvoider7.s: src/ObstacleAvoider7.cpp.s
+.PHONY : src/ObstacleAvoider7.s
+
+# target to generate assembly for a file
+src/ObstacleAvoider7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_avoider7.dir/build.make CMakeFiles/obstacle_avoider7.dir/src/ObstacleAvoider7.cpp.s
+.PHONY : src/ObstacleAvoider7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -325,6 +510,11 @@ help:
 	@echo "... uninstall"
 	@echo "... obstacle_avoider1"
 	@echo "... obstacle_avoider2"
+	@echo "... obstacle_avoider3"
+	@echo "... obstacle_avoider4"
+	@echo "... obstacle_avoider5"
+	@echo "... obstacle_avoider6"
+	@echo "... obstacle_avoider7"
 	@echo "... robots_paths"
 	@echo "... src/MyRobotDriver.o"
 	@echo "... src/MyRobotDriver.i"
@@ -335,6 +525,21 @@ help:
 	@echo "... src/ObstacleAvoider2.o"
 	@echo "... src/ObstacleAvoider2.i"
 	@echo "... src/ObstacleAvoider2.s"
+	@echo "... src/ObstacleAvoider3.o"
+	@echo "... src/ObstacleAvoider3.i"
+	@echo "... src/ObstacleAvoider3.s"
+	@echo "... src/ObstacleAvoider4.o"
+	@echo "... src/ObstacleAvoider4.i"
+	@echo "... src/ObstacleAvoider4.s"
+	@echo "... src/ObstacleAvoider5.o"
+	@echo "... src/ObstacleAvoider5.i"
+	@echo "... src/ObstacleAvoider5.s"
+	@echo "... src/ObstacleAvoider6.o"
+	@echo "... src/ObstacleAvoider6.i"
+	@echo "... src/ObstacleAvoider6.s"
+	@echo "... src/ObstacleAvoider7.o"
+	@echo "... src/ObstacleAvoider7.i"
+	@echo "... src/ObstacleAvoider7.s"
 .PHONY : help
 
 
